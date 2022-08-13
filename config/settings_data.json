@@ -122,7 +122,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "inverse",
+          "color_scheme": "accent-2",
           "logo": "{{ shop.brand.logo }}",
           "logo_width": 190,
           "logo_position": "top-center",
