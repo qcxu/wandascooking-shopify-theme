@@ -37,29 +37,11 @@
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
-        },
-        "slide-2": {
-          "type": "slide",
-          "settings": {
-            "heading": "Slideshow",
-            "heading_size": "h1",
-            "subheading": "Introduce a product or collection you'd like to highlight.",
-            "button_label": "Shop now",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
         "slide-0",
-        "slide-1",
-        "slide-2"
+        "slide-1"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -74,7 +56,7 @@
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
-        "title": "Describe your featured collection",
+        "title": "Shop the Pantry",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -87,15 +69,15 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
+        "image_ratio": "square",
+        "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "multicolumn-0": {
