@@ -235,6 +235,23 @@
         }
       }
     },
+    "cards": {
+      "name": "Schede",
+      "settings": {
+        "header__badge": {
+          "content": "Badge"
+        },
+        "style": {
+          "options__1": {
+            "label": "Standard"
+          },
+          "options__2": {
+            "label": "Scheda"
+          },
+          "label": "Stile"
+        }
+      }
+    },
     "badges": {
       "name": "Badge",
       "settings": {
@@ -251,7 +268,7 @@
           "options__4": {
             "label": "In alto a destra"
           },
-          "label": "Posizione sulle schede"
+          "label": "Posizione scheda prodotto"
         },
         "sale_badge_color_scheme": {
           "label": "Schema colori per badge vendita"
@@ -265,8 +282,7 @@
       "name": "Pulsanti"
     },
     "variant_pills": {
-      "name": "Pulsanti di selezione variante",
-      "paragraph": "I pulsanti di selezione variante costituiscono uno dei modi in cui puoi visualizzare le varianti di prodotto. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+      "name": "Pulsanti di selezione variante"
     },
     "inputs": {
       "name": "Input"
@@ -309,50 +325,8 @@
           "header": "Finestra del carrello",
           "collection": {
             "label": "Collezione",
-            "info": "Visibile quando la finestra del carrello è vuota."
+            "info": "Visibile quando la finestra del carrello è vuota"
           }
-        }
-      }
-    },
-    "cards": {
-      "name": "Schede prodotto",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Scheda"
-          },
-          "label": "Stile"
-        }
-      }
-    },
-    "collection_cards": {
-      "name": "Schede collezioni",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Scheda"
-          },
-          "label": "Stile"
-        }
-      }
-    },
-    "blog_cards": {
-      "name": "Schede del blog",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Scheda"
-          },
-          "label": "Stile"
         }
       }
     }
@@ -409,18 +383,6 @@
             "text": {
               "label": "Testo"
             },
-            "text_alignment": {
-              "label": "Allineamento testo",
-              "options__1": {
-                "label": "A sinistra"
-              },
-              "options__2": {
-                "label": "Al centro"
-              },
-              "options__3": {
-                "label": "A destra"
-              }
-            },
             "link": {
               "label": "Link"
             }
@@ -450,16 +412,6 @@
           },
           "options__2": {
             "label": "Colonna"
-          }
-        },
-        "card_styles": {
-          "label": "Stile scheda",
-          "info": "È possibile aggiornare gli stili delle schede dei blog, delle collezioni e dei prodotti.",
-          "options__1": {
-            "label": "Utilizza stili delle schede personali"
-          },
-          "options__2": {
-            "label": "Assimila tutti gli stili a quelli delle schede di prodotto"
           }
         }
       },
@@ -740,7 +692,8 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Titolo"
+              "label": "Titolo",
+              "info": "Per visualizzare il menu è necessario un titolo."
             },
             "menu": {
               "label": "Menu",
@@ -828,9 +781,7 @@
           "options__3": {
             "label": "In alto al centro"
           },
-          "options__4": {
-            "label": "In mezzo al centro"
-          }
+          "info": "Posizione automaticamente ottimizzata per dispositivi mobili."
         },
         "menu": {
           "label": "Menu"
@@ -853,18 +804,6 @@
           },
           "options__2": {
             "label": "Mega menu"
-          }
-        },
-        "mobile_layout": {
-          "content": "Layout dispositivo mobile"
-        },
-        "mobile_logo_position": {
-          "label": "Posizione del logo mobile",
-          "options__1": {
-            "label": "Al centro"
-          },
-          "options__2": {
-            "label": "A sinistra"
           }
         }
       }
@@ -1770,16 +1709,6 @@
           "options__2": {
             "label": "Nascondi miniature"
           }
-        },
-        "media_position": {
-          "label": "Posizione contenuti multimediali su desktop",
-          "info": "Posizione automaticamente ottimizzata per dispositivi mobili.",
-          "options__1": {
-            "label": "A sinistra"
-          },
-          "options__2": {
-            "label": "A destra"
-          }
         }
       }
     },
@@ -1808,8 +1737,7 @@
           "content": "Scheda prodotto"
         },
         "header__2": {
-          "content": "Scheda del blog",
-          "info": "Lo stile della scheda del blog si applica anche alle schede della pagina nei risultati di ricerca. Per modificare lo stile delle schede, aggiorna le impostazioni del tema."
+          "content": "Scheda del blog"
         },
         "article_show_date": {
           "label": "Mostra data"
@@ -2294,16 +2222,6 @@
         },
         "hide_variants": {
           "label": "Nascondi contenuti multimediali delle varianti non selezionate sul desktop"
-        },
-        "media_position": {
-          "label": "Posizione contenuti multimediali su desktop",
-          "info": "Posizione automaticamente ottimizzata per i dispositivi mobili.",
-          "options__1": {
-            "label": "A sinistra"
-          },
-          "options__2": {
-            "label": "A destra"
-          }
         }
       },
       "presets": {
@@ -2818,27 +2736,6 @@
       "presets": {
         "name": "Contenuto comprimibile"
       }
-    },
-    "main-account": {
-      "name": "Account"
-    },
-    "main-activate-account": {
-      "name": "Attivazione account"
-    },
-    "main-addresses": {
-      "name": "Indirizzi"
-    },
-    "main-login": {
-      "name": "Accedi"
-    },
-    "main-order": {
-      "name": "Ordine"
-    },
-    "main-register": {
-      "name": "Registrazione"
-    },
-    "main-reset-password": {
-      "name": "Reimpostazione della password"
     }
   }
 }

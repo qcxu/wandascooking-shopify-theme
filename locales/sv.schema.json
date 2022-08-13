@@ -235,6 +235,23 @@
         }
       }
     },
+    "cards": {
+      "name": "Kort",
+      "settings": {
+        "header__badge": {
+          "content": "Bricka"
+        },
+        "style": {
+          "options__1": {
+            "label": "Standard"
+          },
+          "options__2": {
+            "label": "Kort"
+          },
+          "label": "Stil"
+        }
+      }
+    },
     "badges": {
       "name": "Brickor",
       "settings": {
@@ -251,7 +268,7 @@
           "options__4": {
             "label": "Överst till höger"
           },
-          "label": "Position på kort"
+          "label": "Position för produktkort"
         },
         "sale_badge_color_scheme": {
           "label": "Färgschema för försäljningsbricka"
@@ -265,8 +282,7 @@
       "name": "Knappar"
     },
     "variant_pills": {
-      "name": "Variantkapslar",
-      "paragraph": "Variantpiller är ett sätt att visa produktvarianter på. [Mer information](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
+      "name": "Variantkapslar"
     },
     "inputs": {
       "name": "Inmatningar"
@@ -309,50 +325,8 @@
           "header": "Varukorgspanel",
           "collection": {
             "label": "Produktserie",
-            "info": "Synlig när varukorgspanelen är tom."
+            "info": "Synlig när varukorgspanelen är tom"
           }
-        }
-      }
-    },
-    "cards": {
-      "name": "Produktkort",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Kort"
-          },
-          "label": "Stil"
-        }
-      }
-    },
-    "collection_cards": {
-      "name": "Kategorikort",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Kort"
-          },
-          "label": "Stil"
-        }
-      }
-    },
-    "blog_cards": {
-      "name": "Bloggkort",
-      "settings": {
-        "style": {
-          "options__1": {
-            "label": "Standard"
-          },
-          "options__2": {
-            "label": "Kort"
-          },
-          "label": "Stil"
         }
       }
     }
@@ -408,18 +382,6 @@
             "text": {
               "label": "Text"
             },
-            "text_alignment": {
-              "label": "Textjustering",
-              "options__1": {
-                "label": "Vänster"
-              },
-              "options__2": {
-                "label": "Centrera"
-              },
-              "options__3": {
-                "label": "Höger"
-              }
-            },
             "link": {
               "label": "Länk"
             }
@@ -450,16 +412,6 @@
           },
           "options__2": {
             "label": "Kolumn"
-          }
-        },
-        "card_styles": {
-          "label": "Kortstil",
-          "info": "Du kan uppdatera kortstilar för produkter, kategorier och bloggen i temainställningarna.",
-          "options__1": {
-            "label": "Använd individuella kortstilar"
-          },
-          "options__2": {
-            "label": "Styla alla som produktkort"
           }
         }
       },
@@ -539,7 +491,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           },
           "info": "Lägg till bilder genom att redigera dina produktserier. [Mer information](https://help.shopify.com/manual/products/collections)"
         },
@@ -657,7 +609,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           }
         },
         "show_secondary_image": {
@@ -739,7 +691,8 @@
         "link_list": {
           "settings": {
             "heading": {
-              "label": "Rubrik"
+              "label": "Rubrik",
+              "info": "Det krävs rubrik för att visa menyn."
             },
             "menu": {
               "label": "Meny",
@@ -828,9 +781,7 @@
           "options__3": {
             "label": "Längst upp i mitten"
           },
-          "options__4": {
-            "label": "Mitten centrerat"
-          }
+          "info": "Positionen optimeras automatiskt för mobilen."
         },
         "menu": {
           "label": "Meny"
@@ -853,18 +804,6 @@
           },
           "options__2": {
             "label": "Megameny"
-          }
-        },
-        "mobile_layout": {
-          "content": "Mobil layout"
-        },
-        "mobile_logo_position": {
-          "label": "Placering av logotyp på mobil",
-          "options__1": {
-            "label": "Centrera"
-          },
-          "options__2": {
-            "label": "Vänster"
           }
         }
       }
@@ -1330,7 +1269,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           }
         },
         "show_secondary_image": {
@@ -1430,7 +1369,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           },
           "info": "Lägg till bilder genom att redigera dina produktserier. [Mer information](https://help.shopify.com/manual/products/collections)"
         },
@@ -1643,7 +1582,7 @@
                 "label": "Återvinn"
               },
               "options__34": {
-                "label": "Gå tillbaka"
+                "label": "Retur"
               },
               "options__35": {
                 "label": "Linjal"
@@ -1770,16 +1709,6 @@
           "options__2": {
             "label": "Dölj miniatyrbild"
           }
-        },
-        "media_position": {
-          "label": "Datorns media-position",
-          "info": "Positionen optimeras automatiskt för mobilen.",
-          "options__1": {
-            "label": "Vänster"
-          },
-          "options__2": {
-            "label": "Höger"
-          }
         }
       }
     },
@@ -1795,7 +1724,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           }
         },
         "show_secondary_image": {
@@ -1808,8 +1737,7 @@
           "content": "Produktkort"
         },
         "header__2": {
-          "content": "Bloggkort",
-          "info": "Bloggkortsstilar tillämpas även för sidkort i sökresultat. Uppdatera dina temainställningar för att ändra kortstilar."
+          "content": "Bloggkort"
         },
         "article_show_date": {
           "label": "Visa datum"
@@ -1865,7 +1793,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           },
           "options__4": {
             "label": "Cirkel"
@@ -2004,7 +1932,7 @@
             "label": "Porträtt"
           },
           "options__3": {
-            "label": "Fyrkantig"
+            "label": "Square"
           }
         },
         "show_secondary_image": {
@@ -2294,16 +2222,6 @@
         },
         "hide_variants": {
           "label": "Dölj media för varianter som inte har valts på datorn"
-        },
-        "media_position": {
-          "label": "Datorns media-position",
-          "info": "Positionen optimeras automatiskt för mobilen.",
-          "options__1": {
-            "label": "Vänster"
-          },
-          "options__2": {
-            "label": "Höger"
-          }
         }
       },
       "presets": {
@@ -2779,7 +2697,7 @@
                 "label": "Återvinn"
               },
               "options__34": {
-                "label": "Gå tillbaka"
+                "label": "Retur"
               },
               "options__35": {
                 "label": "Linjal"
@@ -2818,27 +2736,6 @@
       "presets": {
         "name": "Innehåll som kan döljas"
       }
-    },
-    "main-account": {
-      "name": "Konto"
-    },
-    "main-activate-account": {
-      "name": "Kontoaktivering"
-    },
-    "main-addresses": {
-      "name": "Adresser"
-    },
-    "main-login": {
-      "name": "Inloggning"
-    },
-    "main-order": {
-      "name": "Order"
-    },
-    "main-register": {
-      "name": "Registrering"
-    },
-    "main-reset-password": {
-      "name": "Lösenordsåterställning"
     }
   }
 }
