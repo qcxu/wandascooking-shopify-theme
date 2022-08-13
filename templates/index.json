@@ -80,6 +80,99 @@
         "padding_bottom": 40
       }
     },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MY MISSION<\/p>"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>I deliver culturally-affirming meals, desserts, seasonings and pepper relishes that honor and celebrate the unique histories, traditions and customs embedded in each dish.<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn-1": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "Vegan",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Gluten Free",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "No Salt",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Vegetarian",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
     "multicolumn-0": {
       "type": "multicolumn",
       "blocks": {
@@ -315,126 +408,6 @@
         "padding_bottom": 60
       }
     },
-    "featured-collection-1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>INTRODUCE YOUR BRAND<\/p>"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Describe what sets your brand apart from your competitors.<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "multicolumn-1": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Use a combination of images and text to share your brand values. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Use a combination of images and text to share your brand values. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Use a combination of images and text to share your brand values. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-3": {
-          "type": "column",
-          "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Use a combination of images and text to share your brand values. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
     "featured-blog": {
       "type": "featured-blog",
       "settings": {
@@ -490,14 +463,13 @@
   "order": [
     "slideshow",
     "featured-collection-0",
+    "rich-text",
+    "multicolumn-1",
     "multicolumn-0",
     "image-with-text-0",
     "image-with-text-1",
     "image-with-text-2",
     "image-with-text-3",
-    "featured-collection-1",
-    "rich-text",
-    "multicolumn-1",
     "featured-blog",
     "newsletter"
   ]
