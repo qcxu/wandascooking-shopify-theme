@@ -359,6 +359,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/social-share-image-2022.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
