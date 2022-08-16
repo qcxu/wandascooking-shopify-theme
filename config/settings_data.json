@@ -145,11 +145,11 @@
               "menu": "footer-menu-new-look"
             }
           },
-          "footer-1": {
-            "type": "link_list",
+          "489d4bf3-83f3-4716-9d83-b75e5a33f3f4": {
+            "type": "text",
             "settings": {
-              "heading": "About",
-              "menu": ""
+              "heading": "Contact Us",
+              "subtext": "<p><a href=\"mailto:info@wandascooking.com\">info@wandascooking.com<\/a><\/p>"
             }
           },
           "text": {
@@ -158,20 +158,12 @@
               "heading": "Our mission",
               "subtext": "<p>I deliver culturally-affirming meals, desserts, seasonings and pepper relishes that honor and celebrate the unique histories, traditions and customs embedded in each dish.<\/p>"
             }
-          },
-          "image": {
-            "type": "image",
-            "settings": {
-              "image_width": 100,
-              "alignment": "center"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "text",
-          "image"
+          "489d4bf3-83f3-4716-9d83-b75e5a33f3f4",
+          "text"
         ],
         "settings": {
           "color_scheme": "background-1",
