@@ -315,11 +315,23 @@
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "subtitle"
           }
+        },
+        "db9e7636-5110-4bb8-b46d-568b1f05fddd": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Check out More Recipes",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "1660623434b68d0447-0",
-        "1660623434b68d0447-1"
+        "1660623434b68d0447-1",
+        "db9e7636-5110-4bb8-b46d-568b1f05fddd"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
