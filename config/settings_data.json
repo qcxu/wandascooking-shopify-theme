@@ -107,9 +107,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
+              "text": "COVID 19 ANNOUNCEMENT",
+              "color_scheme": "background-1",
+              "link": "shopify:\/\/pages\/wandas-cooking-and-covid-19"
             }
           }
         },
