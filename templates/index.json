@@ -433,7 +433,7 @@
     "16606212582db74867": {
       "type": "video",
       "settings": {
-        "heading": "",
+        "heading": "Video Heading",
         "heading_size": "h1",
         "cover_image": "shopify:\/\/shop_images\/video-cover.jpg",
         "video_url": "https:\/\/vimeo.com\/566252468",
