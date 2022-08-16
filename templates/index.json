@@ -116,7 +116,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gluten_free.png",
+            "image": "shopify:\/\/shop_images\/vegan-white.png",
             "title": "Vegan",
             "text": "",
             "link_label": "",
@@ -126,6 +126,7 @@
         "column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/gluten-free-white.png",
             "title": "Gluten Free",
             "text": "",
             "link_label": "",
