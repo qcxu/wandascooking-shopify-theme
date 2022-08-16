@@ -419,13 +419,13 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bird_plate.png",
+        "image": "shopify:\/\/shop_images\/bird_plate-white.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
