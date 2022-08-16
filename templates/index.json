@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
             "heading": "We moved to a new Kitchen",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "Restocking Pantry soon",
             "button_label": "Shop now",
             "link": "shopify:\/\/collections\/pantry",
