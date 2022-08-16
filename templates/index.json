@@ -305,15 +305,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Wanda's Recipe",
+            "heading": "Southern-Style Braised Mustard Greens",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Southern-Style Braised Mustard Greens<\/p>",
-            "text_style": "subtitle"
+            "text": "<p>Any time a big group gathers in a family of cooks, there are designated jobs in the kitchen. My job was to cook the greens, and that always felt like an honor because my mother was known as a “green cooker.”<\/p>",
+            "text_style": "body"
           }
         },
         "button": {
@@ -331,7 +331,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
