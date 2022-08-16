@@ -272,6 +272,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Wanda-Blake-Edna-Lewis.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
