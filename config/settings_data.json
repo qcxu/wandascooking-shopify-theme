@@ -141,8 +141,8 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Shop",
-              "menu": "footer"
+              "heading": "About",
+              "menu": "footer-menu-new-look"
             }
           },
           "footer-1": {
