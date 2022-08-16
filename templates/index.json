@@ -126,7 +126,7 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gluten-free-white.png",
+            "image": "shopify:\/\/shop_images\/gluten-free-white_348e7a81-d1ff-40b9-b160-6b42b1884a04.png",
             "title": "Gluten Free",
             "text": "",
             "link_label": "",
@@ -136,6 +136,7 @@
         "column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/no-salt-white.png",
             "title": "No Salt",
             "text": "",
             "link_label": "",
@@ -145,6 +146,7 @@
         "column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/vegetarian-white.png",
             "title": "Vegetarian",
             "text": "",
             "link_label": "",
