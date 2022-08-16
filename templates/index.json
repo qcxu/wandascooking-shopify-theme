@@ -299,6 +299,29 @@
         "padding_bottom": 56
       }
     },
+    "16606227177e01eb9a": {
+      "type": "rich-text",
+      "blocks": {
+        "166062271741ffd227-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Wanda's Recipes<\/p>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "166062271741ffd227-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
     "image-with-text-2": {
       "type": "image-with-text",
       "blocks": {
@@ -429,6 +452,7 @@
     "multicolumn-0",
     "image-with-text-0",
     "16606212582db74867",
+    "16606227177e01eb9a",
     "image-with-text-2",
     "image-with-text-3",
     "newsletter"
