@@ -10,7 +10,7 @@
             "heading": "We moved to a new Kitchen",
             "heading_size": "h0",
             "subheading": "Restocking Pantry soon",
-            "button_label": "Shop now",
+            "button_label": "Shop Pantry",
             "link": "shopify:\/\/collections\/pantry",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -285,20 +285,6 @@
         "padding_bottom": 80
       }
     },
-    "16606212582db74867": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/video-cover.jpg",
-        "video_url": "https:\/\/vimeo.com\/566252468",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 56,
-        "padding_bottom": 56
-      }
-    },
     "16606234347068181d": {
       "type": "image-banner",
       "blocks": {
@@ -444,6 +430,20 @@
         "padding_bottom": 60
       }
     },
+    "16606212582db74867": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/video-cover.jpg",
+        "video_url": "https:\/\/vimeo.com\/566252468",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -486,10 +486,10 @@
     "multicolumn-1",
     "multicolumn-0",
     "image-with-text-0",
-    "16606212582db74867",
     "16606234347068181d",
     "image-with-text-2",
     "image-with-text-3",
+    "16606212582db74867",
     "newsletter"
   ]
 }
