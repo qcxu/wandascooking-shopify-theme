@@ -305,21 +305,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h0"
+            "heading": "Wanda's Recipe",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Introduce another one of your collections. Describe some of its benefits to encourage your customers to explore more. <\/p>",
-            "text_style": "body"
+            "text": "<p>Southern-Style Braised Mustard Greens<\/p>",
+            "text_style": "subtitle"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Get Recipe",
             "button_link": ""
           }
         }
@@ -330,6 +330,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
