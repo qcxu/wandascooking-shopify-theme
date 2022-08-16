@@ -247,22 +247,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Wanda's Story",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Introduce one of your collections. Describe some of its benefits to encourage your customers to explore more. <\/p>",
+            "text": "<p>Wanda’s Cooking is all about people enjoying good food.<br\/>There’s a story around everything we eat.<\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
-            "button_link": ""
+            "button_label": "Read and Listen to Wanda's Story",
+            "button_link": "shopify:\/\/pages\/wandas-story"
           }
         }
       },
@@ -272,10 +272,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wanda-Blake-Edna-Lewis.png",
+        "image": "shopify:\/\/shop_images\/Wanda-Blake.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
