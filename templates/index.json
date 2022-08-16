@@ -381,7 +381,7 @@
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 64,
@@ -394,8 +394,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h0"
+            "heading": "Buttermilk Roast Guinea Fowl",
+            "heading_size": "h1"
           }
         },
         "text": {
@@ -408,7 +408,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Get Recipe",
             "button_link": ""
           }
         }
@@ -419,13 +419,14 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/bird_plate.png",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 60
