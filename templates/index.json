@@ -294,32 +294,45 @@
         "video_url": "https:\/\/vimeo.com\/566252468",
         "description": "",
         "full_width": false,
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "padding_top": 56,
         "padding_bottom": 56
       }
     },
-    "16606227177e01eb9a": {
-      "type": "rich-text",
+    "16606234347068181d": {
+      "type": "image-banner",
       "blocks": {
-        "166062271741ffd227-0": {
+        "1660623434b68d0447-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wanda's Recipes<\/p>",
-            "heading_size": "h0"
+            "heading": "Wanda's Recipes",
+            "heading_size": "h1"
+          }
+        },
+        "1660623434b68d0447-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "subtitle"
           }
         }
       },
       "block_order": [
-        "166062271741ffd227-0"
+        "1660623434b68d0447-0",
+        "1660623434b68d0447-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "image-with-text-2": {
@@ -345,12 +358,21 @@
             "button_label": "Get Recipe",
             "button_link": ""
           }
+        },
+        "81f38167-26f9-4583-9732-4cd937fff521": {
+          "type": "caption",
+          "settings": {
+            "caption": "Photo by Judy Doherty",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
-        "button"
+        "button",
+        "81f38167-26f9-4583-9732-4cd937fff521"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
@@ -360,7 +382,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "mobile_content_alignment": "left",
         "padding_top": 64,
         "padding_bottom": 60
@@ -452,7 +474,7 @@
     "multicolumn-0",
     "image-with-text-0",
     "16606212582db74867",
-    "16606227177e01eb9a",
+    "16606234347068181d",
     "image-with-text-2",
     "image-with-text-3",
     "newsletter"
