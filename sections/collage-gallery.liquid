@@ -5,7 +5,73 @@
   }
 {% endschema %}
 
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+{{ 'galleria.js' | asset_url | script_tag }}
+{{ 'galleria.folio.js' | asset_url | script_tag }}
+{{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
+
+<div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}" style="display:none;">
+  <h2 class="collage-wrapper-title">{{ section.settings.heading | escape }}</h2>
+  <div class="galleria">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+          {%- when 'image' -%}
+            {%- if block.settings.image != blank -%}
+              <img
+                   srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
+                           {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
+                           {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
+                           {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | img_url: '1100x' }} 1100w,{%- endif -%}
+                           {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | img_url: '1500x' }} 1500w,{%- endif -%}
+                           {%- if block.settings.image.width >= 2200 -%}{{ block.settings.image | img_url: '2200x' }} 2200w,{%- endif -%}
+                           {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | img_url: '3000x' }} 3000w,{%- endif -%}
+                           {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                   src="{{ block.settings.image | img_url: '1500x' }}"
+                   alt="{{ block.settings.image.alt | escape }}"
+                   >
+             {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
+             {%- endif -%}
+
+          {%- when 'video' -%}
+
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+<script>
+  
+  $(document).ready(function() {
+    $(".collage-wrapper").css("display", "block");
+    Galleria.run('.galleria', {
+      theme: 'folio',
+      _center: true,
+      _animate: true
+    });
+  });
+</script>
+
 {% stylesheet %}
+  .collage-wrapper-title {
+    	text-align: center;
+	}
+	body .galleria-theme-folio .galleria-thumbnails .galleria-image { 
+		width:236px;
+	}
+	.galleria {
+		text-align: center;
+		max-width: 1200px;
+		min-height: 240px;
+	}
+	.galleria-container div:empty {
+		display: block;
+	}
+	.galleria-stage {
+		height: 800px;
+	}
 {% endstylesheet %}
 
 {% javascript %}
