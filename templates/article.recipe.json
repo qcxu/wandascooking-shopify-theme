@@ -3,12 +3,6 @@
     "main": {
       "type": "main-article",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "medium"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -29,7 +23,6 @@
         }
       },
       "block_order": [
-        "featured_image",
         "title",
         "share",
         "content"
