@@ -62,138 +62,68 @@
         "padding_bottom": 60
       }
     },
-    "image-with-text-0": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Add details about a product that complements this collection. Consider featuring a gift card or a bestselling product. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
-    "image-with-text-1": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Feature a blog post where customers can learn more about this collection, or about your brand. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read blog",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
-    "166071357124ee1a2c": {
+    "166071471399e48dd7": {
       "type": "collage-gallery",
       "blocks": {
-        "4c1c1345-9d80-403c-9991-4fce02488407": {
+        "1660714713dc2d1685-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bird_plate-white.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
           }
         },
-        "ba483d82-4b57-43e2-92c6-095351313c49": {
+        "1660714713dc2d1685-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
           }
         },
-        "78bd39a2-21c0-40f4-8be6-4d871a09b1be": {
+        "1660714713dc2d1685-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
           }
         },
-        "53f665e3-fc87-4146-81e0-31f041d9aea8": {
+        "1660714713dc2d1685-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/email-pic-2.jpg",
-            "image_padding": false,
-            "color_scheme": "background-1"
+          }
+        },
+        "1660714713dc2d1685-4": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1660714713dc2d1685-5": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1660714713dc2d1685-6": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1660714713dc2d1685-7": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "1660714713dc2d1685-8": {
+          "type": "image",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "4c1c1345-9d80-403c-9991-4fce02488407",
-        "ba483d82-4b57-43e2-92c6-095351313c49",
-        "78bd39a2-21c0-40f4-8be6-4d871a09b1be",
-        "53f665e3-fc87-4146-81e0-31f041d9aea8"
+        "1660714713dc2d1685-0",
+        "1660714713dc2d1685-1",
+        "1660714713dc2d1685-2",
+        "1660714713dc2d1685-3",
+        "1660714713dc2d1685-4",
+        "1660714713dc2d1685-5",
+        "1660714713dc2d1685-6",
+        "1660714713dc2d1685-7",
+        "1660714713dc2d1685-8"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
+        "heading": "Multimedia collage"
       }
     }
   },
@@ -201,8 +131,6 @@
     "slideshow",
     "banner",
     "product-grid",
-    "image-with-text-0",
-    "image-with-text-1",
-    "166071357124ee1a2c"
+    "166071471399e48dd7"
   ]
 }
