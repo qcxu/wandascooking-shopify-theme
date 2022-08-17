@@ -221,6 +221,54 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "166071357124ee1a2c": {
+      "type": "collage-gallery",
+      "blocks": {
+        "4c1c1345-9d80-403c-9991-4fce02488407": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bird_plate-white.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "ba483d82-4b57-43e2-92c6-095351313c49": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "78bd39a2-21c0-40f4-8be6-4d871a09b1be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "53f665e3-fc87-4146-81e0-31f041d9aea8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/email-pic-2.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "4c1c1345-9d80-403c-9991-4fce02488407",
+        "ba483d82-4b57-43e2-92c6-095351313c49",
+        "78bd39a2-21c0-40f4-8be6-4d871a09b1be",
+        "53f665e3-fc87-4146-81e0-31f041d9aea8"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
     }
   },
   "order": [
@@ -230,6 +278,7 @@
     "image-with-text-0",
     "image-with-text-1",
     "16606875424324fe69",
-    "166068760064763afb"
+    "166068760064763afb",
+    "166071357124ee1a2c"
   ]
 }
