@@ -33,17 +33,6 @@
             "picker_type": "button"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -62,8 +51,6 @@
         "caption",
         "rating",
         "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
         "description",
         "share"
       ],
@@ -440,7 +427,7 @@
         "color_scheme": "accent-2",
         "full_width": true,
         "padding_top": 60,
-        "padding_bottom": 0
+        "padding_bottom": 60
       }
     }
   },
