@@ -58,10 +58,10 @@
         "email-form"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 60,
-        "padding_bottom": 0
+        "padding_bottom": 60
       }
     }
   },
