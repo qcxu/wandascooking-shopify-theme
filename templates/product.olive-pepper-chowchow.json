@@ -92,25 +92,25 @@
           "settings": {
             "heading": "Highlights",
             "icon": "star",
-            "row_content": "<p>Hot pepper chowchow<\/p>",
+            "row_content": "<p>Olive Pepper Chowchow shows my love for the New Orleans Muffaletta Sandwich. Blending Mild Pepper Chowchow with Olives, Capers and Pepproncini. The flavor profile carries the combination of vegetables in Ratatouille pictured.  You can add to your grilled fish or omelette. Some folks had it to their Chicken Salad.<\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Scent",
-            "icon": "perfume",
-            "row_content": "",
+            "heading": "Shipping",
+            "icon": "truck",
+            "row_content": "<p>Flat rate shipping from US Post Office - From west coast ships in 1-2 days and delivers in 2-3 days<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Details",
+            "heading": "Storage",
             "icon": "clipboard",
-            "row_content": "",
+            "row_content": "<p>Keep in the Refrigerator before and after opening.<\/p>",
             "page": ""
           }
         },
@@ -137,7 +137,7 @@
         "heading_alignment": "left",
         "layout": "section",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
+        "container_color_scheme": "accent-2",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",

@@ -92,7 +92,7 @@
           "settings": {
             "heading": "Highlights",
             "icon": "star",
-            "row_content": "<p>Hot pepper chowchow<\/p>",
+            "row_content": "<p><em><strong>Cooking with Wanda - includes \"any 3 jars\" and the 2oz Creole Season All<\/strong><\/em><\/p><p><em><strong>Order this special intro price Combo Pack of Pepper Chowchow and Creole Season All<\/strong><\/em><\/p><p><em><strong>Please leave a  note in \"Special instructions for seller\" to order your selection of Pepper Chowchow. The default will be Sweet, Hot and Olive.<\/strong><\/em><\/p>",
             "page": ""
           }
         },
@@ -137,7 +137,7 @@
         "heading_alignment": "left",
         "layout": "section",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
+        "container_color_scheme": "accent-2",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
