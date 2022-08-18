@@ -454,7 +454,10 @@ class ModalDialog extends HTMLElement {
       });
     }
     if (this.getAttribute('data-modal') === '#PopupModal-subscription') {
-      this.show();
+      setTimeout(() => {
+        this.show();
+      }, 5000);
+      
     }
   }
 
