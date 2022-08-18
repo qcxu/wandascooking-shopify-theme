@@ -453,6 +453,7 @@ class ModalDialog extends HTMLElement {
         if (event.target === this) this.hide();
       });
     }
+    if (this.getAttribute('data-modal') === 'PopupModal-subscription') this.show();
   }
 
   connectedCallback() {
