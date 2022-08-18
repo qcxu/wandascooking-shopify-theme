@@ -19,6 +19,7 @@
   <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">click</button>
 </modal-opener>
 <modal-dialog id="PopupModal-{{ block.id }}" class="modal-video media-modal color-background-1">
+  <button id="ModalClose-{{ block.id }}" type="button" class="modal-video__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
   <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
     <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
       {%- for block in section.blocks -%}
