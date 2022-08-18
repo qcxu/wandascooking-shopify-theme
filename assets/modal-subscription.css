@@ -97,9 +97,9 @@
   text-decoration-thickness: 0.2rem;
 }
 
-.subscription-popup-modal__content-info {
+/* .subscription-popup-modal__content-info {
   padding-right: 4.4rem;
-}
+} */
 
 .subscription-popup-modal__content-info > * {
   height: auto;
