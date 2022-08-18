@@ -16,10 +16,10 @@
   }
 {%- endstyle -%}
 
-<modal-dialog id="PopupModal-subscription" class="product-popup-modal" data-modal="#PopupModal-subscription">
-  <div class="product-popup-modal__content" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
-    <button id="ModalClose-subscription" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
-      <div class="product-popup-modal__content-info">
+<modal-dialog id="PopupModal-subscription" class="subscription-popup-modal" data-modal="#PopupModal-subscription">
+  <div class="subscription-popup-modal__content" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
+    <button id="ModalClose-subscription" type="button" class="subscription-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+      <div class="subscription-popup-modal__content-info">
         <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
         <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
           {%- for block in section.blocks -%}
