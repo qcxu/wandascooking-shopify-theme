@@ -25,7 +25,7 @@
   border-radius: var(--popup-corner-radius);
 /*   background-color: rgb(var(--color-foreground)); */
   overflow: auto;
-  height: 50%;
+  height: 320px;
   margin: 0 auto;
   left: 50%;
   transform: translateX(-50%);
@@ -56,7 +56,7 @@
   .subscription-popup-modal__content {
     padding-right: 1.5rem;
     margin-top: 10rem;
-    width: 40%;
+    width: 400px;
     padding: 0 3rem;
   }
 
