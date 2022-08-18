@@ -23,7 +23,7 @@
 
 .subscription-popup-modal__content {
   border-radius: var(--popup-corner-radius);
-  background-color: rgb(var(--color-foreground));
+/*   background-color: rgb(var(--color-foreground)); */
   overflow: auto;
   height: 50%;
   margin: 0 auto;
