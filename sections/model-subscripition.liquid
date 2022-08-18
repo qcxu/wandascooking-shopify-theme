@@ -16,12 +16,12 @@
 {%- endstyle -%}
 
 <modal-opener class="no-js-hidden" data-modal="#PopupModal-subscription">
-  <button id="ProductPopup-subscription" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">click</button>
+  <button id="Popup-subscription" class="popup-modal__button link" type="button" aria-haspopup="dialog">click</button>
 </modal-opener>
-<modal-dialog id="PopupModal-subscription" class="modal-video media-modal color-background-1">
-  <div class="modal-video__content" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
-    <button id="ModalClose-subscription" type="button" class="modal-video__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
-    <div class="modal-video__content-info">
+<modal-dialog id="PopupModal-subscription" class="modal-subscription color-background-1">
+  <div class="modal-subscription__content" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
+    <button id="ModalClose-subscription" type="button" class="modal-subscription__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+    <div class="modal-subscription__content-info">
       <div class="newsletter center {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
     <div class="newsletter__wrapper color-{{ section.settings.color_scheme }} gradient content-container isolate{% if section.settings.full_width %} content-container--full-width{% endif %} section-{{ section.id }}-padding">
       {%- for block in section.blocks -%}
