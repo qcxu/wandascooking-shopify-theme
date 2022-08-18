@@ -19,7 +19,7 @@
 <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-subscription">
   <button id="ProductPopup-subscription" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">click</button>
 </modal-opener>
-<modal-dialog id="PopupModal-subscription" class="product-popup-modal">
+<modal-dialog id="PopupModal-subscription" class="product-popup-modal" data-modal="#PopupModal-subscription">
   <div class="product-popup-modal__content" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
     <button id="ModalClose-subscription" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
       <div class="product-popup-modal__content-info">
