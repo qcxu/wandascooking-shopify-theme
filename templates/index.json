@@ -478,78 +478,38 @@
         "padding_bottom": 40
       }
     },
-    "1660782072385525b7": {
-      "type": "model-subscripition",
+    "1660790196093f2d05": {
+      "type": "modal-subscripition",
       "blocks": {
-        "166078207256460915-0": {
+        "16607901961bd93fbc-0": {
           "type": "heading",
           "settings": {
             "heading": "Subscribe to our emails",
             "heading_size": "h1"
           }
         },
-        "166078207256460915-1": {
+        "16607901961bd93fbc-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
           }
         },
-        "166078207256460915-2": {
+        "16607901961bd93fbc-2": {
           "type": "email_form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "166078207256460915-0",
-        "166078207256460915-1",
-        "166078207256460915-2"
+        "16607901961bd93fbc-0",
+        "16607901961bd93fbc-1",
+        "16607901961bd93fbc-2"
       ],
       "settings": {
-        "color_scheme": "accent-1",
+        "color_scheme": "background-1",
         "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "1660782578c77ccbcc": {
-      "type": "collage",
-      "blocks": {
-        "16607825784698a14f-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "16607825784698a14f-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "16607825784698a14f-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16607825784698a14f-0",
-        "16607825784698a14f-1",
-        "16607825784698a14f-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
@@ -565,7 +525,6 @@
     "image-with-text-3",
     "16606212582db74867",
     "newsletter",
-    "1660782072385525b7",
-    "1660782578c77ccbcc"
+    "1660790196093f2d05"
   ]
 }
