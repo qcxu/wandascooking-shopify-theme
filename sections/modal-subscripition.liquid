@@ -17,7 +17,7 @@
 {%- endstyle -%}
 
 <modal-dialog id="PopupModal-subscription" class="subscription-popup-modal" data-modal="#PopupModal-subscription">
-  <div class="subscription-popup-modal__content" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
+  <div class="subscription-popup-modal__content color-{{ section.settings.color_scheme }}" role="dialog" aria-label="" aria-modal="true" tabindex="-1">
     <button id="ModalClose-subscription" type="button" class="subscription-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
       <div class="subscription-popup-modal__content-info">
         <div class="newsletter center newsletter-popup {% if section.settings.full_width == false %}newsletter--narrow page-width{% endif %}">
