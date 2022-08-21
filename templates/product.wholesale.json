@@ -118,7 +118,7 @@
         "heading_alignment": "left",
         "layout": "section",
         "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
+        "container_color_scheme": "accent-1",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -424,7 +424,7 @@
         "email-form"
       ],
       "settings": {
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 60,
         "padding_bottom": 60
