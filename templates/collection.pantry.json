@@ -6,17 +6,17 @@
         "slide": {
           "type": "slide",
           "settings": {
-            "image": "{{ collection.image }}",
+            "image": "shopify:\/\/shop_images\/bg-5.jpg",
             "heading": "{{ collection.title }}",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "subheading": "Describe this collection: tell your customers about what types of products they'll find here, and what makes them unique.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 30,
+            "image_overlay_opacity": 50,
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
