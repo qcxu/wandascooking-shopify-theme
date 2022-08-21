@@ -126,7 +126,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Olive Pepper Chowchow",
+        "heading": "{{ product.title }}",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "section",
