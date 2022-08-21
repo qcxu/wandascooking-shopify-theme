@@ -77,38 +77,35 @@
     "1661117200983da2d5": {
       "type": "multicolumn",
       "blocks": {
-        "16611172001110a5af-0": {
+        "1636612113fcb99ae4-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Bon-Appetit-logo.jpg",
+            "title": "",
+            "text": "<p><strong>Invest in a Do-It-All Condiment<\/strong><br\/>Check out lesson 12\/35 on <a href=\"https:\/\/www.bonappetit.com\/gallery\/quarantine-cooking-recipes-tips\" target=\"_blank\">Bon Appétit September 2020 issue<\/a><\/p>"
           }
         },
-        "16611172001110a5af-1": {
+        "1636612113fcb99ae4-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Ark-Republic_HEADER2.png",
+            "title": "The Light Series",
+            "text": "<p>Ark Republic interview with Chef Wanda - Wanda's Cooking - December 2019<\/p><p><a href=\"https:\/\/www.arkrepublic.com\/2019\/12\/09\/chef-wanda-burns-up-the-condiment-industry-with-her-southern-chow-chow\/\">Read the Story<\/a><\/p>"
           }
         },
-        "16611172001110a5af-2": {
+        "1636612113fcb99ae4-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Ark-Republic_HEADER2.png",
+            "title": "",
+            "text": "<p>Ark Republic Editor-In-Chief Kaia Niambi Shivers features  Wanda's Cooking May 2018 Gumbo pop-up event.<\/p><p><a href=\"https:\/\/www.arkrepublic.com\/2018\/05\/12\/san-francisco-chef-uses-pop-ups-to-preserve-and-educate-the-deeper-darker-sides-of-americas-culinary-history-and-african-american-culture\/\">Read the Story<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "16611172001110a5af-0",
-        "16611172001110a5af-1",
-        "16611172001110a5af-2"
+        "1636612113fcb99ae4-0",
+        "1636612113fcb99ae4-1",
+        "1636612113fcb99ae4-2"
       ],
       "settings": {
         "title": "Multicolumn",
@@ -130,38 +127,35 @@
     "166111724529c6b31c": {
       "type": "multicolumn",
       "blocks": {
-        "1661117245c9cf9c46-0": {
+        "16367607200b37f1a5-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/centro_logo_3.jpg",
+            "title": "",
+            "text": "<p>Meet Wanda Blake, Founder of Wanda's Cooking - Featured Entrepreneur Centro Community Partners - January 2020<\/p><p><a href=\"https:\/\/www.centrocommunity.org\/blog\/2020\/1\/27\/meet-wanda-blake-founder-of-wandas-cooking\">Read the Story<\/a><\/p>"
           }
         },
-        "1661117245c9cf9c46-1": {
+        "16367607200b37f1a5-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/OaklandPostHeader.png",
+            "title": "",
+            "text": "<p>Oakland Post - Black Culinary History February 2018<\/p><p><a href=\"https:\/\/www.postnewsgroup.com\/community-forum-black-culinary-history\/\">Read the Story<\/a><\/p>"
           }
         },
-        "1661117245c9cf9c46-2": {
+        "16367607200b37f1a5-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2018_06_08_at_12.30.21_PM.1528485918.jpg",
+            "title": "",
+            "text": "<p>The 2019 Eater SF Holiday Gift Guide<\/p><p><a href=\"https:\/\/sf.eater.com\/2019\/11\/8\/20932826\/eater-sf-holiday-gift-guide-2019-best-food-gifts-ideas-shopping\">Learn More<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "1661117245c9cf9c46-0",
-        "1661117245c9cf9c46-1",
-        "1661117245c9cf9c46-2"
+        "16367607200b37f1a5-0",
+        "16367607200b37f1a5-1",
+        "16367607200b37f1a5-2"
       ],
       "settings": {
         "title": "Multicolumn",
