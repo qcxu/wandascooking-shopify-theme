@@ -15,7 +15,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/EEB-logo-2022-wide-grey.jpg",
             "title": "Edible East Bay",
-            "text": "<p>A Southern Farmer’s Summer Supper<\/p><p><a href=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\" target=\"_blank\" title=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\">Learn More<\/a><\/p>"
+            "text": "<p>A Southern Farmer’s Summer Supper<\/p><p><a href=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\" target=\"_blank\" title=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\">Learn More<\/a><\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "1661116995d9d8e94c-1": {
@@ -23,7 +25,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/buzzfeed_2019_logo.jpg",
             "title": "BuzzFeed",
-            "text": "<p><strong>Just 30 Products Since We All Gotta Eat<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/food-products-all-gotta-eat#126743959\" target=\"_blank\">Learn More from BuzzFeed<br\/><\/a><br\/>          <br\/>        <\/p>"
+            "text": "<p><strong>Just 30 Products Since We All Gotta Eat<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/food-products-all-gotta-eat#126743959\" target=\"_blank\">Learn More from BuzzFeed<br\/><\/a><br\/>          <br\/>        <\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "1661116995d9d8e94c-2": {
@@ -31,7 +35,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/buzzfeed_2019_logo.jpg",
             "title": "BuzzFeed",
-            "text": "<p><strong>35 Gifts That'll Make Their Food Taste Better<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/best-kitchen-gifts-make-food-taste-better#125909940\">Learn More from BuzzFeed<\/a><\/p>"
+            "text": "<p><strong>35 Gifts That'll Make Their Food Taste Better<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/best-kitchen-gifts-make-food-taste-better#125909940\">Learn More from BuzzFeed<\/a><\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "1661116995d9d8e94c-3": {
@@ -39,7 +45,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2018_06_08_at_12.30.21_PM.1528485918.jpg",
             "title": "Eater San Francisco",
-            "text": "<p><strong>What Eater Editors Want for the Holidays<\/strong><\/p><p><a href=\"https:\/\/sf.eater.com\/2020\/12\/8\/22154347\/holidays-shopping-gifts-san-francisco-oakland-food-restaurants#5T2Vzx\">Learn More from Eater.com<\/a><\/p>"
+            "text": "<p><strong>What Eater Editors Want for the Holidays<\/strong><\/p><p><a href=\"https:\/\/sf.eater.com\/2020\/12\/8\/22154347\/holidays-shopping-gifts-san-francisco-oakland-food-restaurants#5T2Vzx\">Learn More from Eater.com<\/a><\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
@@ -50,14 +58,14 @@
         "1661116995d9d8e94c-3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
