@@ -86,7 +86,7 @@
           "settings": {
             "heading": "Highlights",
             "icon": "star",
-            "row_content": "<p>Olive Pepper Chowchow shows my love for the New Orleans Muffaletta Sandwich. Blending Mild Pepper Chowchow with Olives, Capers and Pepproncini. The flavor profile carries the combination of vegetables in Ratatouille pictured.  You can add to your grilled fish or omelette. Some folks had it to their Chicken Salad.<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.product_highlight | metafield_tag }}<\/p>",
             "page": ""
           }
         },
