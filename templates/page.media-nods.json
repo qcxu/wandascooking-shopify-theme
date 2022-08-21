@@ -127,6 +127,59 @@
         "padding_bottom": 36
       }
     },
+    "166111724529c6b31c": {
+      "type": "multicolumn",
+      "blocks": {
+        "1661117245c9cf9c46-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661117245c9cf9c46-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1661117245c9cf9c46-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661117245c9cf9c46-0",
+        "1661117245c9cf9c46-1",
+        "1661117245c9cf9c46-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -166,6 +219,7 @@
     "main",
     "166111699507ab3ce4",
     "1661117200983da2d5",
+    "166111724529c6b31c",
     "newsletter"
   ]
 }
