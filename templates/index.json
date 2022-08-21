@@ -306,7 +306,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Check out More Recipes",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/blogs\/recipe",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -354,7 +354,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get Recipe",
-            "button_link": ""
+            "button_link": "shopify:\/\/blogs\/recipe\/wanda-s-southern-style-braised-mustard-greens"
           }
         },
         "81f38167-26f9-4583-9732-4cd937fff521": {
