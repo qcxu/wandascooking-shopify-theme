@@ -58,3 +58,116 @@
     display: block;
   }
 }
+
+/* Product page reviews */
+@media screen and (min-width: 591px) {
+	.spr-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+  	}
+
+    .spr-form, .spr-reviews {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 5%;
+    }
+
+    .spr-form > form {
+        margin-right: 20px !important;
+    }
+
+    .spr-reviews {
+        margin: 0 !important;
+    }
+
+}
+
+.spr-header {
+	text-align: center !important;
+}
+
+.spr-header-title {
+	font-size: 2.26667em !important;
+}
+
+.spr-review-content-body,
+.spr-review-header-byline,
+.spr-form-label {
+  --font-size: 1.7;
+  line-height: 1.563;
+}
+
+.spr-form-label {
+  display: block;
+  text-align: left;
+}
+  
+.spr-summary-actions-newreview {
+  float: none;
+}
+
+.spr-summary-actions-newreview, .spr-review-reportreview {
+  color: rgba(var(--color-link), var(--alpha-link));
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness var(--duration-short) ease;
+}
+.spr-summary-actions-newreview:hover, .spr-review-reportreview:hover {
+  color: rgb(var(--color-base-accent-2));
+  text-decoration-thickness: 0.2rem;
+}
+
+.spr-summary-caption,
+.spr-summary-actions {
+  display: block;
+}
+  
+.spr-form-input.spr-form-input-text,
+.spr-form-input.spr-form-input-email {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0.1rem solid transparent;
+  border-radius: 0;
+  color: rgb(var(--color-foreground));
+  font-size: 1.6rem;
+  width: 100%;
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
+  height: 4.5rem;
+  box-sizing: border-box;
+  transition: box-shadow var(--duration-short) ease;
+  flex-grow: 1;
+  text-align: left;
+  padding: 1.5rem;
+}
+  
+.spr-form-input.spr-form-input-text:hover,
+.spr-form-input.spr-form-input-email:hover,
+.spr-form-input.spr-form-input-textarea:hover {
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.55);
+}
+
+.spr-form-input.spr-form-input-text:focus,
+.spr-form-input.spr-form-input-email:focus,
+.spr-form-input.spr-form-input-textarea:focus {
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.75);
+  outline: transparent;
+}
+  
+.spr-form-input.spr-form-input-textarea {
+  font-family: var(--font-body-family);
+  font-style: var(--font-body-style);
+  font-weight: var(--font-body-weight);
+  padding: 1.2rem;
+  min-height: 10rem;
+  resize: none;
+  border: 0.1rem solid transparent;
+  border-radius: 0;
+  color: rgb(var(--color-foreground));
+  font-size: 1.6rem;
+  width: 100%;
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
+}
+  
