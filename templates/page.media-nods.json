@@ -10,39 +10,39 @@
     "166111699507ab3ce4": {
       "type": "multicolumn",
       "blocks": {
-        "1661116995d9d8e94c-0": {
+        "760e42cc-8cd9-4b0e-812f-138a6ccfb552": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/EEB-logo-2022-wide-grey.jpg",
+            "title": "Edible East Bay",
+            "text": "<p>A Southern Farmer’s Summer Supper<\/p><p><a href=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\" target=\"_blank\" title=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\">Learn More<\/a><\/p>"
           }
         },
-        "1661116995d9d8e94c-1": {
+        "1636611737e1feae35-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/buzzfeed_2019_logo.jpg",
+            "title": "BuzzFeed",
+            "text": "<p><strong>Just 30 Products Since We All Gotta Eat<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/food-products-all-gotta-eat#126743959\" target=\"_blank\">Learn More from BuzzFeed<br\/><\/a><br\/>          <br\/>        <\/p>"
           }
         },
-        "1661116995d9d8e94c-2": {
+        "1636611737e1feae35-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/buzzfeed_2019_logo.jpg",
+            "title": "BuzzFeed",
+            "text": "<p><strong>35 Gifts That'll Make Their Food Taste Better<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/best-kitchen-gifts-make-food-taste-better#125909940\">Learn More from BuzzFeed<\/a><\/p>"
+          }
+        },
+        "1636611737e1feae35-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2018_06_08_at_12.30.21_PM.1528485918.jpg",
+            "title": "Eater San Francisco",
+            "text": "<p><strong>What Eater Editors Want for the Holidays<\/strong><\/p><p><a href=\"https:\/\/sf.eater.com\/2020\/12\/8\/22154347\/holidays-shopping-gifts-san-francisco-oakland-food-restaurants#5T2Vzx\">Learn More from Eater.com<\/a><\/p>"
           }
         }
       },
-      "block_order": [
-        "1661116995d9d8e94c-0",
-        "1661116995d9d8e94c-1",
-        "1661116995d9d8e94c-2"
-      ],
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
