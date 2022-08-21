@@ -146,8 +146,8 @@
         "column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/vegetarian-white.png",
-            "title": "Vegetarian",
+            "image": "shopify:\/\/shop_images\/dairy-free-white.png",
+            "title": "Dairy Free",
             "text": "",
             "link_label": "",
             "link": ""
