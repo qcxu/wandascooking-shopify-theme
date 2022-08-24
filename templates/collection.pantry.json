@@ -64,6 +64,7 @@
     },
     "166071471399e48dd7": {
       "type": "collage-gallery",
+      "disabled": true,
       "blocks": {
         "1660714713dc2d1685-0": {
           "type": "image",
@@ -125,12 +126,29 @@
       "settings": {
         "heading": "COMMENTS FROM CHOWCHOW AMBASSADORS"
       }
+    },
+    "1661316836cf7120ff": {
+      "type": "apps",
+      "blocks": {
+        "6dc14d10-7813-4836-bc86-b58f86603583": {
+          "type": "shopify:\/\/apps\/instafeed-shoppable-feed\/blocks\/app-block\/37be8af8-61d9-482d-a6b3-0b1be143eaf2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "6dc14d10-7813-4836-bc86-b58f86603583"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "slideshow",
     "banner",
     "product-grid",
-    "166071471399e48dd7"
+    "166071471399e48dd7",
+    "1661316836cf7120ff"
   ]
 }
