@@ -62,7 +62,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "mix-and-match",
         "products_to_show": 2,
         "columns_desktop": 4,
         "full_width": false,
