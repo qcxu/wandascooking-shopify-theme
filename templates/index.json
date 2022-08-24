@@ -81,6 +81,151 @@
         "padding_bottom": 40
       }
     },
+    "16606234347068181d": {
+      "type": "image-banner",
+      "blocks": {
+        "1660623434b68d0447-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wanda's Recipes",
+            "heading_size": "h1"
+          }
+        },
+        "1660623434b68d0447-1": {
+          "type": "text",
+          "settings": {
+            "text": "View Recipes featured on Edible East Bay",
+            "text_style": "subtitle"
+          }
+        },
+        "db9e7636-5110-4bb8-b46d-568b1f05fddd": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Check out More Recipes",
+            "button_link_1": "shopify:\/\/blogs\/recipe",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1660623434b68d0447-0",
+        "1660623434b68d0447-1",
+        "db9e7636-5110-4bb8-b46d-568b1f05fddd"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Southern-Style Braised Mustard Greens",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Any time a big group gathers in a family of cooks, there are designated jobs in the kitchen. My job was to cook the greens, and that always felt like an honor because my mother was known as a “green cooker.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Recipe",
+            "button_link": "shopify:\/\/blogs\/recipe\/wanda-s-southern-style-braised-mustard-greens"
+          }
+        },
+        "81f38167-26f9-4583-9732-4cd937fff521": {
+          "type": "caption",
+          "settings": {
+            "caption": "Photo by Judy Doherty",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button",
+        "81f38167-26f9-4583-9732-4cd937fff521"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 64,
+        "padding_bottom": 60
+      }
+    },
+    "image-with-text-3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Buttermilk Roast Guinea Fowl",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introduce another one of your collections. Describe some of its benefits to encourage your customers to explore more. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Recipe",
+            "button_link": "shopify:\/\/blogs\/recipe\/buttermilk-roast-guinea-fowl"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bird_plate-white.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
@@ -113,6 +258,7 @@
     },
     "multicolumn-1": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -286,151 +432,6 @@
         "padding_bottom": 80
       }
     },
-    "16606234347068181d": {
-      "type": "image-banner",
-      "blocks": {
-        "1660623434b68d0447-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wanda's Recipes",
-            "heading_size": "h1"
-          }
-        },
-        "1660623434b68d0447-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "subtitle"
-          }
-        },
-        "db9e7636-5110-4bb8-b46d-568b1f05fddd": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Check out More Recipes",
-            "button_link_1": "shopify:\/\/blogs\/recipe",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1660623434b68d0447-0",
-        "1660623434b68d0447-1",
-        "db9e7636-5110-4bb8-b46d-568b1f05fddd"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image-with-text-2": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Southern-Style Braised Mustard Greens",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Any time a big group gathers in a family of cooks, there are designated jobs in the kitchen. My job was to cook the greens, and that always felt like an honor because my mother was known as a “green cooker.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Recipe",
-            "button_link": "shopify:\/\/blogs\/recipe\/wanda-s-southern-style-braised-mustard-greens"
-          }
-        },
-        "81f38167-26f9-4583-9732-4cd937fff521": {
-          "type": "caption",
-          "settings": {
-            "caption": "Photo by Judy Doherty",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "small"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button",
-        "81f38167-26f9-4583-9732-4cd937fff521"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 64,
-        "padding_bottom": 60
-      }
-    },
-    "image-with-text-3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Buttermilk Roast Guinea Fowl",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Introduce another one of your collections. Describe some of its benefits to encourage your customers to explore more. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Recipe",
-            "button_link": "shopify:\/\/blogs\/recipe\/buttermilk-roast-guinea-fowl"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/bird_plate-white.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
     "16606212582db74867": {
       "type": "video",
       "settings": {
@@ -517,13 +518,13 @@
   "order": [
     "slideshow",
     "featured-collection-0",
+    "16606234347068181d",
+    "image-with-text-2",
+    "image-with-text-3",
     "rich-text",
     "multicolumn-1",
     "multicolumn-0",
     "image-with-text-0",
-    "16606234347068181d",
-    "image-with-text-2",
-    "image-with-text-3",
     "16606212582db74867",
     "newsletter",
     "1660790196093f2d05"
