@@ -206,12 +206,21 @@
             "button_label": "Get Recipe",
             "button_link": "shopify:\/\/blogs\/recipe\/buttermilk-roast-guinea-fowl"
           }
+        },
+        "2ad05545-2201-48a8-82ea-11c33819f26f": {
+          "type": "caption",
+          "settings": {
+            "caption": "Photo by Dana Plucinski",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
-        "button"
+        "button",
+        "2ad05545-2201-48a8-82ea-11c33819f26f"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/bird_plate-white.jpg",
