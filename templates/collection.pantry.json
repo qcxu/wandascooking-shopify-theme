@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/bg-5.jpg",
             "heading": "{{ collection.title }}",
             "heading_size": "h0",
-            "subheading": "Describe this collection: tell your customers about what types of products they'll find here, and what makes them unique.",
+            "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
