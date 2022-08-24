@@ -30,7 +30,7 @@
             "subheading": "Sobre Mesa, Oakland",
             "button_label": "Shop Sweet Pepper Chowchow",
             "link": "shopify:\/\/products\/sweet-pepper-chowchow",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": false,
             "text_alignment": "left",
