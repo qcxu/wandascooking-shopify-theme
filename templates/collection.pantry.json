@@ -6,14 +6,14 @@
         "slide": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bg-5.jpg",
+            "image": "shopify:\/\/shop_images\/bg-6.jpg",
             "heading": "{{ collection.title }}",
             "heading_size": "h0",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 50,
