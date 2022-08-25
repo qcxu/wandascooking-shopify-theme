@@ -389,6 +389,10 @@ h5,
   word-break: break-word;
 }
 
+#igr-title {
+  color: rgb(var(--color-foreground)) !important;
+}
+
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
 }
