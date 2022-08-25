@@ -192,8 +192,9 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Use a combination of images and text to share information about this product, and your brand. <\/p>",
+            "image": "shopify:\/\/shop_images\/vegan-white.png",
+            "title": "Vegan",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -201,8 +202,9 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Consider adding information about your shipping and return policies. <\/p>",
+            "image": "shopify:\/\/shop_images\/gluten-free-white_348e7a81-d1ff-40b9-b160-6b42b1884a04.png",
+            "title": "Gluten Free",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -210,8 +212,9 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Consider highlighting your environmental  commitments. <\/p>",
+            "image": "shopify:\/\/shop_images\/no-salt-white.png",
+            "title": "No Salt",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -219,8 +222,9 @@
         "column-3": {
           "type": "column",
           "settings": {
-            "title": "Multicolumn",
-            "text": "<p>Consider describing a money-back guarantee or highlighting your customer service. <\/p>",
+            "image": "shopify:\/\/shop_images\/dairy-free-white.png",
+            "title": "Dairy Free",
+            "text": "",
             "link_label": "",
             "link": ""
           }
