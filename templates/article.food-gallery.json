@@ -1,22 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-article-food-gallery",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "blog_show_date": false,
-            "blog_show_author": false
-          }
-        }
-      },
-      "block_order": [
-        "title"
-      ],
-      "settings": {
-      }
-    },
     "16607158344dc2da51": {
       "type": "collage-gallery",
       "blocks": {
@@ -78,7 +61,25 @@
         "16607158349847565f-8"
       ],
       "settings": {
-        "heading": ""
+        "heading": "Food Gallery"
+      }
+    },
+    "main": {
+      "type": "main-article-food-gallery",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        }
+      },
+      "block_order": [
+        "title"
+      ],
+      "settings": {
       }
     },
     "newsletter": {
@@ -117,8 +118,8 @@
     }
   },
   "order": [
-    "main",
     "16607158344dc2da51",
+    "main",
     "newsletter"
   ]
 }
