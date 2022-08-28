@@ -7,16 +7,16 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/social-share-image-2022.jpg",
-            "heading": "Takeout Meals & Events",
+            "heading": "ALL COLLECTIONS",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 40,
             "color_scheme": "accent-1",
             "text_alignment_mobile": "left"
           }
