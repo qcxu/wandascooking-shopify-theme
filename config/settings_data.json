@@ -100,9 +100,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "pantry",
-    "checkout_header_image": "shopify:\/\/shop_images\/Wands_Cooking_Logo_Red_V1_972bc4d4-4cd0-4a0e-a1b2-331cf95f2e30.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Wandas_COoking_Favicon_WC_Red.png",
-    "checkout_accent_color": "#ea3225",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Wands_Cooking_Logo_Red_V1_972bc4d4-4cd0-4a0e-a1b2-331cf95f2e30.png",
+    "checkout_accent_color": "#ff9500",
     "checkout_button_color": "#ea3225",
     "sections": {
       "announcement-bar": {
