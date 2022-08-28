@@ -3,6 +3,30 @@
     "16607158344dc2da51": {
       "type": "collage-gallery",
       "blocks": {
+        "5628d2c4-a0f6-4cef-9056-f02c5deeed0b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg"
+          }
+        },
+        "ffbda1f7-5839-4af0-a021-4eda814eebea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Braised-Purple-Hull-or-Black-Eyed-Peas-1024x849.jpg"
+          }
+        },
+        "cc52d0b2-1d3f-429c-99b5-56b4bcd6b380": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cornbread.jpg"
+          }
+        },
+        "5e1890a4-5f7b-46e7-a2eb-dd3d2e285682": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recipe.jpg"
+          }
+        },
         "cc2801ae-c629-47c8-83dc-e5b849d8c7cd": {
           "type": "image",
           "settings": {
@@ -62,9 +86,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Red_Beans_Sausage.jpg"
           }
+        },
+        "d3e66ece-32c2-4cbb-86b0-05ed3434be96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Okra-and-tomatoes-wide-1024x768.jpg"
+          }
         }
       },
       "block_order": [
+        "5628d2c4-a0f6-4cef-9056-f02c5deeed0b",
+        "ffbda1f7-5839-4af0-a021-4eda814eebea",
+        "cc52d0b2-1d3f-429c-99b5-56b4bcd6b380",
+        "5e1890a4-5f7b-46e7-a2eb-dd3d2e285682",
         "cc2801ae-c629-47c8-83dc-e5b849d8c7cd",
         "8f19f369-00ef-4877-b808-7e688dc53b6b",
         "b94912d7-ff4c-4ec6-8b30-5b5d61f2bf20",
@@ -74,7 +108,8 @@
         "a81e3f51-7634-4dde-a9b5-239debae6581",
         "d5be9bf7-c840-4293-989a-157bcabe8a78",
         "82d2e0e1-a11a-4a4b-8fe5-2fae1f340107",
-        "7cd926b8-3f3b-433d-a45b-e5f62bd644d7"
+        "7cd926b8-3f3b-433d-a45b-e5f62bd644d7",
+        "d3e66ece-32c2-4cbb-86b0-05ed3434be96"
       ],
       "settings": {
         "heading": "Food Gallery"
