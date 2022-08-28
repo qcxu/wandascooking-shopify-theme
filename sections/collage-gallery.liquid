@@ -71,7 +71,7 @@
 {{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
 
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}" style="display:none;">
-  <header class="page-width page-width--narrow">
+  <header class="header__food-gallery page-width page-width--narrow">
     <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
   </header>
   <div class="galleria">
@@ -114,8 +114,8 @@
 </script>
 
 {% stylesheet %}
-  .collage-wrapper-title {
-    	text-align: center;
+    .header__food-gallery {
+    	padding: 20px 0;
 	}
 	body .galleria-theme-folio .galleria-thumbnails .galleria-image { 
 		width:236px;
