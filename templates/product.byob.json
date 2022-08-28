@@ -58,6 +58,36 @@
         "show_quantity_in_line_items": false
       }
     },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Feature a compelling customer review about your product or brand.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- CUSTOMER NAME HERE -<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -165,6 +195,7 @@
     "byob-product-grid",
     "byob-footer",
     "byob-confirm-modal",
+    "rich-text-0",
     "multicolumn",
     "newsletter"
   ]
