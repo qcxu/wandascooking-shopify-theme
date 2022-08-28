@@ -71,7 +71,7 @@
 {{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
 
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}" style="display:none;">
-  <h2 class="collage-wrapper-title">{{ section.settings.heading | escape }}</h2>
+  <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
   <div class="galleria">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
