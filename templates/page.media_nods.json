@@ -7,6 +7,50 @@
         "padding_bottom": 20
       }
     },
+    "16617088164df17392": {
+      "type": "image-with-text",
+      "blocks": {
+        "1661708816dda0ece3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Edible East Bay",
+            "heading_size": "h2"
+          }
+        },
+        "1661708816dda0ece3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A Southern Farmer’s Summer Supper<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1661708816dda0ece3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Edibale East Bay Summer 2022",
+            "button_link": "https:\/\/indd.adobe.com\/view\/7eef7e77-071a-4e6e-98e1-da824b37c1fb"
+          }
+        }
+      },
+      "block_order": [
+        "1661708816dda0ece3-0",
+        "1661708816dda0ece3-1",
+        "1661708816dda0ece3-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "166111699507ab3ce4": {
       "type": "multicolumn",
       "blocks": {
@@ -15,7 +59,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/EEB-logo-2022-wide-grey.jpg",
             "title": "Edible East Bay",
-            "text": "<p>A Southern Farmer’s Summer Supper<\/p><p><a href=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\" target=\"_blank\" title=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\">Learn More<\/a><\/p>",
+            "text": "<p>Wanda’s Southern-Style Braised Mustard Greens<\/p><p><a href=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\" target=\"_blank\" title=\"https:\/\/edibleeastbay.com\/2022\/05\/21\/a-southern-farmers-summer-supper\/\">Learn More<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -223,6 +267,7 @@
   },
   "order": [
     "main",
+    "16617088164df17392",
     "166111699507ab3ce4",
     "1661117200983da2d5",
     "166111724529c6b31c",
