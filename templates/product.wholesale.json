@@ -71,49 +71,29 @@
         "collapsible-row-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Highlights",
-            "icon": "star",
-            "row_content": "<p>Hot pepper chowchow<\/p>",
+            "heading": "Sobre Mesa - Chef Nelson",
+            "icon": "serving_dish",
+            "row_content": "<p><a href=\"http:\/\/www.sobremesaoak.com\/\" target=\"_blank\">www.sobremesaoak.com<\/a><\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Scent",
-            "icon": "perfume",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Details",
-            "icon": "clipboard",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Ingredients",
-            "icon": "leaf",
-            "row_content": "",
+            "heading": "Holders House - Chef Sarah",
+            "icon": "serving_dish",
+            "row_content": "<p><a href=\"http:\/\/www.instagram.com\/holdershouse.oakland\/\" target=\"_blank\">www.instagram.com\/holdershouse.oakland\/<\/a><\/p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3"
+        "collapsible-row-1"
       ],
       "settings": {
         "caption": "",
-        "heading": "Add a title to introduce your product's features",
+        "heading": "Current Customers",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "section",
