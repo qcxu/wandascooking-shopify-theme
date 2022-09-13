@@ -9,8 +9,8 @@
         "byob_section_wrapper": true,
         "align_text": "center",
         "title_size": "h1",
-        "description_font_size": 15,
-        "custom_css": ""
+        "description_font_size": 18,
+        "custom_css": "p.byob-bundle-description {\nfont-weight: bold;\n}"
       }
     },
     "byob-product-grid": {
