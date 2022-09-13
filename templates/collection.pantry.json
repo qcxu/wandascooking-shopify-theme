@@ -62,6 +62,48 @@
         "padding_bottom": 60
       }
     },
+    "16630410437eec9099": {
+      "type": "rich-text",
+      "blocks": {
+        "1663041042209fbcac-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Retail Location<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1663041042209fbcac-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Coming Soon<\/p>"
+          }
+        },
+        "1663041042209fbcac-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mandela Grocery",
+            "button_link": "https:\/\/www.mandelagrocery.coop",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663041042209fbcac-0",
+        "1663041042209fbcac-1",
+        "1663041042209fbcac-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "166071471399e48dd7": {
       "type": "collage-gallery",
       "disabled": true,
@@ -148,6 +190,7 @@
     "slideshow",
     "banner",
     "product-grid",
+    "16630410437eec9099",
     "166071471399e48dd7",
     "1661316836cf7120ff"
   ]
