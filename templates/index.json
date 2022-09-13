@@ -399,6 +399,7 @@
     },
     "image-with-text-0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
