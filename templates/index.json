@@ -74,14 +74,14 @@
         "16631258186259c097-1": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>Sunday October 23<br\/>2:30-5:30pm<br\/>Oaktown Spice Shop 546 Grand Ave. Oakland, CA 94610 <\/p>"
           }
         },
         "16631258186259c097-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Check out Future Events",
+            "button_link": "shopify:\/\/pages\/calendar",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
