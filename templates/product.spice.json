@@ -104,7 +104,7 @@
           "settings": {
             "heading": "Storage",
             "icon": "clipboard",
-            "row_content": "<p>Keep in room temperature<\/p>",
+            "row_content": "<p>Keep in dry storage<\/p>",
             "page": ""
           }
         },
