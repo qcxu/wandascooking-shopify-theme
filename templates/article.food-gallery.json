@@ -98,6 +98,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Red_Beans_Sausage.jpg"
           }
+        },
+        "caf39d2a-fb8c-4d86-8aab-9bfb1addcf28": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chowchow_mary.jpg"
+          }
         }
       },
       "block_order": [
@@ -116,7 +122,8 @@
         "a81e3f51-7634-4dde-a9b5-239debae6581",
         "d5be9bf7-c840-4293-989a-157bcabe8a78",
         "82d2e0e1-a11a-4a4b-8fe5-2fae1f340107",
-        "7cd926b8-3f3b-433d-a45b-e5f62bd644d7"
+        "7cd926b8-3f3b-433d-a45b-e5f62bd644d7",
+        "caf39d2a-fb8c-4d86-8aab-9bfb1addcf28"
       ],
       "settings": {
         "heading": "Food Gallery"
