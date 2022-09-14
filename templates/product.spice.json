@@ -95,7 +95,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "row_content": "<p>Flat rate shipping from US Post Office - From west coast ships in 1-2 days and delivers in 2-3 days<\/p>",
+            "row_content": "<p>Flat rate shipping from US Post Office<\/p>",
             "page": ""
           }
         },
