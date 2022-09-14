@@ -57,12 +57,6 @@
             "image": "shopify:\/\/shop_images\/Gumbo_jan_2021.jpg"
           }
         },
-        "b94912d7-ff4c-4ec6-8b30-5b5d61f2bf20": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/email-banner.jpg"
-          }
-        },
         "9fa9d971-d596-4457-87e4-176f5945b35a": {
           "type": "image",
           "settings": {
@@ -116,7 +110,6 @@
         "5e1890a4-5f7b-46e7-a2eb-dd3d2e285682",
         "cc2801ae-c629-47c8-83dc-e5b849d8c7cd",
         "8f19f369-00ef-4877-b808-7e688dc53b6b",
-        "b94912d7-ff4c-4ec6-8b30-5b5d61f2bf20",
         "9fa9d971-d596-4457-87e4-176f5945b35a",
         "9900ad99-0ea7-4886-a542-ac7f97108276",
         "d5c946fe-53a0-4836-91c4-d568aa0d3075",
