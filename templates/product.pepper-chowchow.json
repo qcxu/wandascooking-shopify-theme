@@ -139,51 +139,20 @@
         "padding_bottom": 60
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
-    "rich-text-0": {
-      "type": "rich-text",
+    "1661116535027fdafb": {
+      "type": "apps",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "1c0dd7b1-7aab-4d9d-9045-15220b0eacf2": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "heading": "<p>Feature a compelling customer review about your product or brand.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>- CUSTOMER NAME HERE -<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "1c0dd7b1-7aab-4d9d-9045-15220b0eacf2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "include_margins": true
       }
     },
     "multicolumn": {
@@ -249,24 +218,42 @@
         "color_scheme": "accent-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "rich-text-1": {
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "rich-text-0": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Introduce other complementary products.<\/p>",
+            "heading": "<p>Feature a compelling customer review about your product or brand.<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>DESCRIBE HOW TO PAIR PRODUCTS TOGETHER <\/p>"
+            "text": "<p>- CUSTOMER NAME HERE -<\/p>"
           }
         }
       },
@@ -277,70 +264,10 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "image-with-text-1": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/social-share-image-2022.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
-    "1661116535027fdafb": {
-      "type": "apps",
-      "blocks": {
-        "1c0dd7b1-7aab-4d9d-9045-15220b0eacf2": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1c0dd7b1-7aab-4d9d-9045-15220b0eacf2"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "newsletter": {
@@ -381,12 +308,10 @@
   "order": [
     "main",
     "collapsible-content",
+    "1661116535027fdafb",
+    "multicolumn",
     "product-recommendations",
     "rich-text-0",
-    "multicolumn",
-    "rich-text-1",
-    "image-with-text-1",
-    "1661116535027fdafb",
     "newsletter"
   ]
 }
