@@ -54,6 +54,56 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1663125818f7a4cd41": {
+      "type": "rich-text",
+      "blocks": {
+        "16631258186259c097-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Where's Wanda's Cooking?<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Calendar<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16631258186259c097-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16631258186259c097-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16631258186259c097-0",
+        "46635d3f-593f-4cae-b51a-9c87edc0c984",
+        "16631258186259c097-1",
+        "16631258186259c097-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
@@ -518,6 +568,7 @@
   },
   "order": [
     "slideshow",
+    "1663125818f7a4cd41",
     "featured-collection-0",
     "16606234347068181d",
     "image-with-text-2",
