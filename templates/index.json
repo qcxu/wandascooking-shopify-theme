@@ -239,10 +239,11 @@
     "rich-text": {
       "type": "rich-text",
       "blocks": {
-        "text": {
-          "type": "text",
+        "9964d905-7b29-4bfd-a76f-8ed9fcd1a748": {
+          "type": "heading",
           "settings": {
-            "text": "<p>MY MISSION<\/p>"
+            "heading": "<p>MY MISSION<\/p>",
+            "heading_size": "h1"
           }
         },
         "heading": {
@@ -254,7 +255,7 @@
         }
       },
       "block_order": [
-        "text",
+        "9964d905-7b29-4bfd-a76f-8ed9fcd1a748",
         "heading"
       ],
       "settings": {
