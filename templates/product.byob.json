@@ -3,8 +3,8 @@
     "byob-bundle-info": {
       "type": "byob-bundle-info",
       "settings": {
-        "show_banner_image": true,
-        "media_size": "large",
+        "show_banner_image": false,
+        "media_size": "medium",
         "image_header_padding": 0,
         "byob_section_wrapper": true,
         "align_text": "center",
