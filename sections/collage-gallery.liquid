@@ -64,7 +64,7 @@
 
 {{ 'blueimp-gallery.min.css' | asset_url | stylesheet_tag }}
 
-<div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}" style="display:none;">
+<div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
   <header class="header__food-gallery page-width page-width--narrow">
     <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
   </header>
