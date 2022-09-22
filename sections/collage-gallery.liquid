@@ -125,6 +125,16 @@
   </div>
 </div>
 {{ 'blueimp-gallery.min.js' | asset_url | script_tag }}
+<script>
+  document.getElementById('links').onclick = function (event) {
+    event = event || window.event
+    var target = event.target || event.srcElement
+    var link = target.src ? target.parentNode : target
+    var options = { index: link, event: event }
+    var links = this.getElementsByTagName('a')
+    blueimp.Gallery(links, options)
+  }
+</script>
 
 {% stylesheet %}
     .header__food-gallery.page-width.page-width--narrow {
@@ -148,12 +158,4 @@
 {% endstylesheet %}
 
 {% javascript %}
-  document.getElementById('links').onclick = function (event) {
-    event = event || window.event
-    var target = event.target || event.srcElement
-    var link = target.src ? target.parentNode : target
-    var options = { index: link, event: event }
-    var links = this.getElementsByTagName('a')
-    blueimp.Gallery(links, options)
-  }
 {% endjavascript %}
