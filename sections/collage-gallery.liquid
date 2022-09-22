@@ -62,21 +62,32 @@
 }
 {% endschema %}
 
-{{ 'blueimp-gallery.min.css' | asset_url | stylesheet_tag }}
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+{{ 'galleria.js' | asset_url | script_tag }}
+{{ 'galleria.folio.js' | asset_url | script_tag }}
+{{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
 
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
   <header class="header__food-gallery page-width page-width--narrow">
     <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
   </header>
-    <div id="links">
+  <div class="galleria">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <a href="{{ block.settings.image | img_url: '900x' }}" title="{{ block.settings.image.alt | escape }}">
-                <img src="{{ block.settings.image | img_url: '990x' }}" alt="{{ block.settings.image.alt | escape }}" />
-              </a>
-            {%- else -%}
+              <img
+                   srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
+                           {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
+                           {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
+                           {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
+                   src="{{ block.settings.image | img_url: '990x' }}"
+                   alt="{{ block.settings.image.alt | escape }}"
+                   >
+             {%- else -%}
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
              {%- endif -%}
 
@@ -85,54 +96,17 @@
       {%- endcase -%}
     {%- endfor -%}
   </div>
-  <div
-    id="blueimp-gallery"
-    class="blueimp-gallery blueimp-gallery-controls"
-    aria-label="image gallery"
-    aria-modal="true"
-    role="dialog"
-  >
-    <div class="slides" aria-live="polite"></div>
-    <h3 class="title"></h3>
-    <a
-      class="prev"
-      aria-controls="blueimp-gallery blueimp-gallery-contain"
-      aria-label="previous slide"
-      aria-keyshortcuts="ArrowLeft"
-    ></a>
-    <a
-      class="next"
-      aria-controls="blueimp-gallery"
-      aria-label="next slide"
-      aria-keyshortcuts="ArrowRight"
-    ></a>
-    <a
-      class="close"
-      aria-controls="blueimp-gallery"
-      aria-label="close"
-      aria-keyshortcuts="Escape"
-    ></a>
-    <a
-      class="play-pause"
-      aria-controls="blueimp-gallery"
-      aria-label="play slideshow"
-      aria-keyshortcuts="Space"
-      aria-pressed="false"
-      role="button"
-    ></a>
-    <ol class="indicator"></ol>
-  </div>
 </div>
-{{ 'blueimp-gallery.min.js' | asset_url | script_tag }}
 <script>
-  document.getElementById('links').onclick = function (event) {
-    event = event || window.event
-    var target = event.target || event.srcElement
-    var link = target.src ? target.parentNode : target
-    var options = { index: link, event: event }
-    var links = this.getElementsByTagName('a')
-    blueimp.Gallery(links, options)
-  }
+  
+  $(document).ready(function() {
+    // $(".collage-wrapper").css("display", "block");
+    Galleria.run('.galleria', {
+      theme: 'folio',
+      _center: true,
+      _animate: true
+    });
+  });
 </script>
 
 {% stylesheet %}
@@ -151,9 +125,6 @@
 	.galleria-container div:empty {
 		display: block;
 	}
-    .galleria-stage {
-  		height: 800px;
-  	}
 {% endstylesheet %}
 
 {% javascript %}
