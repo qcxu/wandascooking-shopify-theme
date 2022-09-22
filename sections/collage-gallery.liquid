@@ -77,14 +77,15 @@
       {%- case block.type -%}
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <img
+              <a href="{{ block.settings.image | img_url: '990x' }}"><img src="{{ block.settings.image | img_url: '300x' }}" data-title="{{ block.settings.image.alt | escape }}"></a>
+<!--               <img
                    srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
                            {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
                            {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
                            {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
                    src="{{ block.settings.image | img_url: '990x' }}"
                    alt="{{ block.settings.image.alt | escape }}"
-                   >
+                   > -->
              {%- else -%}
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
              {%- endif -%}
