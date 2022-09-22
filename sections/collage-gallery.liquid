@@ -68,6 +68,23 @@
   <header class="header__food-gallery page-width page-width--narrow">
     <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
   </header>
+    <div id="links">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+          {%- when 'image' -%}
+            {%- if block.settings.image != blank -%}
+              <a href="{{ block.settings.image | img_url: '500x' }}" title="{{ block.settings.image.alt | escape }}">
+                <img src="{{ block.settings.image | img_url: '990x' }}" alt="{{ block.settings.image.alt | escape }}" />
+              </a>
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
+             {%- endif -%}
+
+          {%- when 'video' -%}
+
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
   <div
     id="blueimp-gallery"
     class="blueimp-gallery"
@@ -104,23 +121,6 @@
       role="button"
     ></a>
     <ol class="indicator"></ol>
-  </div>
-  <div id="links">
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-          {%- when 'image' -%}
-            {%- if block.settings.image != blank -%}
-              <a href="{{ block.settings.image | img_url: '500x' }}" title="{{ block.settings.image.alt | escape }}">
-                <img src="{{ block.settings.image | img_url: '990x' }}" alt="{{ block.settings.image.alt | escape }}" />
-              </a>
-            {%- else -%}
-              {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
-             {%- endif -%}
-
-          {%- when 'video' -%}
-
-      {%- endcase -%}
-    {%- endfor -%}
   </div>
 </div>
 {{ 'blueimp-gallery.min.js' | asset_url | script_tag }}
