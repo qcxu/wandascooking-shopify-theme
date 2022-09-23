@@ -78,11 +78,7 @@
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
                 <img
-                   srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
-                           {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
-                           {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
-                           {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
-                   src="{{ block.settings.image | img_url: '990x' }}"
+                   src="{{ block.settings.image | img_url: '400x' }}"
                    alt="{{ block.settings.image.alt | escape }}"
                  >
              {%- else -%}
@@ -103,7 +99,7 @@ var macy = Macy({
     trueOrder: false,
     waitForImages: false,
     margin: 24,
-    columns: 6,
+    columns: 5,
     breakAt: {
         1200: 5,
         940: 3,
