@@ -70,6 +70,27 @@
 {{ 'galleria.js' | asset_url | script_tag }}
 {{ 'galleria.folio.js' | asset_url | script_tag }}
 
+{% stylesheet %}
+    .header__food-gallery.page-width.page-width--narrow {
+    	padding:40px 0 !important;
+        text-align:center !important;
+	}
+	body .galleria-theme-folio .galleria-thumbnails .galleria-image { 
+		width:236px;
+	}
+	.galleria {
+		text-align: center;
+		max-width: 1200px;
+		height: 240px;
+	}
+    .galleria-stage {
+		height: 800px;
+	}
+	.galleria-container div:empty {
+		display: block;
+	}
+{% endstylesheet %}
+
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
   <header class="header__food-gallery page-width page-width--narrow">
     <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
@@ -110,27 +131,6 @@
     });
   });
 </script>
-
-{% stylesheet %}
-    .header__food-gallery.page-width.page-width--narrow {
-    	padding:40px 0 !important;
-        text-align:center !important;
-	}
-	body .galleria-theme-folio .galleria-thumbnails .galleria-image { 
-		width:236px;
-	}
-	.galleria {
-		text-align: center;
-		max-width: 1200px;
-		height: 240px;
-	}
-    .galleria-stage {
-		height: 800px;
-	}
-	.galleria-container div:empty {
-		display: block;
-	}
-{% endstylesheet %}
 
 {% javascript %}
 {% endjavascript %}
