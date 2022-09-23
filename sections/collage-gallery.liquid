@@ -67,6 +67,8 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
 {{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
+{{ 'galleria.js' | asset_url | script_tag }}
+{{ 'galleria.folio.js' | asset_url | script_tag }}
 
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
   <header class="header__food-gallery page-width page-width--narrow">
@@ -96,8 +98,7 @@
     {%- endfor -%}
   </div>
 </div>
-{{ 'galleria.js' | asset_url | script_tag }}
-{{ 'galleria.folio.js' | asset_url | script_tag }}
+
 <script>
   
   $(document).ready(function() {
