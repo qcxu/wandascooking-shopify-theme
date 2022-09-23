@@ -68,7 +68,7 @@
   crossorigin="anonymous"></script>
 {{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
 {{ 'galleria.js' | asset_url | script_tag }}
-{{ 'galleria.folio.js' | asset_url | script_tag }}
+<!-- {{ 'galleria.folio.js' | asset_url | script_tag }} -->
 
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
   <header class="header__food-gallery page-width page-width--narrow">
@@ -103,6 +103,7 @@
   
   $(document).ready(function() {
     // $(".collage-wrapper").css("display", "block");
+    alleria.loadTheme('{{ 'galleria.folio.js' | asset_url | script_tag }}');
     Galleria.run('.galleria', {
       theme: 'folio',
       _center: true,
