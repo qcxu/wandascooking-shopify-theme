@@ -54,6 +54,86 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured-collection-0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop the Mix & Match",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mix-and-match",
+        "products_to_show": 2,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn-0": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "title": "It is really great on beans and rice, breakfast burritos, or anytime I just need to spice something up. Olive pepper chow chow is my favorite.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "I love this creole seasoning. I picked up a pack during a pop up event a few months ago, and fell in love! I use it in so many dishes and it makes everything better. Delicious!",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "This chow chow is good on everything. Fish and rice, yes, but the best tuna salad ever can be had by simply mixing tuna with the olive chow chow. You can add either olive oil or mayo and it's the perfect lunch.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2"
+      ],
+      "settings": {
+        "title": "Customers Testimonials",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 80,
+        "padding_bottom": 92
+      }
+    },
     "1663125818f7a4cd41": {
       "type": "rich-text",
       "blocks": {
@@ -102,33 +182,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "featured-collection-0": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Shop the Mix & Match",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "mix-and-match",
-        "products_to_show": 2,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     },
     "16606234347068181d": {
@@ -286,6 +339,20 @@
         "padding_bottom": 60
       }
     },
+    "16606212582db74867": {
+      "type": "video",
+      "settings": {
+        "heading": "Wanda's Entrepreneur Story",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Serving_at_the_table-1080.jpg",
+        "video_url": "https:\/\/vimeo.com\/566252468",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
@@ -385,59 +452,6 @@
         "padding_bottom": 60
       }
     },
-    "multicolumn-0": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "It is really great on beans and rice, breakfast burritos, or anytime I just need to spice something up. Olive pepper chow chow is my favorite.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "I love this creole seasoning. I picked up a pack during a pop up event a few months ago, and fell in love! I use it in so many dishes and it makes everything better. Delicious!",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "title": "This chow chow is good on everything. Fish and rice, yes, but the best tuna salad ever can be had by simply mixing tuna with the olive chow chow. You can add either olive oil or mayo and it's the perfect lunch.",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1",
-        "column-2"
-      ],
-      "settings": {
-        "title": "Customers Testimonials",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 80,
-        "padding_bottom": 92
-      }
-    },
     "image-with-text-0": {
       "type": "image-with-text",
       "disabled": true,
@@ -481,20 +495,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "16606212582db74867": {
-      "type": "video",
-      "settings": {
-        "heading": "Wanda's Entrepreneur Story",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/Serving_at_the_table-1080.jpg",
-        "video_url": "https:\/\/vimeo.com\/566252468",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 28,
-        "padding_bottom": 56
       }
     },
     "newsletter": {
@@ -568,16 +568,16 @@
   },
   "order": [
     "slideshow",
-    "1663125818f7a4cd41",
     "featured-collection-0",
+    "multicolumn-0",
+    "1663125818f7a4cd41",
     "16606234347068181d",
     "image-with-text-2",
     "image-with-text-3",
+    "16606212582db74867",
     "rich-text",
     "multicolumn-1",
-    "multicolumn-0",
     "image-with-text-0",
-    "16606212582db74867",
     "newsletter",
     "1660790196093f2d05"
   ]
