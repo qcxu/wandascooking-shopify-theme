@@ -62,53 +62,29 @@
 }
 {% endschema %}
 
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-{{ 'galleria.folio.css' | asset_url | stylesheet_tag }}
-{{ 'galleria.js' | asset_url | script_tag }}
-{{ 'galleria.folio.js' | asset_url | script_tag }}
+<link rel="stylesheet" href="https://unpkg.com/flexmasonry/dist/flexmasonry.css">
+<script src="https://unpkg.com/flexmasonry/dist/flexmasonry.js"></script>
 
 {% stylesheet %}
-    .header__food-gallery.page-width.page-width--narrow {
-    	padding:40px 0 !important;
-        text-align:center !important;
-	}
-	body .galleria-theme-folio .galleria-thumbnails .galleria-image { 
-		width:236px;
-	}
-	.galleria {
-		text-align: center;
-		max-width: 1200px;
-		height: 240px;
-	}
-/*     .galleria-stage {
-		height: 800px;
-	} */
-	.galleria-container div:empty {
-		display: block;
-	}
 {% endstylesheet %}
 
 <div class="collage-wrapper page-width{% if section.settings.heading == blank %} no-heading{% endif %}">
   <header class="header__food-gallery page-width page-width--narrow">
     <h1 class="article-template__title" itemprop="headline">{{ section.settings.heading | escape }}</h1>
   </header>
-  <div class="galleria">
+  <div class="grid">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
           {%- when 'image' -%}
             {%- if block.settings.image != blank -%}
-              <a href="{{ block.settings.image | img_url: '990x' }}"><img src="{{ block.settings.image | img_url: '300x' }}" data-title="{{ block.settings.image.alt | escape }}"></a>
-<!--               <img
+                <img
                    srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | img_url: '550x' }} 550w,{%- endif -%}
                            {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | img_url: '720x' }} 720w,{%- endif -%}
                            {%- if block.settings.image.width >= 990 -%}{{ block.settings.image | img_url: '990x' }} 990w,{%- endif -%}
                            {{ block.settings.image | img_url: 'master' }} {{ block.settings.image.width }}w"
                    src="{{ block.settings.image | img_url: '990x' }}"
                    alt="{{ block.settings.image.alt | escape }}"
-                   > -->
+                 >
              {%- else -%}
               {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder collage-card__image' }}
              {%- endif -%}
@@ -122,14 +98,7 @@
 
 <script>
   
-  $(document).ready(function() {
-    // $(".collage-wrapper").css("display", "block");
-    Galleria.run('.galleria', {
-      theme: 'folio',
-      _center: true,
-      _animate: true
-    });
-  });
+  FlexMasonry.init('.grid');
 </script>
 
 {% javascript %}
