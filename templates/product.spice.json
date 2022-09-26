@@ -95,7 +95,7 @@
           "settings": {
             "heading": "Shipping",
             "icon": "truck",
-            "row_content": "<p>Flat rate shipping from US Post Office<\/p>",
+            "row_content": "<p>Orders placed by Thursday night will ship next Monday via USPS Priority Mail. We don’t ship over the weekends to provide you quicker service and quality of product. <\/p>",
             "page": ""
           }
         },
