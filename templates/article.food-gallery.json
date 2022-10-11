@@ -69,12 +69,6 @@
             "image": "shopify:\/\/shop_images\/ratatouille_chef_gigi.jpg"
           }
         },
-        "d5c946fe-53a0-4836-91c4-d568aa0d3075": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sweet_potato_vegan_8e82f62d-f30d-4f1d-a6c2-b57a91bbb5ac.jpg"
-          }
-        },
         "a81e3f51-7634-4dde-a9b5-239debae6581": {
           "type": "image",
           "settings": {
@@ -111,6 +105,12 @@
             "image": "shopify:\/\/shop_images\/red_drink_jan_2021.jpg"
           }
         },
+        "d5c946fe-53a0-4836-91c4-d568aa0d3075": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sweet_potato_vegan_8e82f62d-f30d-4f1d-a6c2-b57a91bbb5ac.jpg"
+          }
+        },
         "af6874ee-f78e-4ea9-b78a-a9416fc644bc": {
           "type": "image",
           "settings": {
@@ -130,13 +130,13 @@
         "8f19f369-00ef-4877-b808-7e688dc53b6b",
         "9fa9d971-d596-4457-87e4-176f5945b35a",
         "9900ad99-0ea7-4886-a542-ac7f97108276",
-        "d5c946fe-53a0-4836-91c4-d568aa0d3075",
         "a81e3f51-7634-4dde-a9b5-239debae6581",
         "d5be9bf7-c840-4293-989a-157bcabe8a78",
         "82d2e0e1-a11a-4a4b-8fe5-2fae1f340107",
         "7cd926b8-3f3b-433d-a45b-e5f62bd644d7",
         "caf39d2a-fb8c-4d86-8aab-9bfb1addcf28",
         "c928b581-f05d-4ca6-8fca-dc7a54154117",
+        "d5c946fe-53a0-4836-91c4-d568aa0d3075",
         "af6874ee-f78e-4ea9-b78a-a9416fc644bc"
       ],
       "settings": {
