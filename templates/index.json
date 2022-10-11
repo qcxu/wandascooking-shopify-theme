@@ -6,7 +6,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/social-share-image-2022.jpg",
+            "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
             "heading": "Welcome to Wanda's Cooking 2.0",
             "heading_size": "h0",
             "subheading": "",
@@ -16,7 +16,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 40,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
