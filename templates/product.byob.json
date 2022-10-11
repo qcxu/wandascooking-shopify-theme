@@ -3,42 +3,11 @@
     "byob-bundle-info": {
       "type": "byob-bundle-info",
       "settings": {
-        "show_banner_image": false,
-        "media_size": "medium",
-        "image_header_padding": 0,
-        "byob_section_wrapper": true,
-        "align_text": "center",
-        "title_size": "h1",
-        "description_font_size": 18,
-        "custom_css": "p.byob-bundle-description {\nfont-weight: 900;\n}"
       }
     },
     "byob-product-grid": {
       "type": "byob-product-grid",
       "settings": {
-        "items_per_row": 4,
-        "byob_section_wrapper": true,
-        "card_background": "#ffffff",
-        "tab_color": "#eeeeee",
-        "tab_text_color": "#444444",
-        "tick_icon_color": "#008000",
-        "button_color": "#ea3225",
-        "button_text_color": "#ffffff",
-        "disable_product_link": false,
-        "enable_quickview": false,
-        "show_product_price": true,
-        "show_product_type": false,
-        "show_product_vendor": false,
-        "enable_quantity_input": false,
-        "background_color": "#e8e8e8",
-        "footer_product_name_color": "#222222",
-        "footer_show_product_title": true,
-        "footer_show_total_price": true,
-        "footer_show_total_compare_at_price": true,
-        "footer_bottom_position": 10,
-        "product_card_padding": 5,
-        "icon_type": "bag",
-        "icon_horizontal_position": "left"
       }
     },
     "byob-footer": {
@@ -49,114 +18,6 @@
     "byob-confirm-modal": {
       "type": "byob-confirm-modal",
       "settings": {
-        "button_color": "",
-        "button_text_color": "",
-        "show_view_cart_button": true,
-        "show_create_another_button": false,
-        "direct_checkout": false,
-        "hide_sku_on_cart": false,
-        "show_quantity_in_line_items": false
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vegan-white.png",
-            "title": "Vegan",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gluten-free-white_348e7a81-d1ff-40b9-b160-6b42b1884a04.png",
-            "title": "Gluten Free",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/no-salt-white.png",
-            "title": "No Salt",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dairy-free-white.png",
-            "title": "Dairy Free",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1",
-        "column-2",
-        "column-3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "accent-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get the Inside Scoop",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about Popup events and exclusive offers.<\/p>"
-          }
-        },
-        "email-form": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "paragraph",
-        "email-form"
-      ],
-      "settings": {
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     }
   },
@@ -164,8 +25,6 @@
     "byob-bundle-info",
     "byob-product-grid",
     "byob-footer",
-    "byob-confirm-modal",
-    "multicolumn",
-    "newsletter"
+    "byob-confirm-modal"
   ]
 }

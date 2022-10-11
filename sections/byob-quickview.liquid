@@ -73,6 +73,10 @@
   display: grid;
   grid-template-columns: 75px 65%;
 }
+.byob-product-option-label {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .byob-quickview-quantity {
   display: flex;
   /* grid-template-columns: 75px 18% 45%; */
@@ -116,15 +120,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   width: 25px;
   padding: 3px;
+/*   background-color: {{ section.settings.icon_background_color }};
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.9;  */
+}
+.byob-quickview-icon-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: {{ section.settings.icon_background_color }};
   cursor: pointer;
   border-radius: 3px;
   opacity: 0.9;
+  {% if section.settings.show_icon_text %}padding: 2px 7px 2px 2px;{% endif %}
+}
+.byob-quickview-icon-text {
+  color: white;
+  font-size: 1em;
+  {% unless section.settings.show_icon_text %}display: none;{% endunless %}
 }
 #byob-quickview-label {
   margin-top: auto;
@@ -139,6 +156,8 @@
 @media screen and (max-width: 768px) {
   .byob-quickview-container {
     width: 88%;
+    overflow: auto;
+    height: 95%;
   }
   div.byob-quickview-container {
     flex-direction: column;
@@ -154,7 +173,12 @@
   .byob-quickview-right {
     padding: 15px 15px 30px 15px;
   }
-  .byob-quickview-desc {display: none;}
+  .byob-quickview-desc {
+/*     display: none; */
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
   .byob-quickview-close {
     top:10px;
     right: 10px;
@@ -188,7 +212,7 @@
                 <div class="byob-product-info">
                   <!-- product bg info -->
                   <div class="byob-quickview-title">[[ product.title ]]</div>
-                  <!-- <div class="byob-quickview-price">[[ currencySymbol ]][[ price ]]</div> 
+                  <!-- <div class="byob-quickview-price">[[ currencySymbol ]][[ price ]]</div>
                   <div class="byob-quickview-price">[[ priceWithCurrency(price) ]]</div> -->
                   <div class="byob-quickview-price">[[ displayPrice(price) ]]</div>
                   <div v-if="show_html_product_description" class="byob-quickview-desc" v-html="product.html_description"></div>
@@ -202,7 +226,7 @@
                   <!-- product options -->
                   <template v-if="!product.has_only_default_variant">
                     <div class="byob-product-option" v-for="(option, index) in product.options">
-                      <label>
+                      <label class="byob-product-option-label">
                           [[ option.name ]]:
                       </label>
 
@@ -340,6 +364,13 @@
         "id": "background_color",
       	"label": "Background color",
 		"default": "#fff"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_icon_text",
+      	"label": "Show icon text",
+        "info": "Text can be changed in BYOB Settings => Change Text => Lang editor (Byob bundle info)",
+		"default": false
       },
 	  {
         "type": "checkbox",

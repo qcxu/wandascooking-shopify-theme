@@ -109,7 +109,7 @@
 }
 .byob-group-option {
   display: block;
-  padding: 8px 10px;
+  padding: 8px 28px 8px 10px;
   border: 1px solid rgba(198, 198, 198, 0.55);
 }
 input[type="radio"] {
@@ -235,7 +235,7 @@ input[type="radio"] {
 
                       <template v-if="selected_group_name !== 'single' && selected_group_name == group.name">
                         <div class="byob-group-options" v-for="(option, index) in group.options">
-                          <label>
+                          <label v-if="subscription_app != 'skio'">
                             [[ option.name ]]
   						  </label>
 
@@ -291,6 +291,8 @@ input[type="radio"] {
         }
         else if (group.app_id == 'appstle')
           this.subscription_app = 'appstle'
+        else if (group.app_id == 'SKIO')
+          this.subscription_app = 'skio'
 
         if (typeof initSubscriptionModal === 'function') initSubscriptionModal(this)
       }
@@ -329,7 +331,8 @@ input[type="radio"] {
       },
       subscriptionDataNotFound() {
         return this.variants.some(variant => {
-          if (variant.selling_plan_allocations.length == 0 || variant.selling_plan_allocations[this.selected_plan_index].per_delivery_price == null) {
+          console.log('In subscriptionDataNotFound, variant = ', variant)
+          if (variant.selling_plan_allocations.length == 0 || typeof variant.selling_plan_allocations[this.selected_plan_index] === 'undefined' || variant.selling_plan_allocations[this.selected_plan_index].per_delivery_price == null) {
 			alert(`The subscription plan or per delivery price of ${variant.name} - ${variant.title} is not found. \n\nPlease set the subscription plans to the products in your subscription app`)
             return true
           }
@@ -377,7 +380,9 @@ input[type="radio"] {
     template: "#byob-subscription-template",
     methods: {
       redirectUsers() {  // auto redirect customers to the cart
-        window.location.href = 'https://' + window.location.hostname + (byob_subscription_to_checkout? cart_url + '/checkout' : cart_url)
+        let link = 'https://' + window.location.hostname + (byob_subscription_to_checkout? cart_url + '/checkout' : cart_url)
+        link += `/?ref=BYOB${bundleID}&attributes[where-from]=BYOB-${byob_handle}&utm_source=BYOB` // order tracking
+        window.location.href = link
       },
       aggregateByID(data) {  // aggregate variants quantity by id, return dict
         let dictionary = data.reduce((dic, value)=> {
@@ -476,6 +481,7 @@ input[type="radio"] {
             this.selected_plan = plans[i];
             this.selected_plan_index = i;
             console.log('this.selected_plan = ', this.selected_plan);
+            console.log('this.selected_plan_index = ', this.selected_plan_index);
             return;
           }
       },
@@ -491,7 +497,7 @@ input[type="radio"] {
           }
       },
       toDisplayValue(value, plan) {  // value: option value, plan: selected plan
-        if (this.subscription_app == 'appstle') 
+        if (this.subscription_app == 'appstle')
           return plan.name
         else if (this.subscription_app == 'ws-sub') {
           let values = value.split(';');
@@ -500,7 +506,7 @@ input[type="radio"] {
           return frequency + ' ' + type.toLowerCase() + 's';
         }
         else
-          return value  
+          return value
       }
     }
   }

@@ -19,6 +19,7 @@ if (typeof locale === 'undefined')
 {% endif %}
 <script>
 var bundleID = {{ product.metafields.byob.bundleID }};
+var byob_handle = "{{ handle }}";
 var isPublished = {% if product.published_at %}true;{% else %}false;{% endif %}
 {%- assign bundle_options = product.metafields.byob.bundle_options -%}
 var bundle_options = {% if bundle_options %}{{ bundle_options }}{% else %}null;{% endif %}
@@ -59,8 +60,8 @@ var buildrule;
           description: {{ product.description | strip_html | truncatewords: 65  | json }},
           html_description: {{ product.description  | json }},
           images: {{ product.images | slice: 0, 4 | json }},
-          has_only_default_variant: {{ product.has_only_default_variant }},
           {%- endif %}
+          has_only_default_variant: {{ product.has_only_default_variant }},
           variants: {{ product.variants | json }},
           options: {{ product.options_with_values | json }},
           available: {{ product.available }},
@@ -73,29 +74,58 @@ var buildrule;
       ];
       buildrule.paginate = {{ paginate | json }};
       {% endpaginate %}
-    {% elsif buildrule.type == 'P' -%}
+    {% elsif buildrule.type == 'P' %}
       json_products = [
       {%- for br_product in buildrule.products -%}
         {%- assign cur_product = all_products[br_product.handle] -%}
         {%- unless cur_product == empty -%}{%- comment -%}check if product is not published on web channel{%- endcomment %}
-        {
-          id: {{ cur_product.id }},
-          title: {{ cur_product.title | strip_newlines | json }},
-          featured_image: "{{ cur_product.featured_image.src | img_url: '480x' }}",
-          {%- if section.settings.enable_quickview %}
-          description: {{ cur_product.description | strip_html | truncatewords: 65  | json }},
-          html_description: {{ cur_product.description  | json }},
-          images: {{ cur_product.images | slice: 0, 4 | json }},
-          has_only_default_variant: {{ cur_product.has_only_default_variant }},
-          {%- endif %}
-          variants: {{ cur_product.variants | json }},
-          options: {{ cur_product.options_with_values | json }},
-          available: {{ cur_product.available }},
-          handle: "{{ cur_product.handle }}",
-          product_class:  "line_item",
-          vendor: "{{ cur_product.vendor | escape }}",
-          type: "{{ cur_product.type | escape }}",
-        },
+          {%- unless br_product.variants and br_product.variants.size > 0 -%}
+          {
+            id: {{ cur_product.id }},
+            title: {{ cur_product.title | strip_newlines | json }},
+            featured_image: "{{ cur_product.featured_image.src | img_url: '480x' }}",
+            {%- if section.settings.enable_quickview %}
+            description: {{ cur_product.description | strip_html | truncatewords: 65  | json }},
+            html_description: {{ cur_product.description  | json }},
+            images: {{ cur_product.images | slice: 0, 4 | json }},
+            {%- endif %}
+            has_only_default_variant: {{ cur_product.has_only_default_variant }},
+            variants: {{ cur_product.variants | json }},
+            options: {{ cur_product.options_with_values | json }},
+            available: {{ cur_product.available }},
+            handle: "{{ cur_product.handle }}",
+            product_class:  "line_item",
+            vendor: "{{ cur_product.vendor | escape }}",
+            type: "{{ cur_product.type | escape }}",
+          },
+          {%- else -%}{%- comment -%}variant cards. Each card is a variant{%- endcomment %}
+            {%- assign cur_variants = cur_product.variants -%}
+            {%- assign variant_ids = br_product.variants | map: "id" -%}
+            {% for variant in cur_variants %}
+              {% assign variant_id = variant.id | append: "" %}
+              {% if variant_ids contains variant_id %}
+                {
+                  id: {{ cur_product.id }},
+                  title: {{ cur_product.title | strip_newlines | json }},
+                  featured_image: "{{ variant.featured_image.src | img_url: '480x' }}",
+                  {%- if section.settings.enable_quickview %}
+                  description: {{ cur_product.description | strip_html | truncatewords: 65  | json }},
+                  html_description: {{ cur_product.description  | json }},
+                  images: {{ cur_product.images | slice: 0, 4 | json }},
+                  {%- endif %}
+                  has_only_default_variant: true,
+                  variants: [{{ variant | json }}],
+                  options: {{ cur_product.options_with_values | json }},
+                  available: {{ cur_product.available }},
+                  handle: "{{ cur_product.handle }}",
+                  product_class:  "line_item",
+                  vendor: "{{ cur_product.vendor | escape }}",
+                  type: "{{ cur_product.type | escape }}",
+                  is_variant: true
+                },              
+              {% endif %}
+            {% endfor %}
+          {%- endunless -%}
         {%- endunless -%}
       {%- endfor -%}
       ];
@@ -110,6 +140,9 @@ var buildrule;
 <style>
 .lb-price {
   {% unless section.settings.show_product_price %}display: none;{% endunless %}
+}
+.lb-currency-code {
+  {% unless section.settings.show_currency_code %}display: none;{% endunless %}
 }
 .byob-product-type {
   {% unless section.settings.show_product_type %}display: none;{% endunless %}
@@ -291,7 +324,7 @@ select:focus { /* remove select focus style in card */
   .byob-footer {
     width: 85%;
   }
-  #label-total-price {    
+  #label-total-price {
     margin-bottom: 5px;
     margin-top: 10px;
   }
@@ -354,7 +387,7 @@ select:focus { /* remove select focus style in card */
   .btn-add-to-bundle {
     padding: 0.8em 1.2em;
   }
-  #label-total-price {    
+  #label-total-price {
     margin-bottom: 10px;
     margin-top: 0px;
   }
@@ -393,7 +426,12 @@ select:focus { /* remove select focus style in card */
   border-radius: 5px;
   grid-template-rows: auto auto auto auto min-content; /* set button height */
 }
-.byob-product-image-container {position: relative;}
+.byob-product-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .grid-product-text {
   text-decoration: none;
   color: rgba(var(--color-foreground),.75);
@@ -485,7 +523,7 @@ iframe#ShopifyChat {display: none;}
 <div id="byobApp" class="page-width byob-page-margin {{ wrapper-class }}">
   <template v-for="(buildrule, index) in buildrules">
     <tab v-if="showTab" :buildrule="buildrule" :index="index" :no-of-buildrules="buildrules.length" @click="buildrule.isActiveTab = !buildrule.isActiveTab"></tab>
-	
+
     <filters v-if="buildrule.filters" :buildrule="buildrule" @selected="(selectedOptionValues) => {buildrule.selectedOptionValues = selectedOptionValues; applyToAll()}"></filters>
 
     <div class="grid-collection byob-panel" ref="panel" v-if="buildrule.isActiveTab">
@@ -573,7 +611,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
       requestAnimationFrame(callback)
     })
   }
-  
+
   const Bundle = {
     compilerOptions: {
       delimiters: ['[[', ']]'],
@@ -607,10 +645,10 @@ document.addEventListener('shopify:section:select', themeEventHandler);
           setTimeout(function(){
             let cardHeight = document.querySelector('.grid-product').clientHeight
             console.log('Activate BYOB infinite scrolling: card height = ', cardHeight)
-            vm.getMoreCardsOnScroll(cardHeight);  
+            vm.getMoreCardsOnScroll(cardHeight);
           }, 500);
-        }        
-        
+        }
+
         if (window.sessionStorage.getItem("bundle" + bundleID +"_selectedVariants")) {  // load selected items from tab session
           vm.selectedVariants = JSON.parse(window.sessionStorage.getItem("bundle" + bundleID +"_selectedVariants"));
           vm.updateBuildrulesCompleted();
@@ -619,7 +657,8 @@ document.addEventListener('shopify:section:select', themeEventHandler);
       })
       this.validateSubscriptionDiscount();
       console.log('BYOB bundle page loaded');
-      
+
+      if (typeof initBYOBBundle === 'function') initBYOBBundle(this)
     },
     computed: {
       completedTier() {
@@ -681,7 +720,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
       },
       removeVariant(index) {
         // variant remove from bundle, quantity increase by 1
-        this.increaseVariantQuantity(this.selectedVariants[index])
+        // this.increaseVariantQuantity(this.selectedVariants[index])
         this.selectedVariants.splice(index, 1);
         this.updateBuildrulesCompleted();
         // save selected items to tab session
@@ -697,12 +736,12 @@ document.addEventListener('shopify:section:select', themeEventHandler);
         let product = buildrule.json_products.find(product => product.id == selectedVariant.productID);
         return product.variants.find(variant => variant.id == selectedVariant.id)
       },
-      increaseVariantQuantity(selectedVariant) {  // increase variant quantity in json (data source)
-        this.getJsonVariant(selectedVariant).inventory_quantity++;
-      },
-      decreaseVariantQuantity(selectedVariant) {  // decrease variant quantity in json (data source)
-        this.getJsonVariant(selectedVariant).inventory_quantity--;
-      },
+      // increaseVariantQuantity(selectedVariant) {  // increase variant quantity in json (data source)
+      //   this.getJsonVariant(selectedVariant).inventory_quantity++;
+      // }, 
+      // decreaseVariantQuantity(selectedVariant) {  // decrease variant quantity in json (data source)
+      //   this.getJsonVariant(selectedVariant).inventory_quantity--;
+      // },
       canOnlySelectedOnce(pickedVariant) {
         let buildrule = this.buildrules[pickedVariant.buildrulesIndex]
         return buildrule.item_selected_once && this.selectedVariants.includes(pickedVariant)
@@ -724,7 +763,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
           return
         }
         this.selectedVariants.push(pickedVariant);
-        this.decreaseVariantQuantity(pickedVariant);
+        // this.decreaseVariantQuantity(pickedVariant);
         this.updateBuildrulesCompleted();
         let vm = this;
         // need timeout to scroll to last card, otherwise, cannot get it
@@ -732,7 +771,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
         let index = pickedVariant.buildrulesIndex;
         let buildrule = this.buildrules[index]
         // scroll to the next incompleted rule
-        if (this.buildrules.length > 1 && buildrule.isCompleted && 
+        if (this.buildrules.length > 1 && buildrule.isCompleted &&
             (!buildrule.operator || buildrule.operator == '==' || (buildrule.operator == '<=' && buildrule.remaining_quantity === 0))) {
           console.log('scrolling to the next bundle condition');
           this.setActiveTab(index, false);
@@ -951,6 +990,8 @@ document.addEventListener('shopify:section:select', themeEventHandler);
           let noteHeader = this.$i18n.t('message.noteHeader')
           link += `&note=${encodeURIComponent(noteHeader + ' - ' + this.customNote)}`
         }
+        link += `&ref=BYOB${bundleID}&attributes[where-from]=BYOB-${byob_handle}` // order tracking
+        // alert('link = ' + link)
         window.location.href = link
       },
       addToCart() {
@@ -1101,7 +1142,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
   `
   };
   vueApp.component('filters', filters);
-  
+
   const productCard = {
       props: ['product', 'buildrulesIndex', 'buildrule', 'isTopTier'],
       emits: ['clicked', 'reset'],
@@ -1109,7 +1150,8 @@ document.addEventListener('shopify:section:select', themeEventHandler);
         delimiters: ['[[', ']]'],
       },
       components: {
-        {% if section.settings.enable_quickview -%}'quickview-modal': quickviewModal{%- endif %}
+        {% if section.settings.enable_quickview -%}'quickview-modal': quickviewModal,{%- endif %}
+        'byob-reviews': (typeof byob_reviews === 'undefined')? '' : byob_reviews,
       },
       data() {
         return {
@@ -1124,6 +1166,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
           NotAvailableMsg: this.$i18n.t('message.soldOut'),
           quantity: 1,
           currencySymbol: currencySymbol,
+          currencyCode: Shopify.currency.active,
           linkDisabled: disable_product_link,
           enableQuickview: enable_quickview,
           showQuickviewIcon: false,
@@ -1168,7 +1211,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
       mounted() {
         // preset first selected option to the first available variant
 		let firstVariant = this.product.variants.find(v => v.available)
-        if (firstVariant === undefined) 
+        if (firstVariant === undefined)
           firstVariant = this.product.variants[0]
         if (firstVariant.option1 != null)
           this.selectedOptionValues[0] = firstVariant.option1
@@ -1278,23 +1321,32 @@ document.addEventListener('shopify:section:select', themeEventHandler);
 			<div class="byob-product-image-container">
             	<img :src="[[ featureImage ]]" :alt="[[ product.title]]" @mouseenter="showQuickviewIcon = enableQuickview" @mouseleave="showQuickviewIcon = false" class="m-auto" style="display:block">
 
-				<div v-if="showQuickviewIcon" title="Open Quickview" class="byob-quickview-icon" @click="showQuickviewIcon = false; showQuickviewModel = true" @mouseenter="showQuickviewIcon = enableQuickview">
+				<div class="byob-quickview-icon-wrapper" v-if="showQuickviewIcon" title="Open Quickview" @click="showQuickviewIcon = false; showQuickviewModel = true" @mouseenter="showQuickviewIcon = enableQuickview">
+                  <div class="byob-quickview-icon">
 					<svg xmlns="http://www.w3.org/2000/svg" class="byob-w-full" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
+                  </div>
+
+                  <span class="byob-quickview-icon-text">[[ $t('message.quickviewIconText') ]]</span>
 				</div>
 			</div>
-
 
             <a :href="productLink" @click="link" :class="{disabled: linkDisabled}" target="_blank" class="grid-product-text">
 				[[ product.title ]]
 				<span class="byob-product-type" v-if="product.type != ''"> - [[ product.type ]]</span>
   			</a>
 
-            <template class="" v-if="product.variants.length >= 1 && product.options[0] != 'Title' && product.variants[0].option1 != 'Default Title'">
-			  <div :class="'byob-product-option' + (index+1)" v-for="(option, index) in product.options">
-            	<label class="inline-block" style="padding-right:2px" v-if="option.name != 'default'">
-            		[[ option.name ]]:
+            <div>
+              <label class="inline-block" v-if="product.is_variant">
+            	[[ product.variants[0].title ]]
+              </label>
+            </div>
+            
+            <template class="" v-if="product.variants.length >= 1 && !product.has_only_default_variant">
+			        <div :class="'byob-product-option' + (index+1)" v-for="(option, index) in product.options">
+            	  <label class="inline-block" style="padding-right:2px" v-if="option.name != 'default'">
+            		  [[ option.name ]]:
                 </label>
 
                 <select class="byob-max-w-full" v-model="selectedOptionValues[index]" @change="selectVariant">
@@ -1305,12 +1357,14 @@ document.addEventListener('shopify:section:select', themeEventHandler);
                 </select>
               </div>
 
-			  <div class="byob-product-vendor" v-if="product.vendor != ''">
-            	<label class="inline-block" style="padding-right:2px">
-            		Vendor: [[ product.vendor ]]
+			        <div class="byob-product-vendor" v-if="product.vendor != ''">
+            	  <label class="inline-block" style="padding-right:2px">
+            		  Vendor: [[ product.vendor ]]
                 </label>
               </div>
 			</template>
+
+            <byob-reviews :rating="product.rating" :count="product.count"></byob-reviews>
 
 			<div class="byob-quantity-wrapper">
 				<label class="inline-block" style="padding-right: 2px;">[[ $t('message.quantity') ]]:</label>
@@ -1323,12 +1377,13 @@ document.addEventListener('shopify:section:select', themeEventHandler);
 
             <p class="lb-price-wrapper">
 				<b class="lb-compare-at-price">
-					<span class="lb-currency-code">[[ currencySymbol ]]</span>
+					<span class="lb-currency-symbol">[[ currencySymbol ]]</span>
 					[[ compare_at_price ]]
   				</b>
 				<b class="lb-price">
-					<span class="lb-currency-code">[[ currencySymbol ]]</span>
+					<span class="lb-currency-symbol">[[ currencySymbol ]]</span>
 					[[ selectedVariantPrice ]]
+                    <span class="lb-currency-code"> [[ currencyCode ]]</span>
   				</b>
   			</p>
 
@@ -1411,7 +1466,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
           else if (this.itemsLeft == 1) {
             let brLeft = this.getRemainingBuildrule();
             return this.buildrules.length >= 2 && brLeft? this.$i18n.t('message.addMoreFrom', {title: brLeft.title}) : this.$i18n.tc('message.addMore', 1);
-          }            
+          }
           else
             return this.$i18n.tc('message.addMore', 2, {quantity: this.itemsLeft});
         }
@@ -1435,20 +1490,32 @@ document.addEventListener('shopify:section:select', themeEventHandler);
         return this.buildrules.every(buildrule => buildrule.isCompleted || buildrule.optional)
       },
       bundlePrice() {
+        let basicDiscount = ['PR', 'PC', 'FA']
         if (!this.buildrulesCompleted) return false
         if (discount)
-          if (discount.type == 'PR')
-              return discount.value
-          else if (discount.type == 'PC')
-              return this.totalPrice - this.percentDiscount(this.totalPrice, discount.value)
-          else if (discount.type == 'FA')
-              return this.totalPrice - discount.value
+          // if (discount.type == 'PR')
+          //     return discount.value
+          // else if (discount.type == 'PC')
+          //     return this.totalPrice - this.percentDiscount(this.totalPrice, discount.value)
+          // else if (discount.type == 'FA')
+          //     return this.totalPrice - discount.value
+          if (basicDiscount.includes(discount.type))
+            return this.discountedPrice(discount)
           else if (discount.type == 'TD') {
             let tier = this.completedTier
             return this.tierPrice(tier)
           }
           else if (discount.type == 'SU')
             return false
+          else if (discount.type == 'DC') {
+            if (discount.display_discount_type && discount.display_discount_value) {
+              discount.display_discount = {
+                type: discount.display_discount_type,                
+                value: discount.display_discount_value
+              }
+            }
+            return discount.display_discount? this.discountedPrice(discount.display_discount) : false;
+          }
       },
       appliedTierDiscount() {
         let tier = this.completedTier
@@ -1466,6 +1533,14 @@ document.addEventListener('shopify:section:select', themeEventHandler);
       },
     },
     methods: {
+      discountedPrice(discount) {
+        if (discount.type == 'PR')
+            return discount.value
+        else if (discount.type == 'PC')
+            return this.totalPrice - this.percentDiscount(this.totalPrice, discount.value)
+        else if (discount.type == 'FA')
+            return this.totalPrice - discount.value
+      },
       tierPrice(tier) {
 		if (tier.discount_type == 'PR')
           return tier.discount_value
@@ -1488,7 +1563,7 @@ document.addEventListener('shopify:section:select', themeEventHandler);
         if (typeof byob_currency_option !== 'undefined')
             default_currency_option = byob_currency_option
         if (typeof byob_locale !== 'undefined')
-          locale = byob_locale            
+          locale = byob_locale
         // use storefront api to format money
         return new Intl.NumberFormat(locale, default_currency_option).format(price);
       },
@@ -1710,6 +1785,12 @@ document.addEventListener('shopify:section:select', themeEventHandler);
         "id": "show_product_price",
         "label": "Show product price",
         "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_currency_code",
+        "label": "Show currency code",
+        "default": false
       },
 	  {
         "type": "checkbox",
