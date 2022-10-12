@@ -29,6 +29,17 @@
     if ratio == 0 or ratio == nil
       assign ratio = 1
     endif
+
+    assign coming_soon = false
+    assign contact_me = false
+    for tag in product_card_product.tags
+      if tag contains 'Coming Soon'    
+          assign coming_soon = true  
+      endif
+      if tag contains 'contact-me'   
+          assign contact_me = true 
+      endif
+    endfor
   -%}
   <div class="card-wrapper underline-links-hover">
     <div class="card
