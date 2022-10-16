@@ -7,8 +7,54 @@
         "padding_bottom": 20
       }
     },
+    "feef70f1-450d-4a2b-abdf-3a4512c33db8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15771829010610__feef70f1-450d-4a2b-abdf-3a4512c33db8-1665964224c094749b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eater-white.jpg",
+            "title": "What Eater Editors Want for the Holidays",
+            "text": "<p>From sauces to slides, all the local food merch we’re hoping to get this year<\/p>",
+            "link_label": "Read More",
+            "link": "https:\/\/sf.eater.com\/2020\/12\/8\/22154347\/holidays-shopping-gifts-san-francisco-oakland-food-restaurants"
+          }
+        },
+        "template--15771829010610__feef70f1-450d-4a2b-abdf-3a4512c33db8-1665964224c094749b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Farmers_Meal_2022-cover_image.jpg",
+            "title": "Edible East Bay",
+            "text": "<p>A Southern Farmer’s Summer Supper<\/p>",
+            "link_label": "Read Edible East Bay Summer 2022",
+            "link": "https:\/\/indd.adobe.com\/view\/7eef7e77-071a-4e6e-98e1-da824b37c1fb"
+          }
+        }
+      },
+      "block_order": [
+        "template--15771829010610__feef70f1-450d-4a2b-abdf-3a4512c33db8-1665964224c094749b-0",
+        "template--15771829010610__feef70f1-450d-4a2b-abdf-3a4512c33db8-1665964224c094749b-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16617088164df17392": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1661708816dda0ece3-0": {
           "type": "heading",
@@ -267,6 +313,7 @@
   },
   "order": [
     "main",
+    "feef70f1-450d-4a2b-abdf-3a4512c33db8",
     "16617088164df17392",
     "166111699507ab3ce4",
     "1661117200983da2d5",
