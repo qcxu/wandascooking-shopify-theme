@@ -28,21 +28,11 @@
             "row_content": "<p>Saturday October 29<\/p><p>10am - 2pm <\/p><p>Fall Harvest Foodwise Pop-Up,<\/p><p>Ferry Plaza Farmers Market, <\/p><p>Embarcadero Ferry Terminal -<a href=\"http:\/\/foodwise.org\/events\/pop-ups-on-the-plaza-harvest-festival\/\" target=\"_blank\">foodwise.org\/events\/pop-ups-on-the-plaza-harvest-festival\/<\/a><\/p>",
             "page": ""
           }
-        },
-        "22767192-0513-4de9-8ddf-2d8086a932f8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Saturday January 21Oaktown Spice ShopCastro Valley Marketplace",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "166131773088951def-0",
-        "166131773088951def-1",
-        "22767192-0513-4de9-8ddf-2d8086a932f8"
+        "166131773088951def-1"
       ],
       "settings": {
         "caption": "",
@@ -177,6 +167,48 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Saturday April 1<br\/>Oaktown Spice Shop<br\/>- Oakland Store -<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Saturday April 1<br\/>11am - 2pm<br\/>Oaktown Spice Shop - Oakland Store<br\/>546 Grand Ave. Oakland, CA 94610<\/p>"
+          }
+        },
+        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Checkout Oaktown Spice Shop",
+            "button_link": "https:\/\/oaktownspiceshop.com\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-0",
+        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-1",
+        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -184,6 +216,7 @@
     "1661317730d06a90dd",
     "newsletter",
     "16633689166c82c222",
-    "16633690501380a050"
+    "16633690501380a050",
+    "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9"
   ]
 }
