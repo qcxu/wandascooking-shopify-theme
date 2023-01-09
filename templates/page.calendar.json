@@ -139,14 +139,14 @@
         "16633690506db5907f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Saturday March 11<br\/>11am - 2pm <br\/>Oaktown Spice Shop - Albany Store<br\/><\/p>"
+            "text": "<p>Saturday March 11<br\/>11am - 2pm <br\/>Oaktown Spice Shop - Albany Store<br\/>1224 Solano Ave. Albany, CA 94706<\/p>"
           }
         },
         "16633690506db5907f-2": {
           "type": "button",
           "settings": {
-            "button_label": "Learn More",
-            "button_link": "https:\/\/foodwise.org\/events\/pop-ups-on-the-plaza-harvest-festival\/",
+            "button_label": "Checkout Oaktown Spice Shop",
+            "button_link": "https:\/\/oaktownspiceshop.com\/",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
