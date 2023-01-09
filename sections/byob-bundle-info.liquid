@@ -29,6 +29,15 @@ img {
 .lb-compare-at-price {
   display:none;
 }
+{% if section.settings.top-layout == 'left-parallel' %}
+#byob-bundle-text {
+  max-width: 50%;
+}
+div#textsection {
+  display: flex;
+  gap: 40px;
+}
+{% endif %}
 .lh-sale-popup {z-index:0;} /* blocked layoutHub sales popup*/
 /* Custom CSS BEGIN */
 {{ section.settings.custom_css }}
@@ -46,6 +55,8 @@ img {
   {% endcase %}
 
   {% case section.settings.media_size %}
+    {% when 'small' %}
+      {%- assign product_media_width = 'medium-up--one-third' -%}
     {% when 'medium' %}
       {%- assign product_media_width = 'medium-up--one-half' -%}
     {% when 'large' %}
@@ -56,7 +67,7 @@ img {
   <div class="byob-text-center byob-content-center {{ product_media_width }}">
     {% if product.images.size >= 1 %}<img class="byob-banner-image" src="{{ product.images.last | img_url: 'master' }}" alt="{{ product.images.last.alt }}" >{% endif %}
   </div>
-  <div class="{{ text-classes }} padding-top">
+  <div id="byob-bundle-text" class="{{ text-classes }} padding-top">
     {% if section.settings.title_size == 'h1' %}<h1 id="byob-bundle-header">{{ product.title }}</h1>
     {% elsif section.settings.title_size == 'h2' %}<h2 id="byob-bundle-header">{{ product.title }}</h2>
     {% elsif section.settings.title_size == 'h3' %}<h3 id="byob-bundle-header">{{ product.title }}</h3>
@@ -81,12 +92,32 @@ img {
           "label": "Show Banner Image",
           "default": true
         },
+        {
+            "type": "select",
+            "id": "top-layout",
+            "label": "Layout",
+            "default": "default",
+            "options": [
+              {
+                "value": "default",
+                "label": "Top image + bottom text (Default)"
+              },
+              {
+                "value": "left-parallel",
+                "label": "Left image + text on right"
+              }
+            ]
+          },
       {
         "type": "select",
         "id": "media_size",
         "label": "Bundle image size",
         "default": "full",
         "options": [
+          {
+            "value": "small",
+            "label": "Small"
+          },
           {
             "value": "medium",
             "label": "Medium"
