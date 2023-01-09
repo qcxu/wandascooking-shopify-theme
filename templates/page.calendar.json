@@ -28,11 +28,21 @@
             "row_content": "<p>Saturday October 29<\/p><p>10am - 2pm <\/p><p>Fall Harvest Foodwise Pop-Up,<\/p><p>Ferry Plaza Farmers Market, <\/p><p>Embarcadero Ferry Terminal -<a href=\"http:\/\/foodwise.org\/events\/pop-ups-on-the-plaza-harvest-festival\/\" target=\"_blank\">foodwise.org\/events\/pop-ups-on-the-plaza-harvest-festival\/<\/a><\/p>",
             "page": ""
           }
+        },
+        "22767192-0513-4de9-8ddf-2d8086a932f8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Saturday January 21Oaktown Spice ShopCastro Valley Marketplace",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "166131773088951def-0",
-        "166131773088951def-1"
+        "166131773088951def-1",
+        "22767192-0513-4de9-8ddf-2d8086a932f8"
       ],
       "settings": {
         "caption": "",
