@@ -84,6 +84,48 @@
         "padding_bottom": 60
       }
     },
+    "e8241330-70d7-4b80-b820-9c19e23f5bd4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Saturday February 4<br\/>12:00 - 12:45 pm<br\/>Ferry Plaza Farmers Market<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stop by the Foodwise Classroom for a cooking demo featuring the seasonal bounty of the Ferry Plaza Farmers Market.<br\/>All demos take place in the Foodwise Classroom (under the tents in front of the Ferry Building) and are free to the public, with recipes and samples for all.<\/p>"
+          }
+        },
+        "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/foodwise.org\/events\/chef-wanda-blake-wandas-cooking\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-0",
+        "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-1",
+        "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16633689166c82c222": {
       "type": "rich-text",
       "blocks": {
@@ -215,6 +257,7 @@
     "main",
     "1661317730d06a90dd",
     "newsletter",
+    "e8241330-70d7-4b80-b820-9c19e23f5bd4",
     "16633689166c82c222",
     "16633690501380a050",
     "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9"
