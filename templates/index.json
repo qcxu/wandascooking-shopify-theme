@@ -3,6 +3,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "da5c6f27-6138-488a-9326-ac93ccfaee0b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skillet_chowchow_n_spice-bg.jpg",
+            "heading": "Oaktown Spice Shop, Castro Valley Marketplace",
+            "heading_size": "h0",
+            "subheading": "Saturday January 21 10am -2pm",
+            "button_label": "Pre-Order",
+            "link": "https:\/\/wandascooking.square.site\/",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide-0": {
           "type": "slide",
           "settings": {
@@ -38,30 +56,12 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "left"
           }
-        },
-        "da5c6f27-6138-488a-9326-ac93ccfaee0b": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/skillet_chowchow_n_spice-bg.jpg",
-            "heading": "Oaktown Spice Shop, Castro Valley Marketplace",
-            "heading_size": "h0",
-            "subheading": "Saturday January 21 10am -2pm",
-            "button_label": "Pre-Order",
-            "link": "https:\/\/wandascooking.square.site\/",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "da5c6f27-6138-488a-9326-ac93ccfaee0b",
         "slide-0",
-        "slide-1",
-        "da5c6f27-6138-488a-9326-ac93ccfaee0b"
+        "slide-1"
       ],
       "settings": {
         "layout": "full_bleed",
