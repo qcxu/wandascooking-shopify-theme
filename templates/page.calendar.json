@@ -84,48 +84,6 @@
         "padding_bottom": 60
       }
     },
-    "16633689166c82c222": {
-      "type": "rich-text",
-      "blocks": {
-        "1663368915015f61ef-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Saturday January 21<br\/>Oaktown Spice Shop<br\/>Castro Valley Marketplace<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1663368915015f61ef-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Saturday January 21<br\/>10am -2pm<br\/>Oaktown Spice Shop, Castro Valley Marketplace<br\/>3295 Castro Valley Blvd, Castro Valley, CA 94546<\/p>"
-          }
-        },
-        "1663368915015f61ef-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pre-Order",
-            "button_link": "https:\/\/wandascooking.square.site\/",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1663368915015f61ef-0",
-        "1663368915015f61ef-1",
-        "1663368915015f61ef-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "e8241330-70d7-4b80-b820-9c19e23f5bd4": {
       "type": "rich-text",
       "blocks": {
@@ -251,15 +209,57 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16633689166c82c222": {
+      "type": "rich-text",
+      "blocks": {
+        "1663368915015f61ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Saturday January 21<br\/>Oaktown Spice Shop<br\/>Castro Valley Marketplace<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663368915015f61ef-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Saturday January 21<br\/>10am -2pm<br\/>Oaktown Spice Shop, Castro Valley Marketplace<br\/>3295 Castro Valley Blvd, Castro Valley, CA 94546<\/p>"
+          }
+        },
+        "1663368915015f61ef-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pre-Order",
+            "button_link": "https:\/\/wandascooking.square.site\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663368915015f61ef-0",
+        "1663368915015f61ef-1",
+        "1663368915015f61ef-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "1661317730d06a90dd",
     "newsletter",
-    "16633689166c82c222",
     "e8241330-70d7-4b80-b820-9c19e23f5bd4",
     "16633690501380a050",
-    "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9"
+    "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9",
+    "16633689166c82c222"
   ]
 }
