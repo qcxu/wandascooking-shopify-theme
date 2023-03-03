@@ -175,29 +175,17 @@
           "settings": {
             "text": "<p><strong>Pepper Chowchow Tasting Calabash Restaurant<\/strong><\/p><p><\/p><p><strong>Wednesday, March 8th<br\/>5:00 pm - 8:00 pm<br\/>2300 Valdez Street, Oakland CA <\/strong><\/p>"
           }
-        },
-        "16631258186259c097-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pre-Order",
-            "button_link": "https:\/\/wandascooking.square.site",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "16631258186259c097-0",
         "46635d3f-593f-4cae-b51a-9c87edc0c984",
-        "16631258186259c097-1",
-        "16631258186259c097-2"
+        "16631258186259c097-1"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
