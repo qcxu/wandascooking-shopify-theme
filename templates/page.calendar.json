@@ -128,6 +128,7 @@
     },
     "16633690501380a050": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16633690506db5907f-0": {
           "type": "heading",
@@ -170,6 +171,7 @@
     },
     "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-0": {
           "type": "heading",
