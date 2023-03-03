@@ -97,14 +97,14 @@
         "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Stop by the Foodwise Classroom for a cooking demo featuring the seasonal bounty of the Ferry Plaza Farmers Market.<br\/>All demos take place in the Foodwise Classroom (under the tents in front of the Ferry Building) and are free to the public, with recipes and samples for all.<\/p>"
+            "text": "<p>Come and join us at Wanda's Cooking first Pepper Chowchow Tasting at Calabash Restaurant in Oakland. Not sure which Pepper Chowchow would be your favorite? Not sure which Pepper Chowchow will add excitement to your cooking experience. Let's taste them all and see which one is for you. Calabash has a great menu and there are a couple of suggested dishs for your Pepper Chowchow tasting. Come and select 1 or all 4 of our Pepper Chowchow flavors to taste. <\/p>"
           }
         },
         "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-2": {
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "https:\/\/foodwise.org\/events\/chef-wanda-blake-wandas-cooking\/",
+            "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
