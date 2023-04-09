@@ -541,6 +541,7 @@
     },
     "1660790196093f2d05": {
       "type": "modal-subscripition",
+      "disabled": true,
       "blocks": {
         "16607901961bd93fbc-0": {
           "type": "heading",
