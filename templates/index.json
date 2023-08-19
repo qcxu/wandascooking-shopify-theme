@@ -6,7 +6,7 @@
         "da5c6f27-6138-488a-9326-ac93ccfaee0b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bg-fotor-2023081915330.png",
+            "image": "shopify:\/\/shop_images\/bg-fotor-20230819152648.png",
             "heading": "Empowering Palates, Celebrating Heritage",
             "heading_size": "h1",
             "subheading": "Join Us for The Global Black Food Movement",
@@ -16,7 +16,7 @@
             "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 10,
+            "image_overlay_opacity": 20,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
