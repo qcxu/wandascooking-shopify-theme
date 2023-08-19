@@ -74,6 +74,49 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "e860b70f-734a-4c70-80f7-f490ab4f8491": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15751393411250__e860b70f-734a-4c70-80f7-f490ab4f8491-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "New Restaurant AlaMar Dominican Kitchen",
+            "text": "<p>A NYC-style Dominican restaurant now open in Uptown Oakland, alaMar Dominican Kitchen<\/p>",
+            "link_label": "AlaMar Dominican Kitchen",
+            "link": "https:\/\/www.alamaroakland.com\/location\/alamar-kitchen\/"
+          }
+        },
+        "template--15751393411250__e860b70f-734a-4c70-80f7-f490ab4f8491-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Winky Dinky Dogs",
+            "text": "<p>Winky Dinky Dogs is simple food done exceptionally well. We take the American classic and amplify the experience with high quality, flavorful links and vibrant accompaniments.<\/p>",
+            "link_label": "Winky Dinky Dogs",
+            "link": "https:\/\/winkydinkydogs.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--15751393411250__e860b70f-734a-4c70-80f7-f490ab4f8491-column-1",
+        "template--15751393411250__e860b70f-734a-4c70-80f7-f490ab4f8491-column-2"
+      ],
+      "settings": {
+        "title": "Where to Find Delectable Chowchows Near You",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured-collection-0": {
       "type": "featured-collection",
       "settings": {
@@ -579,6 +622,7 @@
   },
   "order": [
     "slideshow",
+    "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
     "multicolumn-0",
     "1663125818f7a4cd41",
