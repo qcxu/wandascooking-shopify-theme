@@ -144,6 +144,66 @@
         "padding_bottom": 60
       }
     },
+    "1663125818f7a4cd41": {
+      "type": "rich-text",
+      "blocks": {
+        "5d5fa2da-f9e6-49c9-ba29-015a308b6153": {
+          "type": "caption",
+          "settings": {
+            "caption": "Wanda's Culinary Adventures: Discover Event Locations",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "16631258186259c097-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Wanda's Culinary Adventures: Discover Event Locations<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Calendar<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16631258186259c097-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Global Black Food Movement: Championing New Stories and Experiences<\/p><p>THU, AUG 31 \/ 5:30 PM PDT<br\/>The Commonwealth Club of California<br\/>110 The Embarcadero<br\/>Max Thelen Boardroom<br\/>San Francisco,CA94105<\/p>"
+          }
+        },
+        "71bfbb5b-941b-4d35-aa92-733c41e5e8cc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Tickets",
+            "button_link": "https:\/\/www.commonwealthclub.org\/events\/2023-08-31\/global-black-food-movement-championing-new-stories-and-experiences",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "5d5fa2da-f9e6-49c9-ba29-015a308b6153",
+        "16631258186259c097-0",
+        "46635d3f-593f-4cae-b51a-9c87edc0c984",
+        "16631258186259c097-1",
+        "71bfbb5b-941b-4d35-aa92-733c41e5e8cc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn-0": {
       "type": "multicolumn",
       "blocks": {
@@ -195,44 +255,6 @@
         "swipe_on_mobile": true,
         "padding_top": 80,
         "padding_bottom": 92
-      }
-    },
-    "1663125818f7a4cd41": {
-      "type": "rich-text",
-      "blocks": {
-        "16631258186259c097-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Where's Wanda's Cooking?<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Calendar<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16631258186259c097-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Coming Soon<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16631258186259c097-0",
-        "46635d3f-593f-4cae-b51a-9c87edc0c984",
-        "16631258186259c097-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "16606234347068181d": {
@@ -624,8 +646,8 @@
     "slideshow",
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
-    "multicolumn-0",
     "1663125818f7a4cd41",
+    "multicolumn-0",
     "16606234347068181d",
     "image-with-text-2",
     "image-with-text-3",
