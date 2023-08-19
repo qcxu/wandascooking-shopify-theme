@@ -107,19 +107,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "COVID 19 ANNOUNCEMENT",
-              "color_scheme": "inverse",
-              "link": "shopify:\/\/pages\/wandas-cooking-and-covid-19"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
