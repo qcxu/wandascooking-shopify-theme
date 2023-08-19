@@ -24,7 +24,7 @@
         "slide-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_7076.jpg",
             "heading": "Elevate Your Culinary Journey with Wanda's Cooking",
             "heading_size": "h0",
             "subheading": "Signature Pepper Chowchows and Creole Spice",
@@ -34,7 +34,7 @@
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "color_scheme": "background-2",
             "text_alignment_mobile": "left"
           }
