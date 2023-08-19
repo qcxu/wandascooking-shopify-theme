@@ -204,6 +204,50 @@
         "padding_bottom": 52
       }
     },
+    "7785e732-85f0-481a-892d-03aa0ecc8d51": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Culinary Insights: Chef Wanda's Expertise on Food Cost Calculation and Menu Pricing Strategies",
+            "heading_size": "h2"
+          }
+        },
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aug 3 2023 Southeast Community Center<\/p><p>Chef Wanda shared her experience in the industry and gave helpful tips and tricks to calculating food costs and pricing out your menu appropriately to gain profits!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1",
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1",
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/365903203_629439942619946_3258273978375588253_n.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn-0": {
       "type": "multicolumn",
       "blocks": {
@@ -647,6 +691,7 @@
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
     "1663125818f7a4cd41",
+    "7785e732-85f0-481a-892d-03aa0ecc8d51",
     "multicolumn-0",
     "16606234347068181d",
     "image-with-text-2",
