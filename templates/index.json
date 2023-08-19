@@ -42,6 +42,7 @@
         },
         "slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/yassa.jpg",
             "heading": "Chef Nelson's Chicken Yassa with Sweet Pepper Chowchow",
@@ -242,7 +243,6 @@
     },
     "image-with-text-2": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -280,6 +280,7 @@
         "button",
         "81f38167-26f9-4583-9732-4cd937fff521"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
         "height": "small",
@@ -349,6 +350,7 @@
     },
     "16606212582db74867": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Wanda's Entrepreneur Story",
         "heading_size": "h1",
@@ -383,6 +385,7 @@
         "9964d905-7b29-4bfd-a76f-8ed9fcd1a748",
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -394,7 +397,6 @@
     },
     "multicolumn-1": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -443,6 +445,7 @@
         "column-2",
         "column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -462,7 +465,6 @@
     },
     "image-with-text-0": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -491,6 +493,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Wanda-Blake.jpg",
         "height": "adapt",
@@ -541,7 +544,6 @@
     },
     "1660790196093f2d05": {
       "type": "modal-subscripition",
-      "disabled": true,
       "blocks": {
         "16607901961bd93fbc-0": {
           "type": "heading",
@@ -567,6 +569,7 @@
         "16607901961bd93fbc-1",
         "16607901961bd93fbc-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-1",
         "full_width": false,
