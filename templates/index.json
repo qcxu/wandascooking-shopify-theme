@@ -81,7 +81,7 @@
           "type": "column",
           "settings": {
             "title": "New Restaurant AlaMar Dominican Kitchen",
-            "text": "<p>A NYC-style Dominican restaurant now open in Uptown Oakland, alaMar Dominican Kitchen<\/p>",
+            "text": "<h4>A NYC-style Dominican restaurant now open in Uptown Oakland, alaMar Dominican Kitchen.<\/h4><p>Featured dish: <strong>Yuca Salad<\/strong><br\/>Ingredients: Strawberry, peanut, culantro, pickled red onion, Wanda's Olive Chow Chow<\/p>",
             "link_label": "AlaMar Dominican Kitchen",
             "link": "https:\/\/www.alamaroakland.com\/location\/alamar-kitchen\/"
           }
