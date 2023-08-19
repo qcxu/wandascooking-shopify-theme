@@ -475,6 +475,7 @@
         "button",
         "2ad05545-2201-48a8-82ea-11c33819f26f"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/recipe.jpg",
         "height": "adapt",
@@ -649,6 +650,47 @@
         "padding_bottom": 60
       }
     },
+    "d55b3456-3483-4a3a-97ff-faf59b875e13": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15751393411250__d55b3456-3483-4a3a-97ff-faf59b875e13-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Interested in offering the bold and savory goodness of Pepper Chowchow to your customers? <\/h2>"
+          }
+        },
+        "54741060-8b6c-4fd7-9ac9-c988928d1c85": {
+          "type": "caption",
+          "settings": {
+            "caption": "We're thrilled to discuss our wholesale options with you. Kindly provide us with a few details below, and we'll get back to you promptly to further the conversation. Let's spice up the market together!\"",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--15751393411250__d55b3456-3483-4a3a-97ff-faf59b875e13-text-1",
+        "54741060-8b6c-4fd7-9ac9-c988928d1c85"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "aa7cddde-1e4f-4aaa-9518-a2f3d273d101": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Pepper Chowchow Wholesale Inquiry Form",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -734,6 +776,8 @@
     "rich-text",
     "multicolumn-1",
     "image-with-text-0",
+    "d55b3456-3483-4a3a-97ff-faf59b875e13",
+    "aa7cddde-1e4f-4aaa-9518-a2f3d273d101",
     "newsletter",
     "1660790196093f2d05"
   ]
