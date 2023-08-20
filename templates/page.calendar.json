@@ -9,7 +9,6 @@
     },
     "1661317730d06a90dd": {
       "type": "collapsible-content",
-      "disabled": true,
       "blocks": {
         "166131773088951def-0": {
           "type": "collapsible_row",
@@ -34,6 +33,7 @@
         "166131773088951def-0",
         "166131773088951def-1"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "",
@@ -51,7 +51,6 @@
     },
     "newsletter": {
       "type": "newsletter",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -77,11 +76,54 @@
         "paragraph",
         "email-form"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "d6ba7904-46f7-463c-b45b-ccffbfab71d6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>THE GLOBAL BLACK FOOD MOVEMENT: CHAMPIONING NEW STORIES AND EXPERIENCES<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>THU, AUG 31 \/ 5:30 PM PDT<\/p><p>The Commonwealth Club of California<br\/>110 The Embarcadero<br\/>Max Thelen Boardroom<br\/>San Francisco,CA94105<\/p><p>This panel will talk about the rise and connection among people of African descent globally to tell the stories of their ingredients, food traditions, culture and heritage and how they are shaping food experiences for consumers today.<\/p><p>Tasting delicious food samples is part of this program!<\/p>"
+          }
+        },
+        "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Tickets",
+            "button_link": "https:\/\/www.commonwealthclub.org\/events\/2023-08-31\/global-black-food-movement-championing-new-stories-and-experiences",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-heading-1",
+        "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-text-1",
+        "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "e8241330-70d7-4b80-b820-9c19e23f5bd4": {
@@ -128,7 +170,6 @@
     },
     "16633690501380a050": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16633690506db5907f-0": {
           "type": "heading",
@@ -160,6 +201,7 @@
         "16633690506db5907f-1",
         "16633690506db5907f-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -171,7 +213,6 @@
     },
     "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-0": {
           "type": "heading",
@@ -203,6 +244,7 @@
         "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-1",
         "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-2"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -227,23 +269,11 @@
           "settings": {
             "text": "<p>Saturday January 21<br\/>10am -2pm<br\/>Oaktown Spice Shop, Castro Valley Marketplace<br\/>3295 Castro Valley Blvd, Castro Valley, CA 94546<\/p>"
           }
-        },
-        "1663368915015f61ef-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pre-Order",
-            "button_link": "https:\/\/wandascooking.square.site\/",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "1663368915015f61ef-0",
-        "1663368915015f61ef-1",
-        "1663368915015f61ef-2"
+        "1663368915015f61ef-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -259,6 +289,7 @@
     "main",
     "1661317730d06a90dd",
     "newsletter",
+    "d6ba7904-46f7-463c-b45b-ccffbfab71d6",
     "e8241330-70d7-4b80-b820-9c19e23f5bd4",
     "16633690501380a050",
     "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9",
