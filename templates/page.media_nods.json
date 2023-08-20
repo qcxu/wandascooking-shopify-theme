@@ -7,6 +7,49 @@
         "padding_bottom": 20
       }
     },
+    "5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3": {
+      "type": "collage",
+      "blocks": {
+        "template--15771829010610__5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3-video-1": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/chef_chowchow2.jpg",
+            "video_url": "https:\/\/vimeo.com\/856060443",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "96d1857f-83d4-435a-8f0c-7bb1482b163a": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/chef_chow.jpg",
+            "video_url": "https:\/\/vimeo.com\/856060009",
+            "description": "Chef Sarah Africa Hot Pepper Chowchow",
+            "image_padding": true
+          }
+        },
+        "230f1c32-101a-4e55-b415-690aaa914cbe": {
+          "type": "collection",
+          "settings": {
+            "collection": "pepper-chowchow"
+          }
+        }
+      },
+      "block_order": [
+        "template--15771829010610__5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3-video-1",
+        "96d1857f-83d4-435a-8f0c-7bb1482b163a",
+        "230f1c32-101a-4e55-b415-690aaa914cbe"
+      ],
+      "settings": {
+        "heading": "Chefs' Culinary Secrets",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "feef70f1-450d-4a2b-abdf-3a4512c33db8": {
       "type": "multicolumn",
       "blocks": {
@@ -54,7 +97,6 @@
     },
     "16617088164df17392": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1661708816dda0ece3-0": {
           "type": "heading",
@@ -83,6 +125,7 @@
         "1661708816dda0ece3-1",
         "1661708816dda0ece3-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Southern-Farmers-Summer-Supper.jpg",
         "height": "adapt",
@@ -313,6 +356,7 @@
   },
   "order": [
     "main",
+    "5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3",
     "feef70f1-450d-4a2b-abdf-3a4512c33db8",
     "16617088164df17392",
     "166111699507ab3ce4",
