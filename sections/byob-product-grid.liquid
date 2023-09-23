@@ -552,13 +552,13 @@ iframe#ShopifyChat {display: none;}
         :ref="setProductCard"
       ></product-card>
     </div>
-{% comment %}
+
     <button type="button" @click.prevent="loadMoreProducts(index)" class="btn btn-add-to-bundle m-auto button btn-load-more" style="display: block;"
             v-if="buildrule.type == 'C' && buildrule.isActiveTab && buildrule.paginate.pages > buildrule.paginate.current_page">
       <i v-if="loadingMoreProducts" class="fa fa-circle-o-notch fa-spin"></i>
       <span v-else id="">[[ $t('message.loadMore') ]]</span>
     </button>
-    {% endcomment %}
+
   </template>
 
   <footer-bar :variants="selectedVariants" :buildrules="buildrules" :is-loading="isLoading" @deleted="removeVariant"
