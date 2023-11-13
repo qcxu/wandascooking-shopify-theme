@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/bg-6.jpg",
             "heading": "{{ collection.title }}",
             "heading_size": "h0",
-            "subheading": "Adventure Awaits! Temporary Order Closure Notice: On Vacation from 9\/26 to 10\/13",
+            "subheading": "",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
