@@ -119,7 +119,6 @@
     },
     "featured-collection-0": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Create Your Own Blend: Order the Mix & Match",
         "heading_size": "h1",
