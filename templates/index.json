@@ -7,7 +7,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Oaktown_Creole_Jambalaya-2_1600px_horiz_4500x_4a8212c8-e89b-4387-a89e-321378c041ec.jpg",
-            "heading": "Pepper Chowchow is taking a holiday break",
+            "heading": "What's new with Wanda's Cooking",
             "heading_size": "h0",
             "subheading": "Stay tuned for a sizzling return and get ready to elevate your taste buds to new heights!",
             "button_label": "",
@@ -23,6 +23,7 @@
         },
         "slide-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_7076.jpg",
             "heading": "Elevate Your Culinary Journey with Wanda's Cooking",
@@ -74,6 +75,50 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "7785e732-85f0-481a-892d-03aa0ecc8d51": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rock N Roux Gumbo Cookoff",
+            "heading_size": "h2"
+          }
+        },
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The 100 Men Hall brought together chefs from near and far for their first annual Rock 'n' Roux Gumbo Cookoff.<\/p><p>Among the esteemed participants, Chef Wanda stood out, earning the 2nd place accolade for their exceptional Gumbo Z'Herbes!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1",
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1",
+        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gumbo_certificate_2nd_place.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e860b70f-734a-4c70-80f7-f490ab4f8491": {
       "type": "multicolumn",
       "blocks": {
@@ -100,6 +145,7 @@
         "template--15751393411250__e860b70f-734a-4c70-80f7-f490ab4f8491-column-1",
         "template--15751393411250__e860b70f-734a-4c70-80f7-f490ab4f8491-column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Where to Find Delectable Chowchows Near You",
         "heading_size": "h1",
@@ -145,96 +191,88 @@
         "padding_bottom": 60
       }
     },
-    "1663125818f7a4cd41": {
-      "type": "rich-text",
+    "image_banner_b6Ut4j": {
+      "type": "image-banner",
       "blocks": {
-        "5d5fa2da-f9e6-49c9-ba29-015a308b6153": {
-          "type": "caption",
-          "settings": {
-            "caption": "Wanda's Culinary Adventures: Discover Event Locations",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
-          }
-        },
-        "16631258186259c097-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Wanda's Culinary Adventures: Discover Event Locations<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
+        "heading_B7weGb": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Calendar<\/p>",
-            "heading_size": "h1"
+            "heading": "Discover the Essence of Creole Flavor",
+            "heading_size": "h0"
           }
         },
-        "16631258186259c097-1": {
-          "type": "text",
+        "buttons_N6Wqfp": {
+          "type": "buttons",
           "settings": {
-            "text": "<p><strong>Creole Spice Tasting at Okatown Spice Shop with Chef Extraordinaire!<\/strong><\/p><p>FRI, SEP 1 \/ 12 - 3 PM PDT<br\/>1224 Solano Ave. Albany 94706<br\/>546 Grand Ave. Oakland 94610<\/p>"
+            "button_label_1": "Get Your Spice Creole",
+            "button_link_1": "https:\/\/oaktownspiceshop.com\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "5d5fa2da-f9e6-49c9-ba29-015a308b6153",
-        "16631258186259c097-0",
-        "46635d3f-593f-4cae-b51a-9c87edc0c984",
-        "16631258186259c097-1"
+        "heading_B7weGb",
+        "buttons_N6Wqfp"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Wanda_s_Spice_layer_2_Sq_4023c1f8-c601-4765-83b4-12bbed20f7c2.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
-    "7785e732-85f0-481a-892d-03aa0ecc8d51": {
+    "image-with-text-2": {
       "type": "image-with-text",
       "blocks": {
-        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Culinary Insights: Chef Wanda's Expertise on Food Cost Calculation and Menu Pricing Strategies",
+            "heading": "Collard Greens, Sweet Potatoes and Black Eyed Peas",
             "heading_size": "h2"
           }
         },
-        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1": {
+        "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Aug 3 2023 Southeast Community Center<\/p><p>Chef Wanda shared her experience in the industry and gave helpful tips and tricks to calculating food costs and pricing out your menu appropriately to gain profits!<\/p>",
+            "text": "<p>Chef Wanda’s Legacy Winter Soup<\/p>",
             "text_style": "body"
           }
         },
-        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1": {
+        "button": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Get Recipe",
+            "button_link": "shopify:\/\/blogs\/recipe\/chef-wanda-s-legacy-winter-soup-collard-greens-sweet-potatoes-and-black-eyed-peas"
           }
         }
       },
       "block_order": [
-        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1",
-        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1",
-        "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1"
+        "heading",
+        "text",
+        "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/365903203_629439942619946_3258273978375588253_n.jpg",
+        "image": "shopify:\/\/shop_images\/Gumbo_Z_tent_photo_2024.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
+        "content_layout": "overlap",
+        "color_scheme": "accent-2",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 60
       }
     },
     "multicolumn-0": {
@@ -290,37 +328,52 @@
         "padding_bottom": 92
       }
     },
-    "0c8f763f-5c02-4ca5-9958-0effdcb63f86": {
-      "type": "collage",
+    "1663125818f7a4cd41": {
+      "type": "rich-text",
       "blocks": {
-        "template--15751393411250__0c8f763f-5c02-4ca5-9958-0effdcb63f86-video-1": {
-          "type": "video",
+        "5d5fa2da-f9e6-49c9-ba29-015a308b6153": {
+          "type": "caption",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/recipe_d19f40d6-5119-424a-81b9-bb0a0a8ca602.jpg",
-            "video_url": "https:\/\/vimeo.com\/856053933",
-            "description": "Describe the video",
-            "image_padding": false
+            "caption": "Wanda's Culinary Adventures: Discover Event Locations",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
           }
         },
-        "0e7c98aa-3165-42f9-ace2-0528bb12aebe": {
-          "type": "collection",
+        "16631258186259c097-0": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "collection": "creole-season-all"
+            "heading": "<p>Wanda's Culinary Adventures: Discover Event Locations<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Calendar<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16631258186259c097-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Creole Spice Tasting at Okatown Spice Shop with Chef Extraordinaire!<\/strong><\/p><p>FRI, SEP 1 \/ 12 - 3 PM PDT<br\/>1224 Solano Ave. Albany 94706<br\/>546 Grand Ave. Oakland 94610<\/p>"
           }
         }
       },
       "block_order": [
-        "template--15751393411250__0c8f763f-5c02-4ca5-9958-0effdcb63f86-video-1",
-        "0e7c98aa-3165-42f9-ace2-0528bb12aebe"
+        "5d5fa2da-f9e6-49c9-ba29-015a308b6153",
+        "16631258186259c097-0",
+        "46635d3f-593f-4cae-b51a-9c87edc0c984",
+        "16631258186259c097-1"
       ],
       "settings": {
-        "heading": "Master the Flavors of the South: Watch Our Jambalaya Recipe Video",
-        "heading_size": "h1",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "16606234347068181d": {
@@ -369,60 +422,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false
-      }
-    },
-    "image-with-text-2": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Southern-Style Braised Mustard Greens",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Any time a big group gathers in a family of cooks, there are designated jobs in the kitchen. My job was to cook the greens, and that always felt like an honor because my mother was known as a “green cooker.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Recipe",
-            "button_link": "shopify:\/\/blogs\/recipe\/wanda-s-southern-style-braised-mustard-greens"
-          }
-        },
-        "81f38167-26f9-4583-9732-4cd937fff521": {
-          "type": "caption",
-          "settings": {
-            "caption": "Photo by Judy Doherty",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "small"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button",
-        "81f38167-26f9-4583-9732-4cd937fff521"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/wanda-greens-wide.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 64,
-        "padding_bottom": 60
       }
     },
     "image-with-text-3": {
@@ -752,14 +751,14 @@
   },
   "order": [
     "slideshow",
+    "7785e732-85f0-481a-892d-03aa0ecc8d51",
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
-    "1663125818f7a4cd41",
-    "7785e732-85f0-481a-892d-03aa0ecc8d51",
-    "multicolumn-0",
-    "0c8f763f-5c02-4ca5-9958-0effdcb63f86",
-    "16606234347068181d",
+    "image_banner_b6Ut4j",
     "image-with-text-2",
+    "multicolumn-0",
+    "1663125818f7a4cd41",
+    "16606234347068181d",
     "image-with-text-3",
     "16606212582db74867",
     "rich-text",
