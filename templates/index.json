@@ -331,14 +331,6 @@
     "1663125818f7a4cd41": {
       "type": "rich-text",
       "blocks": {
-        "5d5fa2da-f9e6-49c9-ba29-015a308b6153": {
-          "type": "caption",
-          "settings": {
-            "caption": "Wanda's Culinary Adventures: Discover Event Locations",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
-          }
-        },
         "16631258186259c097-0": {
           "type": "heading",
           "disabled": true,
@@ -350,22 +342,33 @@
         "46635d3f-593f-4cae-b51a-9c87edc0c984": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Calendar<\/p>",
+            "heading": "<p>POP UP COURSES<\/p>",
             "heading_size": "h1"
           }
         },
         "16631258186259c097-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Creole Spice Tasting at Okatown Spice Shop with Chef Extraordinaire!<\/strong><\/p><p>FRI, SEP 1 \/ 12 - 3 PM PDT<br\/>1224 Solano Ave. Albany 94706<br\/>546 Grand Ave. Oakland 94610<\/p>"
+            "text": "<p><em><strong>Spice & Culture: A Global Exploration and Global Exchange<\/strong><\/em><\/p><p>Sat., 10 am - 1 pm; March 16th - April 6th<br\/>Mills College<br\/><br\/>This course will allow students to gain an appreciation for the<br\/>cultural significance of spices, develop cultural competency<br\/>and an understanding of how spices connect diverse cultures<br\/>and learn practical culinary skills for using spices.<\/p>"
+          }
+        },
+        "button_DfHEfQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0039\/6312\/5873\/files\/PopUpCourseMills_2024.pdf?v=1706584048",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "5d5fa2da-f9e6-49c9-ba29-015a308b6153",
         "16631258186259c097-0",
         "46635d3f-593f-4cae-b51a-9c87edc0c984",
-        "16631258186259c097-1"
+        "16631258186259c097-1",
+        "button_DfHEfQ"
       ],
       "settings": {
         "desktop_content_position": "center",
