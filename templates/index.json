@@ -10,7 +10,7 @@
             "heading": "What's New for Wanda's Cooking",
             "heading_size": "h1",
             "subheading": "Savor Our Award-Winning Gumbo Z'Herbes",
-            "button_label": "Shop Creole Spice",
+            "button_label": "",
             "link": "https:\/\/oaktownspiceshop.com\/products\/creole-spice",
             "button_style_secondary": true,
             "box_align": "middle-center",
@@ -81,14 +81,14 @@
         "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Rock N Roux Gumbo Cookoff",
+            "heading": "Rock N Roux Gumbo Cook-off",
             "heading_size": "h2"
           }
         },
         "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The 100 Men Hall brought together chefs from near and far for their first annual Rock 'n' Roux Gumbo Cookoff.<\/p><p>Among the esteemed participants, Chef Wanda stood out, earning the 2nd place accolade for their exceptional Gumbo Z'Herbes!<\/p>",
+            "text": "<p>The 100 Men Hall, Bay St Louis, MS brought together local chefs and cooks for their first annual Rock 'n' Roux Gumbo Cook-off.<\/p><p>Among the esteemed participants, Chef Wanda stood out, coming from Oakland, CA earning the 2nd place Turf category accolade for her exceptional Gumbo Z'Herbes!<\/p>",
             "text_style": "body"
           }
         },
@@ -106,7 +106,7 @@
         "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gumbo_certificate_2nd_place.jpg",
+        "image": "shopify:\/\/shop_images\/Gumbo_Z_tent_photo_2024.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -115,6 +115,19 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_PYXa7z": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/youtu.be\/zckVLypDK_Q?si=AyYLMWilrzQd_lKk",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -755,6 +768,7 @@
   "order": [
     "slideshow",
     "7785e732-85f0-481a-892d-03aa0ecc8d51",
+    "video_PYXa7z",
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
     "image_banner_b6Ut4j",
