@@ -84,7 +84,7 @@
       ],
       "settings": {
         "heading": "Chefs' Culinary Secrets",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "color_scheme": "background-1",
