@@ -119,14 +119,27 @@
         "padding_bottom": 36
       }
     },
-    "video_PYXa7z": {
-      "type": "video",
+    "collage_B9pMH6": {
+      "type": "collage",
+      "blocks": {
+        "video_akVmeX": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/Gumbo_certificate_2nd_place.jpg",
+            "video_url": "https:\/\/youtu.be\/zckVLypDK_Q?si=AyYLMWilrzQd_lKk",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "video_akVmeX"
+      ],
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
-        "video_url": "https:\/\/youtu.be\/zckVLypDK_Q?si=AyYLMWilrzQd_lKk",
-        "description": "",
-        "full_width": false,
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -768,7 +781,7 @@
   "order": [
     "slideshow",
     "7785e732-85f0-481a-892d-03aa0ecc8d51",
-    "video_PYXa7z",
+    "collage_B9pMH6",
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
     "image_banner_b6Ut4j",
