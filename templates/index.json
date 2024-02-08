@@ -263,14 +263,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Collard Greens, Sweet Potatoes and Black Eyed Peas",
+            "heading": "Legacy Winter Soup",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Chef Wanda’s Legacy Winter Soup<\/p>",
+            "text": "<p>Chef Wanda is the Legacy Food Ambassador for Farms to Grow, Inc. She shares her recipe for a heart winter soup including African American Legacy foods – Collard Greens, Sweet Potatoes and Black Eyed Peas.<\/p>",
             "text_style": "body"
           }
         },
@@ -288,7 +288,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gumbo_Z_tent_photo_2024.jpg",
+        "image": "shopify:\/\/shop_images\/Oaktown_Creole_Jambalaya-2_1600px_horiz_4500x_4a8212c8-e89b-4387-a89e-321378c041ec.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -307,7 +307,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "It is really great on beans and rice, breakfast burritos, or anytime I just need to spice something up. Olive pepper chow chow is my favorite.",
+            "title": "I put it on everything.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -325,7 +325,7 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "This chow chow is good on everything. Fish and rice, yes, but the best tuna salad ever can be had by simply mixing tuna with the olive chow chow. You can add either olive oil or mayo and it's the perfect lunch.",
+            "title": "I just got 3 bottles!!! LOVE. IT!!!!",
             "text": "",
             "link_label": "",
             "link": ""
@@ -375,7 +375,7 @@
         "16631258186259c097-1": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>Spice & Culture: A Global Exploration and Global Exchange<\/strong><\/em><\/p><p>Sat., 10 am - 1 pm; March 16th - April 6th<br\/>Mills College<br\/><br\/>This course will allow students to gain an appreciation for the<br\/>cultural significance of spices, develop cultural competency<br\/>and an understanding of how spices connect diverse cultures<br\/>and learn practical culinary skills for using spices.<\/p>"
+            "text": "<p><em><strong>Spice & Culture: A Global Exploration and Global Exchange<\/strong><\/em><\/p><p>Sat., 10 am - 1 pm; March 16th - April 6th<br\/>Mills College at Northeastern University, Oakland campus<br\/><br\/>This course will allow students to gain an appreciation for the cultural significance of spice, develop cultural dompetrency and an understanding of how pisces connect diverse cultures and learn practical culinary skills for using spices. Chef Wanda offers a compelling blend of cultural authenticity and culinary expertise. This course is not merely culinary experience, it is a platform for global cultural exchange, fostering understanding and unity through the universal language of food.<\/p>"
           }
         },
         "button_DfHEfQ": {
