@@ -7,6 +7,48 @@
         "padding_bottom": 20
       }
     },
+    "rich_text_Ae6Ldz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4xG3NQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>1st annual Gumbo Cook Off Bay St Louis<\/h2>",
+            "heading_size": "h2"
+          }
+        },
+        "text_HXpGwn": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_WyWAyN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.bslshoofly.com\/bay-st-louis-lifestyle\/rock-n-roux-delivers-the-creole-flavor",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4xG3NQ",
+        "text_HXpGwn",
+        "button_WyWAyN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3": {
       "type": "collage",
       "blocks": {
@@ -356,6 +398,7 @@
   },
   "order": [
     "main",
+    "rich_text_Ae6Ldz",
     "5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3",
     "feef70f1-450d-4a2b-abdf-3a4512c33db8",
     "16617088164df17392",
