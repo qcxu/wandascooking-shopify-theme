@@ -70,10 +70,10 @@
             "image_padding": true
           }
         },
-        "product_AjNiGq": {
+        "product_jy7aCX": {
           "type": "product",
           "settings": {
-            "product": "creole-spice",
+            "product": "creole-season-all",
             "second_image": true
           }
         }
@@ -81,7 +81,7 @@
       "block_order": [
         "template--15771829010610__5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3-video-1",
         "96d1857f-83d4-435a-8f0c-7bb1482b163a",
-        "product_AjNiGq"
+        "product_jy7aCX"
       ],
       "settings": {
         "heading": "Chefs' Culinary Secrets",
