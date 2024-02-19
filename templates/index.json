@@ -346,14 +346,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Chef Wanda is the Legacy Food Ambassador for Farms to Grown Inc. ",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Chef Wanda is the Legacy Food Ambassador for Farms to Grown Inc. Chef Wanda cooks a meal of Legacy Foods for Dr Meyers documentary \"Rhythm of the Land\" a Black Farmers, love story of Land and Family.Visit the Farms to Grown website on the collaboration of work they are doing for Black Farmers.<\/p>",
+            "text": "<p>Chef Wanda cooks a meal of Legacy Foods for Dr Meyers documentary \"Rhythm of the Land\" a Black Farmers, love story of Land and Family.<br\/>Visit the Farms to Grown website on the collaboration of work they are doing for Black Farmers.<\/p>",
             "text_style": "body"
           }
         },
