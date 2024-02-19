@@ -195,26 +195,6 @@
             "link": ""
           }
         },
-        "1661116995d9d8e94c-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/buzzfeed_2019_logo.jpg",
-            "title": "BuzzFeed",
-            "text": "<p><strong>Just 30 Products Since We All Gotta Eat<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/food-products-all-gotta-eat#126743959\" target=\"_blank\">Learn More from BuzzFeed<br\/><\/a><br\/>          <br\/>        <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1661116995d9d8e94c-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/buzzfeed_2019_logo.jpg",
-            "title": "BuzzFeed",
-            "text": "<p><strong>35 Gifts That'll Make Their Food Taste Better<\/strong><\/p><p><a href=\"https:\/\/www.buzzfeed.com\/melanie_aman\/best-kitchen-gifts-make-food-taste-better#125909940\">Learn More from BuzzFeed<\/a><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "1661116995d9d8e94c-3": {
           "type": "column",
           "settings": {
@@ -228,8 +208,6 @@
       },
       "block_order": [
         "1661116995d9d8e94c-0",
-        "1661116995d9d8e94c-1",
-        "1661116995d9d8e94c-2",
         "1661116995d9d8e94c-3"
       ],
       "settings": {
@@ -249,6 +227,22 @@
         "padding_bottom": 36
       }
     },
+    "17083164584fc6887d": {
+      "type": "apps",
+      "blocks": {
+        "instagram_feed_instafeed_reel_app_block_nyW8wQ": {
+          "type": "shopify:\/\/apps\/instagram-feed-instafeed-reel\/blocks\/app-block\/37be8af8-61d9-482d-a6b3-0b1be143eaf2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "instagram_feed_instafeed_reel_app_block_nyW8wQ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1661117200983da2d5": {
       "type": "multicolumn",
       "blocks": {
@@ -262,22 +256,12 @@
             "link": ""
           }
         },
-        "1636612113fcb99ae4-1": {
+        "column_Gc9tqj": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ark-Republic_HEADER2.png",
-            "title": "The Light Series",
-            "text": "<p>Ark Republic interview with Chef Wanda - Wanda's Cooking - December 2019<\/p><p><a href=\"https:\/\/www.arkrepublic.com\/2019\/12\/09\/chef-wanda-burns-up-the-condiment-industry-with-her-southern-chow-chow\/\">Read the Story<\/a><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1636612113fcb99ae4-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ark-Republic_HEADER2.png",
-            "title": "",
-            "text": "<p>Ark Republic Editor-In-Chief Kaia Niambi Shivers features  Wanda's Cooking May 2018 Gumbo pop-up event.<\/p><p><a href=\"https:\/\/www.arkrepublic.com\/2018\/05\/12\/san-francisco-chef-uses-pop-ups-to-preserve-and-educate-the-deeper-darker-sides-of-americas-culinary-history-and-african-american-culture\/\">Read the Story<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/centro_logo_3.jpg",
+            "title": "Column",
+            "text": "<p>Meet Wanda Blake, Founder of Wanda's Cooking - Featured Entrepreneur Centro Community Partners - January 2020<\/p><p><a href=\"https:\/\/www.centrocommunity.org\/blog\/2020\/1\/27\/meet-wanda-blake-founder-of-wandas-cooking\">Read the Story<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -285,71 +269,14 @@
       },
       "block_order": [
         "1636612113fcb99ae4-0",
-        "1636612113fcb99ae4-1",
-        "1636612113fcb99ae4-2"
+        "column_Gc9tqj"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "166111724529c6b31c": {
-      "type": "multicolumn",
-      "blocks": {
-        "16367607200b37f1a5-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/centro_logo_3.jpg",
-            "title": "",
-            "text": "<p>Meet Wanda Blake, Founder of Wanda's Cooking - Featured Entrepreneur Centro Community Partners - January 2020<\/p><p><a href=\"https:\/\/www.centrocommunity.org\/blog\/2020\/1\/27\/meet-wanda-blake-founder-of-wandas-cooking\">Read the Story<\/a><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16367607200b37f1a5-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/OaklandPostHeader.png",
-            "title": "",
-            "text": "<p>Oakland Post - Black Culinary History February 2018<\/p><p><a href=\"https:\/\/www.postnewsgroup.com\/community-forum-black-culinary-history\/\">Read the Story<\/a><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "16367607200b37f1a5-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2018_06_08_at_12.30.21_PM.1528485918.jpg",
-            "title": "",
-            "text": "<p>The 2019 Eater SF Holiday Gift Guide<\/p><p><a href=\"https:\/\/sf.eater.com\/2019\/11\/8\/20932826\/eater-sf-holiday-gift-guide-2019-best-food-gifts-ideas-shopping\">Learn More<\/a><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16367607200b37f1a5-0",
-        "16367607200b37f1a5-1",
-        "16367607200b37f1a5-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
@@ -403,8 +330,8 @@
     "feef70f1-450d-4a2b-abdf-3a4512c33db8",
     "16617088164df17392",
     "166111699507ab3ce4",
+    "17083164584fc6887d",
     "1661117200983da2d5",
-    "166111724529c6b31c",
     "newsletter"
   ]
 }
