@@ -353,15 +353,15 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Chef Wanda is the Legacy Food Ambassador for Farms to Grow, Inc. She shares her recipe for a heart winter soup including African American Legacy foods – Collard Greens, Sweet Potatoes and Black Eyed Peas presented in Rhythms of the Land Documentary.<\/p>",
+            "text": "<p>Chef Wanda is the Legacy Food Ambassador for Farms to Grown Inc. Chef Wanda cooks a meal of Legacy Foods for Dr Meyers documentary \"Rhythm of the Land\" a Black Farmers, love story of Land and Family.Visit the Farms to Grown website on the collaboration of work they are doing for Black Farmers.<\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Watch the Trailer",
-            "button_link": "https:\/\/www.rhythmsoftheland.com\/"
+            "button_label": "Watch the Trailer - Rhythms of the Land Documentary",
+            "button_link": "https:\/\/www.farmstogrow.com\/"
           }
         }
       },
