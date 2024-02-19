@@ -57,15 +57,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Shipping",
-            "icon": "truck",
-            "row_content": "<p>Orders placed by Thursday night will ship next Monday via USPS Priority Mail. We don’t ship over the weekends to provide you quicker service and quality of product. <\/p>",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_row",
           "settings": {
@@ -87,7 +78,6 @@
       },
       "block_order": [
         "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3"
       ],
