@@ -203,7 +203,7 @@
         "buttons_N6Wqfp"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/skillet_chowchow_n_spice-shorter.jpg",
+        "image": "shopify:\/\/shop_images\/newchowchow4up_e45e31a7-4204-4950-a5ab-00a1c2dd8c98.jpg",
         "image_overlay_opacity": 30,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -288,6 +288,56 @@
         "padding_bottom": 60
       }
     },
+    "1663125818f7a4cd41": {
+      "type": "rich-text",
+      "blocks": {
+        "16631258186259c097-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Chef Wanda's Lecture Series<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>Mills College at Northeastern University, Oakland campus<\/h3>",
+            "heading_size": "h1"
+          }
+        },
+        "16631258186259c097-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Spice & Culture: A Global Exploration and Global Exchange<\/strong><\/em><\/p><p>Sat., 10 am - 1 pm; March 16th - April 6th<br\/><br\/>This course will allow students to gain an appreciation for the cultural significance of spice, develop cultural dompetrency and an understanding of how pisces connect diverse cultures and learn practical culinary skills for using spices. Chef Wanda offers a compelling blend of cultural authenticity and culinary expertise. This course is not merely culinary experience, it is a platform for global cultural exchange, fostering understanding and unity through the universal language of food.<\/p>"
+          }
+        },
+        "button_DfHEfQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0039\/6312\/5873\/files\/PopUpCourseMills_2024.pdf?v=1706584048",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16631258186259c097-0",
+        "46635d3f-593f-4cae-b51a-9c87edc0c984",
+        "16631258186259c097-1",
+        "button_DfHEfQ"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image-with-text-2": {
       "type": "image-with-text",
       "blocks": {
@@ -368,6 +418,7 @@
         "column-1",
         "column-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Customers Testimonials",
         "heading_size": "h1",
@@ -383,57 +434,6 @@
         "swipe_on_mobile": true,
         "padding_top": 80,
         "padding_bottom": 92
-      }
-    },
-    "1663125818f7a4cd41": {
-      "type": "rich-text",
-      "blocks": {
-        "16631258186259c097-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "<p>Wanda's Culinary Adventures: Discover Event Locations<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "46635d3f-593f-4cae-b51a-9c87edc0c984": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>POP UP COURSES<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16631258186259c097-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Spice & Culture: A Global Exploration and Global Exchange<\/strong><\/em><\/p><p>Sat., 10 am - 1 pm; March 16th - April 6th<br\/>Mills College at Northeastern University, Oakland campus<br\/><br\/>This course will allow students to gain an appreciation for the cultural significance of spice, develop cultural dompetrency and an understanding of how pisces connect diverse cultures and learn practical culinary skills for using spices. Chef Wanda offers a compelling blend of cultural authenticity and culinary expertise. This course is not merely culinary experience, it is a platform for global cultural exchange, fostering understanding and unity through the universal language of food.<\/p>"
-          }
-        },
-        "button_DfHEfQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0039\/6312\/5873\/files\/PopUpCourseMills_2024.pdf?v=1706584048",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16631258186259c097-0",
-        "46635d3f-593f-4cae-b51a-9c87edc0c984",
-        "16631258186259c097-1",
-        "button_DfHEfQ"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "16606234347068181d": {
@@ -776,9 +776,9 @@
     "image_banner_b6Ut4j",
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
+    "1663125818f7a4cd41",
     "image-with-text-2",
     "multicolumn-0",
-    "1663125818f7a4cd41",
     "16606234347068181d",
     "image-with-text-3",
     "16606212582db74867",
