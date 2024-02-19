@@ -346,22 +346,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Legacy Winter Soup",
+            "heading": "",
             "heading_size": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Chef Wanda is the Legacy Food Ambassador for Farms to Grow, Inc. She shares her recipe for a heart winter soup including African American Legacy foods – Collard Greens, Sweet Potatoes and Black Eyed Peas.<\/p>",
+            "text": "<p>Chef Wanda is the Legacy Food Ambassador for Farms to Grow, Inc. She shares her recipe for a heart winter soup including African American Legacy foods – Collard Greens, Sweet Potatoes and Black Eyed Peas presented in Rhythms of the Land Documentary.<\/p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Get Recipe",
-            "button_link": "shopify:\/\/blogs\/recipe\/chef-wanda-s-legacy-winter-soup-collard-greens-sweet-potatoes-and-black-eyed-peas"
+            "button_label": "Watch the Trailer",
+            "button_link": "https:\/\/www.rhythmsoftheland.com\/"
           }
         }
       },
@@ -371,7 +371,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Oaktown_Creole_Jambalaya-2_1600px_horiz_4500x_4a8212c8-e89b-4387-a89e-321378c041ec.jpg",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-02-18_at_8.02.19_PM.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
