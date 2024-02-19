@@ -70,17 +70,18 @@
             "image_padding": true
           }
         },
-        "230f1c32-101a-4e55-b415-690aaa914cbe": {
-          "type": "collection",
+        "product_AjNiGq": {
+          "type": "product",
           "settings": {
-            "collection": "pepper-chowchow"
+            "product": "creole-spice",
+            "second_image": true
           }
         }
       },
       "block_order": [
         "template--15771829010610__5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3-video-1",
         "96d1857f-83d4-435a-8f0c-7bb1482b163a",
-        "230f1c32-101a-4e55-b415-690aaa914cbe"
+        "product_AjNiGq"
       ],
       "settings": {
         "heading": "Chefs' Culinary Secrets",
@@ -90,6 +91,22 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "17083164584fc6887d": {
+      "type": "apps",
+      "blocks": {
+        "instagram_feed_instafeed_reel_app_block_nyW8wQ": {
+          "type": "shopify:\/\/apps\/instagram-feed-instafeed-reel\/blocks\/app-block\/37be8af8-61d9-482d-a6b3-0b1be143eaf2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "instagram_feed_instafeed_reel_app_block_nyW8wQ"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "feef70f1-450d-4a2b-abdf-3a4512c33db8": {
@@ -227,22 +244,6 @@
         "padding_bottom": 36
       }
     },
-    "17083164584fc6887d": {
-      "type": "apps",
-      "blocks": {
-        "instagram_feed_instafeed_reel_app_block_nyW8wQ": {
-          "type": "shopify:\/\/apps\/instagram-feed-instafeed-reel\/blocks\/app-block\/37be8af8-61d9-482d-a6b3-0b1be143eaf2",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "instagram_feed_instafeed_reel_app_block_nyW8wQ"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "1661117200983da2d5": {
       "type": "multicolumn",
       "blocks": {
@@ -327,10 +328,10 @@
     "main",
     "rich_text_Ae6Ldz",
     "5b6b753b-0bb9-4d4f-ba00-3c61a87a16c3",
+    "17083164584fc6887d",
     "feef70f1-450d-4a2b-abdf-3a4512c33db8",
     "16617088164df17392",
     "166111699507ab3ce4",
-    "17083164584fc6887d",
     "1661117200983da2d5",
     "newsletter"
   ]
