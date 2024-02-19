@@ -26,13 +26,21 @@
           "type": "rating",
           "settings": {
           }
+        },
+        "text_CpVDm8": {
+          "type": "text",
+          "settings": {
+            "text": "Smoke Paprika, New Mexico Chili, Sweet Paprika, French Thyme, New Mexico Oregano, Black Pepper, Granulated Garlic, Celery Seed - No Salt.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "caption",
-        "rating"
+        "rating",
+        "text_CpVDm8"
       ],
       "settings": {
         "enable_sticky_info": true,
