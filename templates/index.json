@@ -148,6 +148,7 @@
         "video_akVmeX": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/IMG_2687.jpg",
             "video_url": "https:\/\/youtu.be\/zckVLypDK_Q?si=AyYLMWilrzQd_lKk",
             "description": "Describe the video",
             "image_padding": false
@@ -156,6 +157,7 @@
         "video_ki6qC4": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/Gumbo_certificate_2nd_place.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": "Describe the video",
             "image_padding": false
@@ -167,7 +169,7 @@
         "video_ki6qC4"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Check out Videos from Gumbo Cook-Off",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
