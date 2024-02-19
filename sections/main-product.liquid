@@ -497,12 +497,12 @@
                 <a aria-hidden="true" href="#shopify-product-reviews"><span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span></a>
                 <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
-            {%- endif -%}
-            <div class="rich-text__buttons">
-              <a href="https://oaktownspiceshop.com/products/creole-spice" class="button button--primary">Buy from Oaktown Spice Shop</a>
-            </div>
+            {%- endif -%}   
           {%- endcase -%}
         {%- endfor -%}
+        <div class="rich-text__buttons">
+          <a href="https://oaktownspiceshop.com/products/creole-spice" class="button button--primary">Buy from Oaktown Spice Shop</a>
+        </div>
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
