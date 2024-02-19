@@ -6,7 +6,7 @@
         "slide": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bg-6.jpg",
+            "image": "shopify:\/\/shop_images\/Wanda_s_Spice_layer_2_Sq_4023c1f8-c601-4765-83b4-12bbed20f7c2.jpg",
             "heading": "{{ collection.title }}",
             "heading_size": "h0",
             "subheading": "",
@@ -46,6 +46,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
@@ -62,127 +63,57 @@
         "padding_bottom": 60
       }
     },
-    "16630410437eec9099": {
-      "type": "rich-text",
+    "multicolumn_UXH47g": {
+      "type": "multicolumn",
       "blocks": {
-        "1663041042209fbcac-0": {
-          "type": "heading",
+        "column_ECnJi3": {
+          "type": "column",
           "settings": {
-            "heading": "<p><strong>Retail Location<\/strong><\/p>",
-            "heading_size": "h2"
+            "title": "Oaktown Spice Shop",
+            "text": "<h4>OAKLAND, CA<\/h4><p><a href=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8089455,-122.2505073,21z\/data=!4m15!1m8!3m7!1s0x808f87469028e29d:0x20ac8f8fae379b84!2s546+Grand+Ave,+Oakland,+CA+94610!3b1!8m2!3d37.8089796!4d-122.2505324!16s%2Fg%2F11dztqhm7m!3m5!1s0x808f874686022b63:0xb89a158175f7a0ef!8m2!3d37.8089798!4d-122.2505885!16s%2Fg%2F1pzw4b7sx?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8089455,-122.2505073,21z\/data=!4m15!1m8!3m7!1s0x808f87469028e29d:0x20ac8f8fae379b84!2s546+Grand+Ave,+Oakland,+CA+94610!3b1!8m2!3d37.8089796!4d-122.2505324!16s%2Fg%2F11dztqhm7m!3m5!1s0x808f874686022b63:0xb89a158175f7a0ef!8m2!3d37.8089798!4d-122.2505885!16s%2Fg%2F1pzw4b7sx?entry=ttu\">546 Grand Ave.<\/a><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8089455,-122.2505073,21z\/data=!4m15!1m8!3m7!1s0x808f87469028e29d:0x20ac8f8fae379b84!2s546+Grand+Ave,+Oakland,+CA+94610!3b1!8m2!3d37.8089796!4d-122.2505324!16s%2Fg%2F11dztqhm7m!3m5!1s0x808f874686022b63:0xb89a158175f7a0ef!8m2!3d37.8089798!4d-122.2505885!16s%2Fg%2F1pzw4b7sx?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8089455,-122.2505073,21z\/data=!4m15!1m8!3m7!1s0x808f87469028e29d:0x20ac8f8fae379b84!2s546+Grand+Ave,+Oakland,+CA+94610!3b1!8m2!3d37.8089796!4d-122.2505324!16s%2Fg%2F11dztqhm7m!3m5!1s0x808f874686022b63:0xb89a158175f7a0ef!8m2!3d37.8089798!4d-122.2505885!16s%2Fg%2F1pzw4b7sx?entry=ttu\">Oakland, CA 94610<\/a><\/p><p>510-201-5400<br\/>10am - 7pm daily<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "1663041042209fbcac-1": {
-          "type": "text",
+        "column_7NVfA9": {
+          "type": "column",
           "settings": {
-            "text": "<p>Coming Soon<\/p>"
+            "title": "Oaktown Spice Shop",
+            "text": "<h4>SAN FRANCISCO, CA<\/h4><p><a href=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.7895426,-122.4339549,21z\/data=!4m6!3m5!1s0x8085819e53ff3bd1:0x57a11072e27cb2ba!8m2!3d37.7895792!4d-122.4338017!16s%2Fg%2F11kpszlgvr?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.7895426,-122.4339549,21z\/data=!4m6!3m5!1s0x8085819e53ff3bd1:0x57a11072e27cb2ba!8m2!3d37.7895792!4d-122.4338017!16s%2Fg%2F11kpszlgvr?entry=ttu\">2132 Fillmore St.<\/a><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.7895426,-122.4339549,21z\/data=!4m6!3m5!1s0x8085819e53ff3bd1:0x57a11072e27cb2ba!8m2!3d37.7895792!4d-122.4338017!16s%2Fg%2F11kpszlgvr?entry=ttu\" title=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.7895426,-122.4339549,21z\/data=!4m6!3m5!1s0x8085819e53ff3bd1:0x57a11072e27cb2ba!8m2!3d37.7895792!4d-122.4338017!16s%2Fg%2F11kpszlgvr?entry=ttu\">San Francisco, CA 94115<\/a><\/p><p>415-374-7942<br\/>11am - 7pm daily<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "1663041042209fbcac-2": {
-          "type": "button",
+        "column_XhcTaq": {
+          "type": "column",
           "settings": {
-            "button_label": "Mandela Grocery",
-            "button_link": "https:\/\/www.mandelagrocery.coop",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "Oaktown Spice Shop",
+            "text": "<h4>ALBANY, CA<\/h4><p><a href=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8901778,-122.2952059,21z\/data=!4m14!1m7!3m6!1s0x80857933ea10d735:0x9d148a8e80e4219b!2sOaktown+Spice+Shop!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb!3m5!1s0x80857933ea10d735:0x9d148a8e80e4219b!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8901778,-122.2952059,21z\/data=!4m14!1m7!3m6!1s0x80857933ea10d735:0x9d148a8e80e4219b!2sOaktown+Spice+Shop!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb!3m5!1s0x80857933ea10d735:0x9d148a8e80e4219b!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb?entry=ttu\">1224 Solano Ave.<\/a><\/p><p><a href=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8901778,-122.2952059,21z\/data=!4m14!1m7!3m6!1s0x80857933ea10d735:0x9d148a8e80e4219b!2sOaktown+Spice+Shop!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb!3m5!1s0x80857933ea10d735:0x9d148a8e80e4219b!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb?entry=ttu\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/Oaktown+Spice+Shop\/@37.8901778,-122.2952059,21z\/data=!4m14!1m7!3m6!1s0x80857933ea10d735:0x9d148a8e80e4219b!2sOaktown+Spice+Shop!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb!3m5!1s0x80857933ea10d735:0x9d148a8e80e4219b!8m2!3d37.8902916!4d-122.2950963!16s%2Fg%2F11f_j1s2zb?entry=ttu\">Albany, CA 94706<\/a><\/p><p>510-356-4667<br\/>10am - 7pm daily<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "1663041042209fbcac-0",
-        "1663041042209fbcac-1",
-        "1663041042209fbcac-2"
+        "column_ECnJi3",
+        "column_7NVfA9",
+        "column_XhcTaq"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "Retail Location",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 12,
-        "padding_bottom": 64
-      }
-    },
-    "166071471399e48dd7": {
-      "type": "collage-gallery",
-      "blocks": {
-        "1660714713dc2d1685-0": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-1": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-2": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-3": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-4": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-5": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-6": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-7": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "1660714713dc2d1685-8": {
-          "type": "image",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1660714713dc2d1685-0",
-        "1660714713dc2d1685-1",
-        "1660714713dc2d1685-2",
-        "1660714713dc2d1685-3",
-        "1660714713dc2d1685-4",
-        "1660714713dc2d1685-5",
-        "1660714713dc2d1685-6",
-        "1660714713dc2d1685-7",
-        "1660714713dc2d1685-8"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "COMMENTS FROM CHOWCHOW AMBASSADORS"
-      }
-    },
-    "1661316836cf7120ff": {
-      "type": "apps",
-      "blocks": {
-        "6dc14d10-7813-4836-bc86-b58f86603583": {
-          "type": "shopify:\/\/apps\/instagram-feed-instafeed-reel\/blocks\/app-block\/37be8af8-61d9-482d-a6b3-0b1be143eaf2",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "6dc14d10-7813-4836-bc86-b58f86603583"
-      ],
-      "settings": {
-        "include_margins": true
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -190,8 +121,6 @@
     "slideshow",
     "banner",
     "product-grid",
-    "16630410437eec9099",
-    "166071471399e48dd7",
-    "1661316836cf7120ff"
+    "multicolumn_UXH47g"
   ]
 }
