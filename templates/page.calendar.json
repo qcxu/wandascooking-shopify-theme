@@ -239,120 +239,91 @@
         "padding_bottom": 52
       }
     },
-    "16633690501380a050": {
-      "type": "rich-text",
+    "multicolumn_JkCWFH": {
+      "type": "multicolumn",
       "blocks": {
-        "16633690506db5907f-0": {
-          "type": "heading",
+        "column_bHjMLQ": {
+          "type": "column",
           "settings": {
-            "heading": "<p>Saturday March 11<br\/>Oaktown Spice Shop<br\/>- Albany Store -<\/p>",
-            "heading_size": "h1"
+            "title": "Summer Camp Chef",
+            "text": "<p>Project Avary<\/p>",
+            "link_label": "Learn More",
+            "link": "http:\/\/www.projectavary.org\/"
           }
         },
-        "16633690506db5907f-1": {
-          "type": "text",
+        "column_JyNtKG": {
+          "type": "column",
           "settings": {
-            "text": "<p>Saturday March 11<br\/>11am - 2pm <br\/>Oaktown Spice Shop - Albany Store<br\/>1224 Solano Ave. Albany, CA 94706<\/p>"
+            "title": "Stay tuned for an exciting announcement - \"Watermelon\"",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         },
-        "16633690506db5907f-2": {
-          "type": "button",
+        "column_mnXqpY": {
+          "type": "column",
+          "disabled": true,
           "settings": {
-            "button_label": "Checkout Oaktown Spice Shop",
-            "button_link": "https:\/\/foodwise.org\/events\/pop-ups-on-the-plaza-harvest-festival\/",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "16633690506db5907f-0",
-        "16633690506db5907f-1",
-        "16633690506db5907f-2"
+        "column_bHjMLQ",
+        "column_JyNtKG",
+        "column_mnXqpY"
       ],
-      "disabled": true,
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "July",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
-    "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9": {
-      "type": "rich-text",
+    "multicolumn_ikzTFP": {
+      "type": "multicolumn",
       "blocks": {
-        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-0": {
-          "type": "heading",
+        "column_Je6wtE": {
+          "type": "column",
           "settings": {
-            "heading": "<p>Saturday April 1<br\/>Oaktown Spice Shop<br\/>- Oakland Store -<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Saturday April 1<br\/>11am - 2pm<br\/>Oaktown Spice Shop - Oakland Store<br\/>546 Grand Ave. Oakland, CA 94610<\/p>"
-          }
-        },
-        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Checkout Oaktown Spice Shop",
-            "button_link": "https:\/\/oaktownspiceshop.com\/",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "Annual Farms to Grow Dinner honoring Black Farmers",
+            "text": "",
+            "link_label": "Learn More",
+            "link": "https:\/\/www.farmstogrow.com\/"
           }
         }
       },
       "block_order": [
-        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-0",
-        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-1",
-        "template--15778811871410__a6fa3bc2-9f86-4624-897c-7599ce0d4ea9-167324119254440776-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "16633689166c82c222": {
-      "type": "rich-text",
-      "blocks": {
-        "1663368915015f61ef-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Saturday January 21<br\/>Oaktown Spice Shop<br\/>Castro Valley Marketplace<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1663368915015f61ef-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Saturday January 21<br\/>10am -2pm<br\/>Oaktown Spice Shop, Castro Valley Marketplace<br\/>3295 Castro Valley Blvd, Castro Valley, CA 94546<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1663368915015f61ef-0",
-        "1663368915015f61ef-1"
+        "column_Je6wtE"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "September",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -364,8 +335,7 @@
     "multicolumn_Ph9kmx",
     "d6ba7904-46f7-463c-b45b-ccffbfab71d6",
     "e8241330-70d7-4b80-b820-9c19e23f5bd4",
-    "16633690501380a050",
-    "a6fa3bc2-9f86-4624-897c-7599ce0d4ea9",
-    "16633689166c82c222"
+    "multicolumn_JkCWFH",
+    "multicolumn_ikzTFP"
   ]
 }
