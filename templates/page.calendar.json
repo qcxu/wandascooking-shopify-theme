@@ -90,14 +90,14 @@
         "template--15778811871410__07cd3360-c4a9-48ef-addf-4801cf8dabd9-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Creole Spice Tasting at Okatown Spice Shop with Chef Extraordinaire!<\/strong><\/p>",
+            "heading": "<p>January<\/p>",
             "heading_size": "h1"
           }
         },
         "template--15778811871410__07cd3360-c4a9-48ef-addf-4801cf8dabd9-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>FRI, SEP 1 \/ 12 - 3 PM PDT<br\/>1224 Solano Ave. Albany 94706<br\/>546 Grand Ave. Oakland 94610<\/p>"
+            "text": "<p>Gumbo Cook Off Bay St Louis Ms<br\/>Public Event<\/p>"
           }
         }
       },
@@ -114,20 +114,73 @@
         "padding_bottom": 52
       }
     },
+    "multicolumn_Ph9kmx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bmji6c": {
+          "type": "column",
+          "settings": {
+            "title": "Black History Kick Off",
+            "text": "<p>Mills College<br\/>Campus Event<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PNBrYV": {
+          "type": "column",
+          "settings": {
+            "title": "Price your Menu Workshop",
+            "text": "<p>En2Action\/Ujamma Food and Beverage Incubation Hub<\/p>",
+            "link_label": "Learn More",
+            "link": "https:\/\/www.en2action.org\/ujamaa-kitchen-1"
+          }
+        },
+        "column_NjUmXy": {
+          "type": "column",
+          "settings": {
+            "title": "Feast for Black History Month",
+            "text": "<p>Founders Hall Mills College<br\/>Campus Event<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bmji6c",
+        "column_PNBrYV",
+        "column_NjUmXy"
+      ],
+      "settings": {
+        "title": "February",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "d6ba7904-46f7-463c-b45b-ccffbfab71d6": {
       "type": "rich-text",
       "blocks": {
         "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>THE GLOBAL BLACK FOOD MOVEMENT: CHAMPIONING NEW STORIES AND EXPERIENCES<\/h2>",
+            "heading": "<h2>March - April<\/h2>",
             "heading_size": "h1"
           }
         },
         "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>THU, AUG 31 \/ 5:30 PM PDT<\/p><p>The Commonwealth Club of California<br\/>110 The Embarcadero<br\/>Max Thelen Boardroom<br\/>San Francisco,CA94105<\/p><p>This panel will talk about the rise and connection among people of African descent globally to tell the stories of their ingredients, food traditions, culture and heritage and how they are shaping food experiences for consumers today.<\/p><p>Tasting delicious food samples is part of this program!<\/p>"
+            "text": "<p>Spice & Culture: A Global Exploration and Global Exchange<br\/>Chef Wanda's Lecture Series at Mills College - 1 unit course<\/p>"
           }
         },
         "template--15778811871410__d6ba7904-46f7-463c-b45b-ccffbfab71d6-button-1": {
@@ -162,21 +215,21 @@
         "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Wednesday, March 8<br\/>5:00 - 8:00 pm<br\/>Calabash Resturant<\/p>",
+            "heading": "<p>April<\/p>",
             "heading_size": "h1"
           }
         },
         "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Come and join us at Wanda's Cooking first Pepper Chowchow Tasting at Calabash Restaurant in Oakland. Not sure which Pepper Chowchow would be your favorite? Not sure which Pepper Chowchow will add excitement to your cooking experience. Let's taste them all and see which one is for you. Calabash has a great menu and there are a couple of suggested dishs for your Pepper Chowchow tasting. Come and select 1 or all 4 of our Pepper Chowchow flavors to taste. <\/p>"
+            "text": "<p>Price your Menu Workshop<br\/>Mandela Partners - Food Business Incubation<\/p>"
           }
         },
         "template--15778811871410__e8241330-70d7-4b80-b820-9c19e23f5bd4-167341511862751273-2": {
           "type": "button",
           "settings": {
             "button_label": "Learn More",
-            "button_link": "https:\/\/calabasheats.com\/",
+            "button_link": "https:\/\/www.mandelapartners.org\/food-business-incubation",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -320,6 +373,7 @@
     "1661317730d06a90dd",
     "newsletter",
     "07cd3360-c4a9-48ef-addf-4801cf8dabd9",
+    "multicolumn_Ph9kmx",
     "d6ba7904-46f7-463c-b45b-ccffbfab71d6",
     "e8241330-70d7-4b80-b820-9c19e23f5bd4",
     "16633690501380a050",
