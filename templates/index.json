@@ -117,8 +117,8 @@
         "template--15751393411250__7785e732-85f0-481a-892d-03aa0ecc8d51-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Get Your Creole Spice",
+            "button_link": "shopify:\/\/products\/creole-season-all"
           }
         }
       },
