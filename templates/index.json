@@ -3,6 +3,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wandas_Cooking_Winter_Legacy_Soup_Recipe_2024.webp",
+            "heading": "MEET \"CHEF WANDA BLAKE\"",
+            "heading_size": "h0",
+            "subheading": "The Legacy Food Ambassador for Farms To Grow, Inc.",
+            "button_label": "Explore Chef Wanda's Journey",
+            "link": "https:\/\/www.farmstogrow.com\/copy-of-healthy-recipes",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
         "da5c6f27-6138-488a-9326-ac93ccfaee0b": {
           "type": "slide",
           "settings": {
@@ -19,25 +37,6 @@
             "image_overlay_opacity": 60,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
-          }
-        },
-        "slide-0": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_7076.jpg",
-            "heading": "Elevate Your Culinary Journey with Wanda's Cooking",
-            "heading_size": "h0",
-            "subheading": "Signature Pepper Chowchows and Creole Spice",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
           }
         },
         "slide-1": {
@@ -61,8 +60,8 @@
         }
       },
       "block_order": [
-        "da5c6f27-6138-488a-9326-ac93ccfaee0b",
         "slide-0",
+        "da5c6f27-6138-488a-9326-ac93ccfaee0b",
         "slide-1"
       ],
       "settings": {
