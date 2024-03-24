@@ -177,6 +177,50 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_XWrA3n": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_A6jA4M": {
+          "type": "heading",
+          "settings": {
+            "heading": "GUMBO FILÉ",
+            "heading_size": "h1"
+          }
+        },
+        "text_hGc7pn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are thrilled to launch our new Gumbo FILÉ with an award-winning gumbo recipe from Chef Wanda Blake.<br\/>Made from ground thyme and sassafras leaves, this herb powder is a key ingredient in Creole soups and stews. It adds a distinctive earthy flavor and acts as a thickening agent to create a classic gumbo broth.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_BrYTQ6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy online",
+            "button_link": "https:\/\/oaktownspiceshop.com\/products\/gumbo-file"
+          }
+        }
+      },
+      "block_order": [
+        "heading_A6jA4M",
+        "text_hGc7pn",
+        "button_BrYTQ6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gumbo_File_600px.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_b6Ut4j": {
       "type": "image-banner",
       "blocks": {
@@ -774,6 +818,7 @@
     "rich_text_aPHKqq",
     "7785e732-85f0-481a-892d-03aa0ecc8d51",
     "collage_B9pMH6",
+    "image_with_text_XWrA3n",
     "image_banner_b6Ut4j",
     "e860b70f-734a-4c70-80f7-f490ab4f8491",
     "featured-collection-0",
