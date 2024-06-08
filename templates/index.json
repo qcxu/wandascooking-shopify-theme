@@ -96,6 +96,42 @@
         "padding_bottom": 16
       }
     },
+    "image_with_text_jMRkgV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FGgFLj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Us for a Juneteenth Holiday Celebration",
+            "heading_size": "h2"
+          }
+        },
+        "text_UTPJCR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience the rich culinary traditions of Juneteenth with a special presentation by Chef Wanda Blake of Wanda's Cooking. Enjoy light refreshments as you delve into the stories behind the flavors and celebrate the spirit of this meaningful holiday!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FGgFLj",
+        "text_UTPJCR"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Juneteenth_6.18.24_Full_Page.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7785e732-85f0-481a-892d-03aa0ecc8d51": {
       "type": "image-with-text",
       "blocks": {
@@ -815,6 +851,7 @@
   "order": [
     "slideshow",
     "rich_text_aPHKqq",
+    "image_with_text_jMRkgV",
     "7785e732-85f0-481a-892d-03aa0ecc8d51",
     "collage_B9pMH6",
     "image_with_text_XWrA3n",
