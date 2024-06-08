@@ -3,6 +3,24 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eba56187-f58f-4e5b-922b-20c5839e626a.webp",
+            "heading": "Juneteenth Celebration",
+            "heading_size": "h1",
+            "subheading": "Tuesday, June 18, 6:30-7:30, San Leandro Public Library",
+            "button_label": "Learn More",
+            "link": "https:\/\/www.sanleandro.org\/Calendar.aspx?EID=3601&month=6&year=2024&day=18&calType=0",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 50,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide-0": {
           "type": "slide",
           "settings": {
@@ -38,31 +56,12 @@
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yassa.jpg",
-            "heading": "Chef Nelson's Chicken Yassa with Sweet Pepper Chowchow",
-            "heading_size": "h1",
-            "subheading": "Sobre Mesa, Oakland",
-            "button_label": "Shop Sweet Pepper Chowchow",
-            "link": "shopify:\/\/products\/sweet-pepper-chowchow",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 50,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
+        "slide-1",
         "slide-0",
-        "da5c6f27-6138-488a-9326-ac93ccfaee0b",
-        "slide-1"
+        "da5c6f27-6138-488a-9326-ac93ccfaee0b"
       ],
       "settings": {
         "layout": "full_bleed",
