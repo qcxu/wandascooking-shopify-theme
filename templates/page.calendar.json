@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -242,15 +251,6 @@
     "multicolumn_JkCWFH": {
       "type": "multicolumn",
       "blocks": {
-        "column_bHjMLQ": {
-          "type": "column",
-          "settings": {
-            "title": "Summer Camp Chef",
-            "text": "<p>Project Avary<\/p>",
-            "link_label": "Learn More",
-            "link": "http:\/\/www.projectavary.org\/"
-          }
-        },
         "column_JyNtKG": {
           "type": "column",
           "settings": {
@@ -272,7 +272,6 @@
         }
       },
       "block_order": [
-        "column_bHjMLQ",
         "column_JyNtKG",
         "column_mnXqpY"
       ],
