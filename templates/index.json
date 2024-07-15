@@ -15,12 +15,12 @@
         "slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/eba56187-f58f-4e5b-922b-20c5839e626a.webp",
-            "heading": "Juneteenth Celebration",
+            "image": "shopify:\/\/shop_images\/e01b515d-61ae-4aa8-8d7a-700fe48cbfe6.webp",
+            "heading": "Chef Wanda's Red Drink",
             "heading_size": "h1",
-            "subheading": "Tuesday, June 18, 6:30-7:30, San Leandro Public Library",
+            "subheading": "",
             "button_label": "Learn More",
-            "link": "https:\/\/www.sanleandro.org\/Calendar.aspx?EID=3601&month=6&year=2024&day=18&calType=0",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -85,16 +85,25 @@
     "rich_text_aPHKqq": {
       "type": "rich-text",
       "blocks": {
-        "heading_eYzJp7": {
+        "caption_XB4PhL": {
+          "type": "caption",
+          "settings": {
+            "caption": "What's happening with Wanda's Cooking",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_K4QEEX": {
           "type": "heading",
           "settings": {
-            "heading": "<p>What's happening with Wanda's Cooking<\/p>",
+            "heading": "<p>Chef Wanda's Red Drink<\/p>",
             "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "heading_eYzJp7"
+        "caption_XB4PhL",
+        "heading_K4QEEX"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -111,8 +120,8 @@
         "video_ek7aKA": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/1d073269-d47c-4416-8448-e2cb810bc429.webp",
-            "video_url": "https:\/\/vimeo.com\/970269867?share=copy",
+            "cover_image": "shopify:\/\/shop_images\/video.jpg",
+            "video_url": "https:\/\/youtu.be\/BTZUrqprcyk?si=Ez_iOcyJz1oFYfYt",
             "description": "Describe the video",
             "image_padding": false
           }
